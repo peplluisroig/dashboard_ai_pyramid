@@ -1,0 +1,56 @@
+{
+  AVGO: {
+    name: 'Broadcom Inc.',
+    category: 'KINGMAKER',
+    subtitle: 'El Monopolio del Silicio de Red y CPO',
+    priceText: '$1,150.00 → $1,380.00',
+    kpis: [
+      { title: 'Market Cap', value: '~$850.0B', icon: Landmark, color: 'text-amber-500' },
+      { title: 'YTD (Ene-Abr 2026)', value: '+20.0%', subtext: 'Precio: $1,380.00', icon: TrendingUp, color: 'text-emerald-400' },
+      { title: 'AI Revenue Run-Rate', value: '>$12.0B', subtext: 'ASICs & Networking', icon: Briefcase, color: 'text-emerald-400' },
+      { title: 'Margen Operativo', value: '~60%', subtext: 'Semiconductor Solutions', icon: Target, color: 'text-amber-400' }
+    ],
+    tableData: { marketCap: '$850.0B', pe: '28x', price: '$1,380.00', ytd: '+20.0%', yoy: '+55.0%', focus: 'Switches ASICs / Custom Silicon' },
+    estrategia: {
+      intro: 'Broadcom es el peaje obligatorio de internet y de la IA. Proveen el silicio subyacente de enrutamiento (Switches ASICs) para el 80% del mercado de Ethernet. Además, dominan la creación de chips personalizados (ASICs) para hiperescaladores, como los TPUs de Google o los aceleradores MTIA de Meta, y lideran el salto hacia la óptica co-empaquetada (CPO).',
+      pilares: [
+        { title: 'Tomahawk 5 & Jericho3-AI', date: 'Core Business', desc: 'Chips de conmutación de 51.2 Tbps diseñados específicamente para manejar cargas de trabajo de IA masivas, conectando hasta 32,000 GPUs sin pérdida de paquetes.', icon: Cpu, color: 'blue' },
+        { title: 'Silicon Photonics (Bailly)', date: 'Lanzamiento: 2024-2026', desc: 'Integración de los motores ópticos (CPO) directamente en el mismo sustrato que el chip de red. Elimina la necesidad de transceptores enchufables, reduciendo el consumo de energía en un 30%.', icon: Zap, color: 'emerald' },
+        { title: 'Custom Silicon (ASICs)', date: 'Crecimiento Exponencial', desc: 'Mientras NVIDIA domina las GPUs estándar, Broadcom es el socio indiscutible de Google (TPU) y Meta para fabricar sus propios aceleradores de IA internos para ahorrar costes.', icon: Settings, color: 'purple' },
+        { title: 'Sinergias VMware', date: 'M&A: Nov 2023', desc: 'La adquisición por $69B de VMware ha transformado la cuenta de resultados, aportando ingresos recurrentes de software de altísimo margen que estabilizan la volatilidad del hardware.', icon: RefreshCcw, color: 'cyan', colSpan: true }
+      ]
+    },
+    roadmap: [
+      { date: 'Finales Mayo 2026', tag: 'Q2 FY26 Earnings', title: 'Actualización del AI Run-Rate', desc: 'El mercado escrutará si Broadcom eleva nuevamente su guía anual de ingresos por IA (históricamente muy conservadora) y el impacto de la reestructuración de suscripciones de VMware.', color: 'blue', impact: 'Ventas' },
+      { date: 'Septiembre 2026', tag: 'Product Tease', title: 'Roadmap hacia los 102.4 Tbps', desc: 'Se esperan adelantos sobre la próxima generación de switches Tomahawk 6. Duplicar el ancho de banda es crítico para mantener la ley de escalamiento de los clusters de IA.', color: 'purple', impact: 'Multiplicador' },
+      { date: 'Noviembre 2026', tag: 'Custom Silicon', title: 'Nuevos Clientes de ASICs', desc: 'Posibles anuncios sobre la captación de un "tercer gran cliente" (posiblemente ByteDance o Microsoft) para el desarrollo de aceleradores de silicio a medida.', color: 'emerald', impact: 'Ventas' }
+    ]
+  },
+  ANET: {
+    name: 'Arista Networks',
+    category: 'KINGMAKER',
+    subtitle: 'El Rey del Ethernet Backend para IA',
+    priceText: '$280.00 → $350.00',
+    kpis: [
+      { title: 'Market Cap', value: '~$125.0B', icon: Landmark, color: 'text-amber-500' },
+      { title: 'YTD (Ene-Abr 2026)', value: '+25.0%', subtext: 'Precio: $350.00', icon: TrendingUp, color: 'text-emerald-400' },
+      { title: 'AI Revenue Goal', value: '>$1.5B', subtext: 'Target Revisado', icon: Briefcase, color: 'text-emerald-400' },
+      { title: 'Market Share', value: '>45%', subtext: 'High-Speed Data Center', icon: Target, color: 'text-amber-400' }
+    ],
+    tableData: { marketCap: '$125.0B', pe: '35x', price: '$350.00', ytd: '+25.0%', yoy: '+60.0%', focus: 'Ethernet Switches / EOS Software' },
+    estrategia: {
+      intro: 'Arista es el "Apple" de las redes de centros de datos. Compran los chips a Broadcom, pero su verdadero foso económico (moat) es su sistema operativo EOS. Lideran la cruzada para que el estándar Ethernet abierto derrote al estándar propietario InfiniBand de NVIDIA en las redes "Backend" (las que conectan GPUs con GPUs para entrenamiento de IA).',
+      pilares: [
+        { title: 'El Foso del Software (EOS)', date: 'Moat Estructural', desc: 'Extensible Operating System (EOS) es el estándar de oro de la industria. Un software altamente programable y estable que retiene a los hiperescaladores (Meta, Microsoft) sin posibilidad de migración.', icon: Code, color: 'blue' },
+        { title: 'Ultra Ethernet Consortium', date: 'Fundación: Julio 2023', desc: 'Arista lidera este consorcio junto a AMD, Broadcom e Intel para crear un estándar Ethernet modificado que supere a InfiniBand en latencia para cargas masivas de IA.', icon: Network, color: 'purple' },
+        { title: 'Arquitectura Spine-Leaf', date: 'Serie 7800', desc: 'Sistemas de conmutación de chasis modulares de ultra alta densidad y baja latencia, indispensables para interconectar clústeres de 24,000+ GPUs.', icon: Server, color: 'emerald' },
+        { title: 'Independencia del Silicio', date: 'Ventaja Competitiva', desc: 'A diferencia de Cisco, Arista es agnóstica al hardware (Merchant Silicon). Pueden adoptar el mejor chip del mercado (sea de Broadcom o Intel) sin atarse a fábricas propias.', icon: Cpu, color: 'cyan', colSpan: true }
+      ]
+    },
+    roadmap: [
+      { date: 'Principios Mayo 2026', tag: 'Q1 Earnings', title: 'Despliegues de AI Networking', desc: 'Los inversores buscarán confirmación de que el objetivo de ingresos "puros" de IA está superando las expectativas, a medida que los pilotos de Ethernet para IA de 2024-2025 pasan a fase de producción masiva.', color: 'blue', impact: 'Ventas' },
+      { date: 'Octubre 2026', tag: 'OCP Global Summit', title: 'Victorias de Ultra Ethernet', desc: 'Validación en la industria. Si los grandes hiperescaladores anuncian que abandonan nuevas inversiones en InfiniBand a favor de las especificaciones UEC de Arista, las acciones sufrirán un repricing al alza.', color: 'purple', impact: 'Multiplicador' },
+      { date: 'Noviembre 2026', tag: 'Analyst Day', title: 'Expansión de Márgenes Software', desc: 'Actualización sobre la adopción de CloudVision (SaaS). A medida que los ingresos por suscripción de software crecen frente al hardware, Arista garantiza márgenes brutos consistentes >60%.', color: 'amber', impact: 'Margen' }
+    ]
+  }
+}
