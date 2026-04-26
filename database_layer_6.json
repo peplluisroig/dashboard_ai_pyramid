@@ -161,7 +161,6 @@
       { date: 'Noviembre 2026', tag: 'Analyst Day', title: 'Recuperación de Márgenes', desc: 'Visibilidad sobre la utilización de sus fábricas (Fab utilization). A medida que escalan la producción de Datacom, el apalancamiento operativo debería empujar su margen bruto de vuelta a niveles históricos (>40%).', color: 'amber', impact: 'Margen' }
     ]
   },
-
   SITM: {
     name: 'SiTime Corp.',
     category: 'SPECULATIVE',
@@ -189,7 +188,6 @@
       { date: 'Diciembre 2026', tag: 'Q4 FY26', title: 'Defensa del Margen Bruto', desc: 'A medida que el volumen escala exponencialmente, el mercado exigirá que la empresa mantenga sus márgenes brutos de software-like (~60%), demostrando un "Pricing Power" inquebrantable.', color: 'amber', impact: 'Margen' }
     ]
   },
-
   POET: {
     name: 'POET Technologies',
     category: 'SPECULATIVE',
