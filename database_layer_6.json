@@ -52,5 +52,86 @@
       { date: 'Octubre 2026', tag: 'OCP Global Summit', title: 'Victorias de Ultra Ethernet', desc: 'Validación en la industria. Si los grandes hiperescaladores anuncian que abandonan nuevas inversiones en InfiniBand a favor de las especificaciones UEC de Arista, las acciones sufrirán un repricing al alza.', color: 'purple', impact: 'Multiplicador' },
       { date: 'Noviembre 2026', tag: 'Analyst Day', title: 'Expansión de Márgenes Software', desc: 'Actualización sobre la adopción de CloudVision (SaaS). A medida que los ingresos por suscripción de software crecen frente al hardware, Arista garantiza márgenes brutos consistentes >60%.', color: 'amber', impact: 'Margen' }
     ]
+  },
+  COHR: {
+    name: 'Coherent Corp.',
+    category: 'CHALLENGER',
+    subtitle: 'El Motor Óptico de la IA',
+    priceText: '$60.00 → $85.50',
+    kpis: [
+      { title: 'Market Cap', value: '~$14.5B', icon: Landmark, color: 'text-blue-400' },
+      { title: 'YTD (Ene-Abr 2026)', value: '+42.5%', subtext: 'Precio: $85.50', icon: TrendingUp, color: 'text-emerald-400' },
+      { title: 'Datacom Transceivers', value: 'Crec. >50%', subtext: 'Foco en 800G/1.6T', icon: Briefcase, color: 'text-emerald-400' },
+      { title: 'Margen Bruto', value: '38-40%', subtext: 'Expansión Post-Reestructuración', icon: Target, color: 'text-amber-400' }
+    ],
+    tableData: { marketCap: '$14.5B', pe: '24x', price: '$85.50', ytd: '+42.5%', yoy: '+65.0%', focus: 'Transceptores Ópticos (800G/1.6T)' },
+    estrategia: {
+      intro: 'Coherent es el rey de los "picos y palas" en la infraestructura óptica de la IA. Son líderes mundiales en la fabricación de transceptores ópticos de alta velocidad (VCSELs, EMLs), el hardware físico que convierte las señales eléctricas de las GPUs en pulsos de luz para viajar por fibra óptica sin latencia. Tras la llegada del CEO Jim Anderson en 2024, la empresa se ha reestructurado enfocándose brutalmente en el margen de la IA y desinvirtiendo en negocios periféricos.',
+      pilares: [
+        { title: 'Transición a 1.6T', date: 'Roadmap Crítico', desc: 'Dominio temprano en los módulos ópticos de 1.6 Terabits por segundo, el estándar exigido por la nueva generación de switches Tomahawk de Broadcom para conectar miles de GPUs.', icon: Zap, color: 'blue' },
+        { title: 'Integración Vertical', date: 'Moat Defensivo', desc: 'A diferencia de los ensambladores, Coherent fabrica sus propios componentes láser base (chips InP y GaAs), lo que les permite asegurar el suministro y capturar mayor margen en toda la cadena.', icon: Layers, color: 'emerald' },
+        { title: 'Nueva Directiva', date: 'Eficiencia de Capital', desc: 'El giro estratégico impulsado por Jim Anderson ha logrado reducir la deuda heredada de la fusión con II-VI y ha mejorado agresivamente la rentabilidad y el flujo de caja libre.', icon: RefreshCcw, color: 'purple' },
+        { title: 'Plataformas CPO', date: 'I+D Futuro', desc: 'Desarrollo de fuentes láser externas (ELS) indispensables para la nueva arquitectura Co-Packaged Optics, manteniendo su relevancia cuando los transceptores enchufables lleguen a su límite físico.', icon: Cpu, color: 'cyan' }
+      ]
+    },
+    roadmap: [
+      { date: '10 Mayo 2026', tag: 'Q3 FY26 Earnings', title: 'Adopción de Módulos 1.6T', desc: 'Wall Street buscará confirmación de que la producción en masa de transceptores de 1.6T ya está impactando los ingresos y compensando la comoditización cíclica del mercado Telecom tradicional.', color: 'blue', impact: 'Ventas' },
+      { date: 'Septiembre 2026', tag: 'ECOC Exhibition', title: 'Roadmap de Láseres Externos', desc: 'Presentaciones en conferencias de la industria sobre la evolución de sus módulos ELS para fotónica de silicio, clave para mantener el liderazgo tecnológico.', color: 'purple', impact: 'Multiplicador' },
+      { date: 'Noviembre 2026', tag: 'De-leveraging', title: 'Actualización de Deuda', desc: 'Reducir el apalancamiento es clave para su múltiplo de valoración. Alcanzar un ratio Deuda Neta/EBITDA inferior a 2.0x dispararía el interés de fondos institucionales más conservadores.', color: 'amber', impact: 'Margen' }
+    ]
+  },
+  ALAB: {
+    name: 'Astera Labs',
+    category: 'CHALLENGER',
+    subtitle: 'Conectividad Interna: Retimers y CXL',
+    priceText: '$70.00 → $85.00',
+    kpis: [
+      { title: 'Market Cap', value: '~$12.8B', icon: Landmark, color: 'text-blue-400' },
+      { title: 'YTD (Ene-Abr 2026)', value: '+21.4%', subtext: 'Precio: $85.00', icon: TrendingUp, color: 'text-emerald-400' },
+      { title: 'Revenue Growth', value: '>70% YoY', subtext: 'Hipercrecimiento IA', icon: Briefcase, color: 'text-emerald-400' },
+      { title: 'Margen Bruto', value: '~75%', subtext: 'Modelo Fabless de Software', icon: Target, color: 'text-amber-400' }
+    ],
+    tableData: { marketCap: '$12.8B', pe: '60x', price: '$85.00', ytd: '+21.4%', yoy: '+80.0%', focus: 'Retimers PCIe y conectividad CXL' },
+    estrategia: {
+      intro: 'Astera Labs resuelve un problema crítico de la física: a medida que los buses de datos se vuelven más rápidos (PCIe Gen 5 y Gen 6), la señal eléctrica se degrada en distancias cortísimas dentro del propio servidor. Sus "Retimers" actúan como amplificadores inteligentes que limpian la señal, permitiendo que la CPU se comunique con la GPU sin pérdida de datos. Es un pure-play puro de IA, con clientes como Amazon, Google y NVIDIA.',
+      pilares: [
+        { title: 'Familia Aries (PCIe/CXL)', date: 'Core Product', desc: 'Retimers líderes del mercado para buses PCIe Gen 5/6. Son literalmente obligatorios en arquitecturas de IA donde múltiples GPUs deben estar conectadas con alta integridad de señal.', icon: Zap, color: 'blue' },
+        { title: 'Familia Leo (CXL Memory)', date: 'Crecimiento Futuro', desc: 'Controladores que permiten "agrupar" (pool) la memoria DRAM de los servidores. Resuelve el "Muro de Memoria" al permitir que múltiples procesadores accedan a terabytes de memoria unificada.', icon: Cpu, color: 'emerald' },
+        { title: 'Suite de Software COSMOS', date: 'Moat Defensivo', desc: 'A diferencia de un fabricante de chips de hardware plano, Astera ofrece una suite de software embebida que permite a los hiperescaladores monitorizar la salud de los enlaces y la telemetría de red en tiempo real.', icon: Code, color: 'purple' },
+        { title: 'Agilidad de Mercado', date: 'Diseño en la Nube', desc: 'Su flujo de trabajo de desarrollo (diseñando chips en la nube pública) les permite iterar y lanzar nuevas generaciones de productos mucho más rápido que los gigantes del silicio heredados.', icon: Network, color: 'cyan' }
+      ]
+    },
+    roadmap: [
+      { date: 'Finales Abril 2026', tag: 'Q1 Earnings', title: 'Guidance PCIe Gen 6', desc: 'Con el inminente despliegue de servidores PCIe Gen 6, los analistas esperan ver un aumento drástico en las reservas (bookings) de su familia de productos Aries.', color: 'blue', impact: 'Ventas' },
+      { date: 'Agosto 2026', tag: 'Cloud Design Wins', title: 'Adopción de la Familia Leo', desc: 'Anuncios sobre la implementación a gran escala de la tecnología CXL (Compute Express Link) por parte de gigantes como AWS o Azure, lo que abriría una línea de ingresos totalmente nueva y expansiva.', color: 'purple', impact: 'Multiplicador' },
+      { date: 'Octubre 2026', tag: 'OCP Summit', title: 'Nuevos Casos de Uso AEC', desc: 'Validación de la familia Taurus (Active Electrical Cables). Si los hiperescaladores optan por cables de cobre inteligentes de Astera para conexiones de rack a rack (en lugar de óptica cara), su TAM se multiplicará.', color: 'emerald', impact: 'Ventas' }
+    ]
+  },
+  CLS: {
+    name: 'Celestica Inc.',
+    category: 'CHALLENGER',
+    subtitle: 'El Fabricante del Hardware Cloud',
+    priceText: '$50.00 → $72.00',
+    kpis: [
+      { title: 'Market Cap', value: '~$8.5B', icon: Landmark, color: 'text-blue-400' },
+      { title: 'YTD (Ene-Abr 2026)', value: '+44.0%', subtext: 'Precio: $72.00', icon: TrendingUp, color: 'text-emerald-400' },
+      { title: 'CCS Segment', value: '>65% Ventas', subtext: 'Connectivity & Cloud', icon: Briefcase, color: 'text-emerald-400' },
+      { title: 'Margen Operativo', value: '6-7%', subtext: 'Alto para un modelo EMS', icon: Target, color: 'text-amber-400' }
+    ],
+    tableData: { marketCap: '$8.5B', pe: '18x', price: '$72.00', ytd: '+44.0%', yoy: '+75.0%', focus: 'Ensamblaje de Hardware / Switches 800G' },
+    estrategia: {
+      intro: 'Celestica es el brazo ejecutor en la sombra. Es una empresa de Servicios de Manufactura Electrónica (EMS). Mientras Broadcom diseña el chip y los hiperescaladores diseñan el centro de datos, Celestica es quien ensambla físicamente los complejos switches de red de 400G y 800G. Representan la jugada "Value/GARP" más clara de la cadena, cotizando a múltiplos mucho más bajos que los diseñadores de silicio.',
+      pilares: [
+        { title: 'Segmento CCS Explotando', date: 'Motor de Ingresos', desc: 'El segmento "Connectivity and Cloud Solutions" es la estrella absoluta, traccionado masivamente por la demanda de ensamblaje de hardware de red para Data Centers de Tier 1.', icon: Server, color: 'blue' },
+        { title: 'Switches de 800G', date: 'Ciclo Actual', desc: 'Celestica ofrece soluciones de hardware de plataforma (HPS) de "caja blanca" (White Box). Permiten a los hiperescaladores comprar el switch directamente ensamblado y ponerle su propio software de red.', icon: Network, color: 'emerald' },
+        { title: 'Eficiencia Operativa', date: 'Rentabilidad Récord', desc: 'A pesar de tener un negocio de ensamblaje de márgenes estrechos, Celestica ha logrado expandir su margen operativo consistentemente al desinvertir en productos heredados y sobre-indexarse en IA.', icon: TrendingUp, color: 'purple' },
+        { title: 'Apalancamiento de Balance', date: 'Moat Financiero', desc: 'Flujo de caja libre excepcionalmente fuerte que utilizan para financiar el enorme capital de trabajo (inventario de componentes caros) que requieren los hiperescaladores, actuando casi como "banco" de la cadena de suministro.', icon: Landmark, color: 'cyan' }
+      ]
+    },
+    roadmap: [
+      { date: '25 Abril 2026', tag: 'Q1 Earnings', title: 'Concentración de Clientes', desc: 'El mercado estará muy atento a los ingresos provenientes de sus "Hyper-scaler Tier-1". Si reportan victorias con nuevos clientes cloud adicionales (reduciendo el riesgo de concentración de ingresos), la acción verá una fuerte revalorización (re-rating).', color: 'blue', impact: 'Multiplicador' },
+      { date: 'Julio 2026', tag: 'Supply Chain', title: 'Demanda de AI Compute', desc: 'Actualizaciones sobre su segmento de ensamblaje de cómputo de IA (servidores personalizados). Veremos si Celestica logra arrancar cuota de mercado a otros gigantes EMS como Super Micro (SMCI) o Foxconn.', color: 'emerald', impact: 'Ventas' },
+      { date: 'Octubre 2026', tag: 'Q3 & Guidance', title: 'Expansión de Márgenes CCS', desc: 'La validación a largo plazo del modelo de negocio depende de si pueden superar permanentemente el techo del 7% de margen operativo en su segmento de la nube, confirmando su poder de fijación de precios.', color: 'amber', impact: 'Margen' }
+    ]
   }
 }
