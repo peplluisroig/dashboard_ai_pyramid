@@ -187,7 +187,7 @@
                "title":"Músculo Global",
                "date":"Activo | CapEx: ~$200M+",
                "desc":"Expansión simultánea en Norteamérica, Europa y Asia para no perder cuota de mercado por falta de capacidad productiva.",
-               "icon":Globe2,
+               "icon":"Globe2",
                "color":"purple"
             },
             {
@@ -305,7 +305,7 @@
                "title":"Escala Productiva",
                "date":"2024-2026 | CapEx: ~$80M",
                "desc":"Nuevas mega-fábricas en Reino Unido, EE.UU. y Canadá para acortar tiempos de entrega a hiperescaladores.",
-               "icon":Globe2,
+               "icon":"",
                "color":"purple"
             },
             {
