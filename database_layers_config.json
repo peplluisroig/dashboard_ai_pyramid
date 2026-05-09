@@ -1,0 +1,68 @@
+{
+    "1": {
+      "id": 1,
+      "title": "Capa 1: Raw Materials (Materias Primas)",
+      "desc": "Cobre, uranio y metales críticos.",
+      "opportunity": "La base de toda la pirámide. Sin materias primas no hay red eléctrica ni chips. La electrificación masiva y la demanda de centros de datos están provocando un déficit estructural a largo plazo en metales como el cobre (vital para la transmisión) y el uranio para la energía base de los reactores SMR.",
+      "icon": "Pickaxe",
+      "iconColor": "text-orange-400",
+      "iconBg": "bg-orange-500/20",
+      "dataUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/database_layer_1_format.json",
+      "defaultTicker": null
+    },
+    "2": {
+      "id": 2,
+      "title": "Capa 2: Power (Energía y Red Eléctrica)",
+      "desc": "Generación, transmisión y nuclear.",
+      "opportunity": "El límite absoluto del crecimiento de la IA no son los chips, es la electricidad. Los tiempos de espera para conectar un Data Center a la red superan los 3-5 años en mercados clave. La urgencia por energía \"always-on\" y limpia está tensionando las infraestructuras de subestaciones y resucitando el sector nuclear.",
+      "icon": "Zap",
+      "iconColor": "text-yellow-400",
+      "iconBg": "bg-yellow-500/20",
+      "dataUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/database_layer_2_format.json",
+      "defaultTicker": null
+    },
+    "3": {
+      "id": 3,
+      "title": "Capa 3: Data Center Infrastructure (Térmica y Eléctrica)",
+      "desc": "Refrigeración líquida, UPS, Racks y Shell.",
+      "opportunity": "El gran cuello de botella físico. La transición a racks de IA superiores a 100kW (impulsada por NVIDIA Blackwell) hace obsoleta la refrigeración tradicional por aire. La limitación energética de la red y la urgencia por implementar sistemas líquidos (Direct-to-Chip) han desencadenado un megaciclo de CAPEX. Esta capa captura la mayor parte del valor en el mundo físico antes de conectar un solo servidor.",
+      "icon": "Factory",
+      "iconColor": "text-blue-400",
+      "iconBg": "bg-blue-500/20",
+      "dataUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/database_layer_3_format.json",
+      "defaultTicker": null
+    },
+    "4": {
+      "id": 4,
+      "title": "Capa 4: Compute (Cómputo)",
+      "desc": "GPUs, CPUs y ASICs personalizados.",
+      "opportunity": "El cerebro de la IA. Liderado por diseñadores como NVIDIA y AMD. El cuello de botella aquí es la capacidad de las fundiciones (como TSMC) para fabricar obleas con nodos de 3nm o inferiores, así como el diseño de chips cada vez más densos y calientes.",
+      "icon": "Cpu",
+      "iconColor": "text-red-400",
+      "iconBg": "bg-red-500/20",
+      "dataUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/database_layer_4_format.json",
+      "defaultTicker": null
+    },
+    "5": {
+      "id": 5,
+      "title": "Capa 5: Memory (Memoria)",
+      "desc": "High Bandwidth Memory (HBM), DRAM y Empaquetado Avanzado.",
+      "opportunity": "El limitador de velocidad. Los procesadores de IA son tan rápidos que el cuello de botella es alimentarles datos. La escasez de empaquetado avanzado (CoWoS) para integrar físicamente la memoria HBM junto a la GPU concentra uno de los cuellos de botella de suministro más críticos de la industria.",
+      "icon": "Database",
+      "iconColor": "text-indigo-400",
+      "iconBg": "bg-indigo-500/20",
+      "dataUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/database_layer_5_format.json",
+      "defaultTicker": null
+    },
+    "6": {
+      "id": 6,
+      "title": "Capa 6: Networking (Redes e Interconexión)",
+      "desc": "Transceptores ópticos, Switches Ethernet/InfiniBand y cables AOC.",
+      "opportunity": "En la IA, la red es el ordenador. Escalar el entrenamiento de modelos requiere conectar decenas de miles de GPUs funcionando como un solo cerebro. La óptica fotónica y la transmisión de datos a altísima velocidad son el último techo de cristal de la infraestructura física.",
+      "icon": "Network",
+      "iconColor": "text-fuchsia-400",
+      "iconBg": "bg-fuchsia-500/20",
+      "dataUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/database_layer_6_format.json",
+      "defaultTicker": null
+    }
+  }
