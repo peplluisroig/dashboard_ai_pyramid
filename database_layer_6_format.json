@@ -1,820 +1,930 @@
 {
    "AVGO": {
-      "name": "Broadcom Inc.",
-      "category": "KINGMAKER",
-      "subtitle": "El Monopolio del Silicio de Red y CPO",
-      "priceText": "$1,150.00 → $1,380.00",
-      "kpis": [
+     "name": "Broadcom Inc.",
+     "category": "KINGMAKER",
+     "subtitle": "El Monopolio del Silicio de Red y CPO",
+     "priceText": "$1,150.00 → $1,380.00",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$850.0B",
+         "icon": "Landmark",
+         "color": "text-amber-500"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+20.0%",
+         "subtext": "Precio: $1,380.00",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "AI Revenue Run-Rate",
+         "value": ">$12.0B",
+         "subtext": "ASICs & Networking",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Margen Operativo",
+         "value": "~60%",
+         "subtext": "Semiconductor Solutions",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$850.0B",
+       "pe": "28x",
+       "price": "$1,380.00",
+       "ytd": "+20.0%",
+       "yoy": "+55.0%",
+       "focus": "Switches ASICs / Custom Silicon"
+     },
+     "estrategia": {
+       "intro": "Broadcom es el peaje obligatorio de internet y de la IA. Proveen el silicio subyacente de enrutamiento (Switches ASICs) para el 80% del mercado de Ethernet. Además, dominan la creación de chips personalizados (ASICs) para hiperescaladores, como los TPUs de Google o los aceleradores MTIA de Meta, y lideran el salto hacia la óptica co-empaquetada (CPO).",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$850.0B",
-            "icon": "Landmark",
-            "color": "text-amber-500"
+           "title": "Familia Tomahawk & Jericho",
+           "date": "Monopolio de Conmutación",
+           "desc": "Chips de red de 51.2 Tbps diseñados para manejar cargas de IA, conectando decenas de miles de GPUs sin pérdida de paquetes ni latencia.",
+           "icon": "Cpu",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+20.0%",
-            "subtext": "Precio: $1,380.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Silicon Photonics (Bailly)",
+           "date": "I+D Disruptivo",
+           "desc": "Integración de motores ópticos (CPO) directamente en el sustrato del chip de red. Elimina transceptores enchufables, reduciendo consumo energético un 30%.",
+           "icon": "Zap",
+           "color": "emerald"
          },
          {
-            "title": "AI Revenue Run-Rate",
-            "value": ">$12.0B",
-            "subtext": "ASICs & Networking",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Custom Silicon (ASICs)",
+           "date": "Foso Económico (Moat)",
+           "desc": "Socio exclusivo de Google (TPU) y Meta para fabricar aceleradores IA a medida. Este segmento actúa como un contrapeso de alto volumen frente a las GPUs de NVIDIA.",
+           "icon": "Settings",
+           "color": "purple"
          },
          {
-            "title": "Margen Operativo",
-            "value": "~60%",
-            "subtext": "Semiconductor Solutions",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Sinergias VMware",
+           "date": "SaaS de Altísimo Margen",
+           "desc": "La integración de VMware proporciona una base de ingresos de software recurrentes que estabiliza el margen operativo general frente a la ciclicidad del hardware.",
+           "icon": "RefreshCcw",
+           "color": "cyan"
          }
-      ],
-      "tableData": {
-         "marketCap": "$850.0B",
-         "pe": "28x",
-         "price": "$1,380.00",
-         "ytd": "+20.0%",
-         "yoy": "+55.0%",
-         "focus": "Switches ASICs / Custom Silicon"
-      },
-      "estrategia": {
-         "intro": "Broadcom es el peaje obligatorio de internet y de la IA. Proveen el silicio subyacente de enrutamiento (Switches ASICs) para el 80% del mercado de Ethernet. Además, dominan la creación de chips personalizados (ASICs) para hiperescaladores, como los TPUs de Google o los aceleradores MTIA de Meta, y lideran el salto hacia la óptica co-empaquetada (CPO).",
-         "pilares": [
-            {
-               "title": "Tomahawk 5 & Jericho3-AI",
-               "date": "Core Business",
-               "desc": "Chips de conmutación de 51.2 Tbps diseñados específicamente para manejar cargas de trabajo de IA masivas, conectando hasta 32,000 GPUs sin pérdida de paquetes.",
-               "icon": "Cpu",
-               "color": "blue"
-            },
-            {
-               "title": "Silicon Photonics (Bailly)",
-               "date": "Lanzamiento: 2024-2026",
-               "desc": "Integración de los motores ópticos (CPO) directamente en el mismo sustrato que el chip de red. Elimina la necesidad de transceptores enchufables, reduciendo el consumo de energía en un 30%.",
-               "icon": "Zap",
-               "color": "emerald"
-            },
-            {
-               "title": "Custom Silicon (ASICs)",
-               "date": "Crecimiento Exponencial",
-               "desc": "Mientras NVIDIA domina las GPUs estándar, Broadcom es el socio indiscutible de Google (TPU) y Meta para fabricar sus propios aceleradores de IA internos para ahorrar costes.",
-               "icon": "Settings",
-               "color": "purple"
-            },
-            {
-               "title": "Sinergias VMware",
-               "date": "M&A: Nov 2023",
-               "desc": "La adquisición por $69B de VMware ha transformado la cuenta de resultados, aportando ingresos recurrentes de software de altísimo margen que estabilizan la volatilidad del hardware.",
-               "icon": "RefreshCcw",
-               "color": "cyan",
-               "colSpan": true
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "Finales Mayo 2026",
-            "tag": "Q2 FY26 Earnings",
-            "title": "Actualización del AI Run-Rate",
-            "desc": "El mercado escrutará si Broadcom eleva nuevamente su guía anual de ingresos por IA (históricamente muy conservadora) y el impacto de la reestructuración de suscripciones de VMware.",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Septiembre 2026",
-            "tag": "Product Tease",
-            "title": "Roadmap hacia los 102.4 Tbps",
-            "desc": "Se esperan adelantos sobre la próxima generación de switches Tomahawk 6. Duplicar el ancho de banda es crítico para mantener la ley de escalamiento de los clusters de IA.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Noviembre 2026",
-            "tag": "Custom Silicon",
-            "title": "Nuevos Clientes de ASICs",
-            "desc": "Posibles anuncios sobre la captación de un \"tercer gran cliente\" (posiblemente ByteDance o Microsoft) para el desarrollo de aceleradores de silicio a medida.",
-            "color": "emerald",
-            "impact": "Ventas"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "10-14 Junio 2026",
+         "tag": "Q2 FY26 Earnings",
+         "title": "Revisión del AI Run-Rate",
+         "desc": "El mercado requiere que Broadcom eleve nuevamente su guía de ingresos anuales de IA por encima de los $12.5B para justificar la compresión de su múltiplo.",
+         "color": "blue",
+         "impact": "Ventas"
+       },
+       {
+         "date": "20-25 Septiembre 2026",
+         "tag": "Lanzamiento",
+         "title": "Roadmap Tomahawk 6",
+         "desc": "Anuncio de la próxima generación de switches de 102.4 Tbps. Duplicar el ancho de banda es el requisito técnico ineludible para escalar los clústeres hacia el modelo de 100k GPUs.",
+         "color": "purple",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "15-18 Octubre 2026",
+         "tag": "OCP Summit",
+         "title": "Métricas Comerciales CPO (Bailly)",
+         "desc": "Demostraciones de rendimiento en vivo y posibles anuncios de adopción a gran escala de su óptica co-empaquetada por parte de clientes Cloud Tier-1.",
+         "color": "emerald",
+         "impact": "Margen"
+       },
+       {
+         "date": "Noviembre 2026",
+         "tag": "ASIC Design Win",
+         "title": "Revelación del Tercer Cliente Cloud",
+         "desc": "Especulación máxima sobre la firma de un tercer gigante tecnológico (Microsoft o ByteDance) para diseñar chips Custom ASIC, blindando los ingresos a futuro.",
+         "color": "amber",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Marzo 2027",
+         "tag": "Financials",
+         "title": "Margen Operativo VMware",
+         "desc": "Confirmación en los resultados de Q1 FY27 de que la transición al modelo de suscripción de VMware ha logrado consolidar el margen bruto general de la compañía por encima del 75%.",
+         "color": "blue",
+         "impact": "Margen"
+       }
+     ]
    },
    "ANET": {
-      "name": "Arista Networks",
-      "category": "KINGMAKER",
-      "subtitle": "El Rey del Ethernet Backend para IA",
-      "priceText": "$280.00 → $350.00",
-      "kpis": [
+     "name": "Arista Networks",
+     "category": "KINGMAKER",
+     "subtitle": "El Rey del Ethernet Backend para IA",
+     "priceText": "$280.00 → $350.00",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$125.0B",
+         "icon": "Landmark",
+         "color": "text-amber-500"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+25.0%",
+         "subtext": "Precio: $350.00",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "AI Revenue Goal",
+         "value": ">$1.5B",
+         "subtext": "Target Revisado",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Market Share",
+         "value": ">45%",
+         "subtext": "High-Speed Data Center",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$125.0B",
+       "pe": "35x",
+       "price": "$350.00",
+       "ytd": "+25.0%",
+       "yoy": "+60.0%",
+       "focus": "Ethernet Switches / EOS Software"
+     },
+     "estrategia": {
+       "intro": "Arista es el 'Apple' de las redes. Compran silicio comercial (Merchant Silicon) a Broadcom, pero su foso radica en su software EOS. Lideran la guerra para que Ethernet derrote al protocolo cerrado InfiniBand de NVIDIA en las redes de \"Backend\" (la red que interconecta GPUs durante el entrenamiento).",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$125.0B",
-            "icon": "Landmark",
-            "color": "text-amber-500"
+           "title": "Sistema Operativo (EOS)",
+           "date": "Moat de Retención",
+           "desc": "Extensible Operating System es el software dominante. Su alta programabilidad retiene a los ingenieros de hiperescaladores, haciendo impensable migrar a Cisco u otros rivales.",
+           "icon": "Code",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+25.0%",
-            "subtext": "Precio: $350.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Ultra Ethernet Consortium (UEC)",
+           "date": "Fundador y Líder",
+           "desc": "Liderazgo en el consorcio destinado a modificar el estándar Ethernet para superar la baja latencia de InfiniBand, garantizando arquitecturas abiertas y sin monopolios.",
+           "icon": "Network",
+           "color": "purple"
          },
          {
-            "title": "AI Revenue Goal",
-            "value": ">$1.5B",
-            "subtext": "Target Revisado",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Sistemas Serie 7800 (Spine-Leaf)",
+           "date": "Hardware de Escala",
+           "desc": "Switches modulares de ultra-alta densidad de puertos, requisito indispensable para orquestar topologías de red que conecten más de 24,000 GPUs simultáneamente.",
+           "icon": "Server",
+           "color": "emerald"
          },
          {
-            "title": "Market Share",
-            "value": ">45%",
-            "subtext": "High-Speed Data Center",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Agnosticismo de Silicio",
+           "date": "Ventaja en Supply Chain",
+           "desc": "Al no fabricar chips propios, pueden ensamblar en sus switches el mejor silicio del mercado cada año (Broadcom o Intel), asegurando la vanguardia permanente.",
+           "icon": "Cpu",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$125.0B",
-         "pe": "35x",
-         "price": "$350.00",
-         "ytd": "+25.0%",
-         "yoy": "+60.0%",
-         "focus": "Ethernet Switches / EOS Software"
-      },
-      "estrategia": {
-         "intro": "Arista es el \"Apple\" de las redes de centros de datos. Compran los chips a Broadcom, pero su verdadero foso económico (moat) es su sistema operativo EOS. Lideran la cruzada para que el estándar Ethernet abierto derrote al estándar propietario InfiniBand de NVIDIA en las redes \"Backend\" (las que conectan GPUs con GPUs para entrenamiento de IA).",
-         "pilares": [
-            {
-               "title": "El Foso del Software (EOS)",
-               "date": "Moat Estructural",
-               "desc": "Extensible Operating System (EOS) es el estándar de oro de la industria. Un software altamente programable y estable que retiene a los hiperescaladores (Meta, Microsoft) sin posibilidad de migración.",
-               "icon": "Code",
-               "color": "blue"
-            },
-            {
-               "title": "Ultra Ethernet Consortium",
-               "date": "Fundación: Julio 2023",
-               "desc": "Arista lidera este consorcio junto a AMD, Broadcom e Intel para crear un estándar Ethernet modificado que supere a InfiniBand en latencia para cargas masivas de IA.",
-               "icon": "Network",
-               "color": "purple"
-            },
-            {
-               "title": "Arquitectura Spine-Leaf",
-               "date": "Serie 7800",
-               "desc": "Sistemas de conmutación de chasis modulares de ultra alta densidad y baja latencia, indispensables para interconectar clústeres de 24,000+ GPUs.",
-               "icon": "Server",
-               "color": "emerald"
-            },
-            {
-               "title": "Independencia del Silicio",
-               "date": "Ventaja Competitiva",
-               "desc": "A diferencia de Cisco, Arista es agnóstica al hardware (Merchant Silicon). Pueden adoptar el mejor chip del mercado (sea de Broadcom o Intel) sin atarse a fábricas propias.",
-               "icon": "Cpu",
-               "color": "cyan",
-               "colSpan": true
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "Principios Mayo 2026",
-            "tag": "Q1 Earnings",
-            "title": "Despliegues de AI Networking",
-            "desc": "Los inversores buscarán confirmación de que el objetivo de ingresos \"puros\" de IA está superando las expectativas, a medida que los pilotos de Ethernet para IA de 2024-2025 pasan a fase de producción masiva.",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Octubre 2026",
-            "tag": "OCP Global Summit",
-            "title": "Victorias de Ultra Ethernet",
-            "desc": "Validación en la industria. Si los grandes hiperescaladores anuncian que abandonan nuevas inversiones en InfiniBand a favor de las especificaciones UEC de Arista, las acciones sufrirán un repricing al alza.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Noviembre 2026",
-            "tag": "Analyst Day",
-            "title": "Expansión de Márgenes Software",
-            "desc": "Actualización sobre la adopción de CloudVision (SaaS). A medida que los ingresos por suscripción de software crecen frente al hardware, Arista garantiza márgenes brutos consistentes >60%.",
-            "color": "amber",
-            "impact": "Margen"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "4-8 Mayo 2026",
+         "tag": "Q1 Earnings",
+         "title": "Aceleración Ingresos Pure AI",
+         "desc": "Escrutinio sobre su objetivo de >$1.5B anuales provenientes exclusivamente de redes de IA. Una superación de la guía demostraría que Ethernet está canibalizando cuota a InfiniBand.",
+         "color": "blue",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Julio 2026",
+         "tag": "Standardization",
+         "title": "Lanzamiento Especificación UEC 1.0",
+         "desc": "Publicación de las normativas finales del Ultra Ethernet Consortium, desencadenando la producción en masa de hardware compatible de Arista para Q4.",
+         "color": "purple",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "15-18 Octubre 2026",
+         "tag": "OCP Summit",
+         "title": "Adopción Hyperscaler Ethernet",
+         "desc": "Anuncios potenciales de que Meta o Microsoft adoptarán exclusivamente el estándar Ethernet de Arista para sus próximos clústeres masivos de Blackwell, abandonando InfiniBand.",
+         "color": "emerald",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Noviembre 2026",
+         "tag": "Analyst Day",
+         "title": "Márgenes CloudVision SaaS",
+         "desc": "Actualización sobre la penetración de su software de gestión como servicio. Un incremento en la recurrencia de software garantiza que los márgenes brutos no caerán bajo el 60%.",
+         "color": "amber",
+         "impact": "Margen"
+       },
+       {
+         "date": "Principios 2028",
+         "tag": "Hardware Cycle",
+         "title": "Despliegue Switches 1.6T Masivo",
+         "desc": "Adopción a gran escala de puertos a 1.6 Terabits por segundo, obligando a los clientes a un refresco físico masivo de la infraestructura de red instalada.",
+         "color": "blue",
+         "impact": "Ventas"
+       }
+     ]
    },
    "COHR": {
-      "name": "Coherent Corp.",
-      "category": "CHALLENGER",
-      "subtitle": "El Motor Óptico de la IA",
-      "priceText": "$60.00 → $85.50",
-      "kpis": [
+     "name": "Coherent Corp.",
+     "category": "CHALLENGER",
+     "subtitle": "El Motor Óptico de la IA",
+     "priceText": "$60.00 → $85.50",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$14.5B",
+         "icon": "Landmark",
+         "color": "text-blue-400"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+42.5%",
+         "subtext": "Precio: $85.50",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Datacom Transceivers",
+         "value": "Crec. >50%",
+         "subtext": "Foco en 800G/1.6T",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Margen Bruto",
+         "value": "38-40%",
+         "subtext": "Post-Reestructuración",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$14.5B",
+       "pe": "24x",
+       "price": "$85.50",
+       "ytd": "+42.5%",
+       "yoy": "+65.0%",
+       "focus": "Transceptores Ópticos (800G/1.6T)"
+     },
+     "estrategia": {
+       "intro": "Coherent es líder en la capa física de la red. Fabrican transceptores ópticos (VCSELs y EMLs), dispositivos críticos que convierten señales eléctricas en luz láser para viajar sin latencia entre racks de GPUs. Bajo el mando de Jim Anderson, la empresa se ha deshecho de divisiones lentas, transformándose en una jugada pura y rentable sobre el ancho de banda de IA.",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$14.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
+           "title": "Transición Temprana a 1.6T",
+           "date": "Punta de Lanza Tecnológica",
+           "desc": "Dominio temprano en módulos ópticos de 1.6 Terabits/s, requisito estricto para los nuevos switches de Broadcom y clústeres masivos de NVIDIA.",
+           "icon": "Zap",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+42.5%",
-            "subtext": "Precio: $85.50",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Integración Vertical",
+           "date": "Control de Costes",
+           "desc": "A diferencia de ensambladores menores, fabrican sus propios chips láser (InP/GaAs), protegiéndose de shocks de suministro y capturando margen a lo largo de toda la cadena.",
+           "icon": "Layers",
+           "color": "emerald"
          },
          {
-            "title": "Datacom Transceivers",
-            "value": "Crec. >50%",
-            "subtext": "Foco en 800G/1.6T",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Nueva Directiva (Jim Anderson)",
+           "date": "Eficiencia de Capital",
+           "desc": "El giro a un enfoque estricto en rentabilidad ha logrado reducir la deuda de la fusión II-VI y multiplicar la generación de caja libre (FCF).",
+           "icon": "RefreshCcw",
+           "color": "purple"
          },
          {
-            "title": "Margen Bruto",
-            "value": "38-40%",
-            "subtext": "Expansión Post-Reestructuración",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Plataformas de Láser Externo (ELS)",
+           "date": "Defensa contra CPO",
+           "desc": "Desarrollo avanzado de fuentes de luz externas, un componente necesario para que la futura arquitectura Co-Packaged Optics funcione, garantizando su relevancia a largo plazo.",
+           "icon": "Cpu",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$14.5B",
-         "pe": "24x",
-         "price": "$85.50",
-         "ytd": "+42.5%",
-         "yoy": "+65.0%",
-         "focus": "Transceptores Ópticos (800G/1.6T)"
-      },
-      "estrategia": {
-         "intro": "Coherent es el rey de los \"picos y palas\" en la infraestructura óptica de la IA. Son líderes mundiales en la fabricación de transceptores ópticos de alta velocidad (VCSELs, EMLs), el hardware físico que convierte las señales eléctricas de las GPUs en pulsos de luz para viajar por fibra óptica sin latencia. Tras la llegada del CEO Jim Anderson en 2024, la empresa se ha reestructurado enfocándose brutalmente en el margen de la IA y desinvirtiendo en negocios periféricos.",
-         "pilares": [
-            {
-               "title": "Transición a 1.6T",
-               "date": "Roadmap Crítico",
-               "desc": "Dominio temprano en los módulos ópticos de 1.6 Terabits por segundo, el estándar exigido por la nueva generación de switches Tomahawk de Broadcom para conectar miles de GPUs.",
-               "icon": "Zap",
-               "color": "blue"
-            },
-            {
-               "title": "Integración Vertical",
-               "date": "Moat Defensivo",
-               "desc": "A diferencia de los ensambladores, Coherent fabrica sus propios componentes láser base (chips InP y GaAs), lo que les permite asegurar el suministro y capturar mayor margen en toda la cadena.",
-               "icon": "Layers",
-               "color": "emerald"
-            },
-            {
-               "title": "Nueva Directiva",
-               "date": "Eficiencia de Capital",
-               "desc": "El giro estratégico impulsado por Jim Anderson ha logrado reducir la deuda heredada de la fusión con II-VI y ha mejorado agresivamente la rentabilidad y el flujo de caja libre.",
-               "icon": "RefreshCcw",
-               "color": "purple"
-            },
-            {
-               "title": "Plataformas CPO",
-               "date": "I+D Futuro",
-               "desc": "Desarrollo de fuentes láser externas (ELS) indispensables para la nueva arquitectura Co-Packaged Optics, manteniendo su relevancia cuando los transceptores enchufables lleguen a su límite físico.",
-               "icon": "Cpu",
-               "color": "cyan"
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "10 Mayo 2026",
-            "tag": "Q3 FY26 Earnings",
-            "title": "Adopción de Módulos 1.6T",
-            "desc": "Wall Street buscará confirmación de que la producción en masa de transceptores de 1.6T ya está impactando los ingresos y compensando la comoditización cíclica del mercado Telecom tradicional.",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Septiembre 2026",
-            "tag": "ECOC Exhibition",
-            "title": "Roadmap de Láseres Externos",
-            "desc": "Presentaciones en conferencias de la industria sobre la evolución de sus módulos ELS para fotónica de silicio, clave para mantener el liderazgo tecnológico.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Noviembre 2026",
-            "tag": "De-leveraging",
-            "title": "Actualización de Deuda",
-            "desc": "Reducir el apalancamiento es clave para su múltiplo de valoración. Alcanzar un ratio Deuda Neta/EBITDA inferior a 2.0x dispararía el interés de fondos institucionales más conservadores.",
-            "color": "amber",
-            "impact": "Margen"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "7-12 Mayo 2026",
+         "tag": "Q3 FY26 Earnings",
+         "title": "Volumen y Margen de Módulos 1.6T",
+         "desc": "El mercado requiere ver que los nuevos transceptores de 1.6T ya conforman una parte de doble dígito en los ingresos de Datacom, con márgenes superiores a la generación 800G.",
+         "color": "blue",
+         "impact": "Margen"
+       },
+       {
+         "date": "21-25 Septiembre 2026",
+         "tag": "ECOC Exhibition",
+         "title": "Hitos en Silicon Photonics",
+         "desc": "Presentación técnica del rendimiento de sus plataformas ELS (External Laser Source) para CPO, un seguro de vida frente a la obsolescencia de los enchufables.",
+         "color": "purple",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "Noviembre 2026",
+         "tag": "De-leveraging",
+         "title": "Deuda Neta / EBITDA < 2.0x",
+         "desc": "Objetivo financiero crítico. Alcanzar esta meta de desapalancamiento disparará la inclusión del ticker en fondos de inversión pasivos y cuantitativos conservadores.",
+         "color": "emerald",
+         "impact": "Margen"
+       },
+       {
+         "date": "Marzo 2027",
+         "tag": "OFC Conference",
+         "title": "Prototipos Funcionales 3.2T",
+         "desc": "Primeras demostraciones de óptica de próxima generación (3.2 Terabits), cimentando el liderazgo tecnológico para la década de 2030.",
+         "color": "amber",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Finales 2027",
+         "tag": "Telecom Recovery",
+         "title": "Rebote del Mercado Tradicional",
+         "desc": "Se espera que el ciclo recesivo de las telecomunicaciones tradicionales termine, añadiendo viento de cola a los márgenes consolidados de la compañía.",
+         "color": "blue",
+         "impact": "Ventas"
+       }
+     ]
    },
    "ALAB": {
-      "name": "Astera Labs",
-      "category": "CHALLENGER",
-      "subtitle": "Conectividad Interna: Retimers y CXL",
-      "priceText": "$70.00 → $85.00",
-      "kpis": [
+     "name": "Astera Labs",
+     "category": "CHALLENGER",
+     "subtitle": "Conectividad Interna: Retimers y CXL",
+     "priceText": "$70.00 → $85.00",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$12.8B",
+         "icon": "Landmark",
+         "color": "text-blue-400"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+21.4%",
+         "subtext": "Precio: $85.00",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Revenue Growth",
+         "value": ">70% YoY",
+         "subtext": "Hipercrecimiento IA",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Margen Bruto",
+         "value": "~75%",
+         "subtext": "Modelo Fabless de Software",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$12.8B",
+       "pe": "60x",
+       "price": "$85.00",
+       "ytd": "+21.4%",
+       "yoy": "+80.0%",
+       "focus": "Retimers PCIe y conectividad CXL"
+     },
+     "estrategia": {
+       "intro": "Astera Labs resuelve un obstáculo físico crítico: a velocidades PCIe Gen 5 y Gen 6, la señal eléctrica pierde integridad a los pocos centímetros. Sus 'Retimers' actúan como amplificadores inteligentes, limpiando la señal para que la CPU y múltiples GPUs se comuniquen sin pérdida de datos. Es un pure-play de IA hiper-ágil con un modelo de I+D en la nube.",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$12.8B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
+           "title": "Familia Aries (PCIe/CXL Retimers)",
+           "date": "Vaca Lechera (Cash Cow)",
+           "desc": "Líder absoluto de mercado. Integración forzosa en placas base de alta densidad donde múltiples GPUs necesitan conexión de señal impecable en espacios reducidos.",
+           "icon": "Zap",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+21.4%",
-            "subtext": "Precio: $85.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Familia Leo (CXL Memory)",
+           "date": "Crecimiento Estratégico",
+           "desc": "Controladores que 'agrupan' DRAM de múltiples servidores. Elimina el cuello de botella de memoria, permitiendo que CPUs accedan a Terabytes sin costosos servidores adicionales.",
+           "icon": "Cpu",
+           "color": "emerald"
          },
          {
-            "title": "Revenue Growth",
-            "value": ">70% YoY",
-            "subtext": "Hipercrecimiento IA",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Suite de Software COSMOS",
+           "date": "Moat de Alta Adherencia",
+           "desc": "Plataforma de telemetría embebida en el hardware que permite a los operadores cloud diagnosticar la degradación de enlaces en tiempo real, dificultando el reemplazo del hardware.",
+           "icon": "Code",
+           "color": "purple"
          },
          {
-            "title": "Margen Bruto",
-            "value": "~75%",
-            "subtext": "Modelo Fabless de Software",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Desarrollo Cloud-Native",
+           "date": "Agilidad Superior",
+           "desc": "Al diseñar todo su silicio usando EDA en la nube pública, lanzan generaciones nuevas más rápido que los rivales heredados (Broadcom/Marvell).",
+           "icon": "Network",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$12.8B",
-         "pe": "60x",
-         "price": "$85.00",
-         "ytd": "+21.4%",
-         "yoy": "+80.0%",
-         "focus": "Retimers PCIe y conectividad CXL"
-      },
-      "estrategia": {
-         "intro": "Astera Labs resuelve un problema crítico de la física: a medida que los buses de datos se vuelven más rápidos (PCIe Gen 5 y Gen 6), la señal eléctrica se degrada en distancias cortísimas dentro del propio servidor. Sus \"Retimers\" actúan como amplificadores inteligentes que limpian la señal, permitiendo que la CPU se comunique con la GPU sin pérdida de datos. Es un pure-play puro de IA, con clientes como Amazon, Google y NVIDIA.",
-         "pilares": [
-            {
-               "title": "Familia Aries (PCIe/CXL)",
-               "date": "Core Product",
-               "desc": "Retimers líderes del mercado para buses PCIe Gen 5/6. Son literalmente obligatorios en arquitecturas de IA donde múltiples GPUs deben estar conectadas con alta integridad de señal.",
-               "icon": "Zap",
-               "color": "blue"
-            },
-            {
-               "title": "Familia Leo (CXL Memory)",
-               "date": "Crecimiento Futuro",
-               "desc": "Controladores que permiten \"agrupar\" (pool) la memoria DRAM de los servidores. Resuelve el \"Muro de Memoria\" al permitir que múltiples procesadores accedan a terabytes de memoria unificada.",
-               "icon": "Cpu",
-               "color": "emerald"
-            },
-            {
-               "title": "Suite de Software COSMOS",
-               "date": "Moat Defensivo",
-               "desc": "A diferencia de un fabricante de chips de hardware plano, Astera ofrece una suite de software embebida que permite a los hiperescaladores monitorizar la salud de los enlaces y la telemetría de red en tiempo real.",
-               "icon": "Code",
-               "color": "purple"
-            },
-            {
-               "title": "Agilidad de Mercado",
-               "date": "Diseño en la Nube",
-               "desc": "Su flujo de trabajo de desarrollo (diseñando chips en la nube pública) les permite iterar y lanzar nuevas generaciones de productos mucho más rápido que los gigantes del silicio heredados.",
-               "icon": "Network",
-               "color": "cyan"
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "Finales Abril 2026",
-            "tag": "Q1 Earnings",
-            "title": "Guidance PCIe Gen 6",
-            "desc": "Con el inminente despliegue de servidores PCIe Gen 6, los analistas esperan ver un aumento drástico en las reservas (bookings) de su familia de productos Aries.",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Agosto 2026",
-            "tag": "Cloud Design Wins",
-            "title": "Adopción de la Familia Leo",
-            "desc": "Anuncios sobre la implementación a gran escala de la tecnología CXL (Compute Express Link) por parte de gigantes como AWS o Azure, lo que abriría una línea de ingresos totalmente nueva y expansiva.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Octubre 2026",
-            "tag": "OCP Summit",
-            "title": "Nuevos Casos de Uso AEC",
-            "desc": "Validación de la familia Taurus (Active Electrical Cables). Si los hiperescaladores optan por cables de cobre inteligentes de Astera para conexiones de rack a rack (en lugar de óptica cara), su TAM se multiplicará.",
-            "color": "emerald",
-            "impact": "Ventas"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "28 Abril - 4 Mayo 2026",
+         "tag": "Q1 Earnings",
+         "title": "Adopción de PCIe Gen 6",
+         "desc": "Wall Street espera reportes de reservas masivas ('bookings') de su familia Aries para plataformas de servidores Gen 6 de inminente despliegue.",
+         "color": "blue",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Agosto 2026",
+         "tag": "FMS Conference",
+         "title": "Cloud Design Wins con Familia Leo",
+         "desc": "Confirmación de contratos clave donde hiper-escaladores como AWS o Azure integran su tecnología CXL a escala comercial, abriendo un TAM totalmente nuevo.",
+         "color": "purple",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "15 Octubre 2026",
+         "tag": "OCP Summit",
+         "title": "Tracción Familia Taurus (AEC)",
+         "desc": "Validación de sus chips para Active Electrical Cables. Si logran sustituir conexiones ópticas costosas en redes Rack-to-Rack cortas (Switch-to-Server), los ingresos explotarán.",
+         "color": "emerald",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Primer Trimestre 2027",
+         "tag": "Standardization",
+         "title": "Integración del Estándar CXL 3.0",
+         "desc": "Lanzamiento de nuevas líneas de productos totalmente certificadas con CXL 3.0, garantizando el ancho de banda masivo requerido por la serie de GPUs 2028.",
+         "color": "amber",
+         "impact": "Margen"
+       },
+       {
+         "date": "Mediados 2028",
+         "tag": "Arquitectura Física",
+         "title": "Métricas de Ventas en Racks NVL72",
+         "desc": "Evaluación del impacto del empaquetado denso líquido de NVIDIA en la demanda de retimers de larga distancia frente a conmutadores internos.",
+         "color": "blue",
+         "impact": "Ventas"
+       }
+     ]
    },
    "CLS": {
-      "name": "Celestica Inc.",
-      "category": "CHALLENGER",
-      "subtitle": "El Fabricante del Hardware Cloud",
-      "priceText": "$50.00 → $72.00",
-      "kpis": [
+     "name": "Celestica Inc.",
+     "category": "CHALLENGER",
+     "subtitle": "El Fabricante del Hardware Cloud",
+     "priceText": "$50.00 → $72.00",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$8.5B",
+         "icon": "Landmark",
+         "color": "text-blue-400"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+44.0%",
+         "subtext": "Precio: $72.00",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "CCS Segment",
+         "value": ">65% Ventas",
+         "subtext": "Connectivity & Cloud",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Margen Operativo",
+         "value": "6-7%",
+         "subtext": "Alto para modelo EMS",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$8.5B",
+       "pe": "18x",
+       "price": "$72.00",
+       "ytd": "+44.0%",
+       "yoy": "+75.0%",
+       "focus": "Ensamblaje de Hardware / Switches 800G"
+     },
+     "estrategia": {
+       "intro": "Celestica es el ejecutor oculto del hardware de IA. Como gigante de Servicios de Manufactura Electrónica (EMS), ensamblan físicamente los complejos switches de red 400G y 800G. Representan la jugada Value/GARP más directa de la cadena, operando con múltiplos de valoración bajos mientras recogen los beneficios volumétricos del crecimiento de Broadcom y Arista.",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$8.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
+           "title": "Expansión Segmento CCS",
+           "date": "Motor Estructural",
+           "desc": "El brazo de 'Connectivity and Cloud Solutions' monopoliza su crecimiento, traccionado por pedidos masivos de ensamblaje de switches para hiperescaladores norteamericanos.",
+           "icon": "Server",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+44.0%",
-            "subtext": "Precio: $72.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Plataforma White Box HPS",
+           "date": "Mayor Margen",
+           "desc": "Venta de soluciones 'Hardware Platform Solutions' listas para usar (Cajas Blancas), que permiten al cliente instalar su propio software, reteniendo Celestica más margen de propiedad intelectual.",
+           "icon": "Network",
+           "color": "emerald"
          },
          {
-            "title": "CCS Segment",
-            "value": ">65% Ventas",
-            "subtext": "Connectivity & Cloud",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Eficiencia Operativa Histórica",
+           "date": "Turnaround Cumplido",
+           "desc": "Desinversiones de plantas legacy de bajo margen para optimizar instalaciones dedicadas a la alta complejidad (óptica, aeroespacial), logrando márgenes operativos récord del 6-7%.",
+           "icon": "TrendingUp",
+           "color": "purple"
          },
          {
-            "title": "Margen Operativo",
-            "value": "6-7%",
-            "subtext": "Alto para un modelo EMS",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Apalancamiento de Capital de Trabajo",
+           "date": "Moat Financiero EMS",
+           "desc": "Robusto flujo de caja libre que actúa como barrera de entrada para rivales más pequeños que no pueden pre-comprar inventario de silicio masivo para los clientes Tier-1.",
+           "icon": "Landmark",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$8.5B",
-         "pe": "18x",
-         "price": "$72.00",
-         "ytd": "+44.0%",
-         "yoy": "+75.0%",
-         "focus": "Ensamblaje de Hardware / Switches 800G"
-      },
-      "estrategia": {
-         "intro": "Celestica es el brazo ejecutor en la sombra. Es una empresa de Servicios de Manufactura Electrónica (EMS). Mientras Broadcom diseña el chip y los hiperescaladores diseñan el centro de datos, Celestica es quien ensambla físicamente los complejos switches de red de 400G y 800G. Representan la jugada \"Value/GARP\" más clara de la cadena, cotizando a múltiplos mucho más bajos que los diseñadores de silicio.",
-         "pilares": [
-            {
-               "title": "Segmento CCS Explotando",
-               "date": "Motor de Ingresos",
-               "desc": "El segmento \"Connectivity and Cloud Solutions\" es la estrella absoluta, traccionado masivamente por la demanda de ensamblaje de hardware de red para Data Centers de Tier 1.",
-               "icon": "Server",
-               "color": "blue"
-            },
-            {
-               "title": "Switches de 800G",
-               "date": "Ciclo Actual",
-               "desc": "Celestica ofrece soluciones de hardware de plataforma (HPS) de \"caja blanca\" (White Box). Permiten a los hiperescaladores comprar el switch directamente ensamblado y ponerle su propio software de red.",
-               "icon": "Network",
-               "color": "emerald"
-            },
-            {
-               "title": "Eficiencia Operativa",
-               "date": "Rentabilidad Récord",
-               "desc": "A pesar de tener un negocio de ensamblaje de márgenes estrechos, Celestica ha logrado expandir su margen operativo consistentemente al desinvertir en productos heredados y sobre-indexarse en IA.",
-               "icon": "TrendingUp",
-               "color": "purple"
-            },
-            {
-               "title": "Apalancamiento de Balance",
-               "date": "Moat Financiero",
-               "desc": "Flujo de caja libre excepcionalmente fuerte que utilizan para financiar el enorme capital de trabajo (inventario de componentes caros) que requieren los hiperescaladores, actuando casi como \"banco\" de la cadena de suministro.",
-               "icon": "Landmark",
-               "color": "cyan"
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "25 Abril 2026",
-            "tag": "Q1 Earnings",
-            "title": "Concentración de Clientes",
-            "desc": "El mercado estará muy atento a los ingresos provenientes de sus \"Hyper-scaler Tier-1\". Si reportan victorias con nuevos clientes cloud adicionales (reduciendo el riesgo de concentración de ingresos), la acción verá una fuerte revalorización (re-rating).",
-            "color": "blue",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Julio 2026",
-            "tag": "Supply Chain",
-            "title": "Demanda de AI Compute",
-            "desc": "Actualizaciones sobre su segmento de ensamblaje de cómputo de IA (servidores personalizados). Veremos si Celestica logra arrancar cuota de mercado a otros gigantes EMS como Super Micro (SMCI) o Foxconn.",
-            "color": "emerald",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Octubre 2026",
-            "tag": "Q3 & Guidance",
-            "title": "Expansión de Márgenes CCS",
-            "desc": "La validación a largo plazo del modelo de negocio depende de si pueden superar permanentemente el techo del 7% de margen operativo en su segmento de la nube, confirmando su poder de fijación de precios.",
-            "color": "amber",
-            "impact": "Margen"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "24-28 Abril 2026",
+         "tag": "Q1 Earnings",
+         "title": "Diversificación Hiperescaladores",
+         "desc": "El mercado requiere que Celestica anuncie el ramp-up de victorias con un segundo o tercer gran cliente Cloud, reduciendo el riesgo de concentración de sus ingresos.",
+         "color": "blue",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "Julio 2026",
+         "tag": "AI Compute",
+         "title": "Adopción de Ensamblaje de Servidores",
+         "desc": "Información financiera confirmando si Celestica ha logrado robar cuota material en el ensamblaje de servidores (Compute) frente a rivales agobiados por márgenes como Super Micro.",
+         "color": "emerald",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Octubre 2026",
+         "tag": "Q3 Guidance",
+         "title": "Defensa del Techo del 7% de Margen",
+         "desc": "Escrutinio sobre si el poder de fijación de precios les permite consolidar permanentemente márgenes operativos en su división CCS muy por encima de la media histórica del sector (4-5%).",
+         "color": "purple",
+         "impact": "Margen"
+       },
+       {
+         "date": "Primer Semestre 2027",
+         "tag": "Ramp-up",
+         "title": "Volúmenes de Switches 1.6T",
+         "desc": "Transición exitosa en las líneas de fabricación para el ensamblaje en masa del nuevo estándar 1.6T, asegurando su posicionamiento como fabricante 'vanguardista' irremplazable.",
+         "color": "amber",
+         "impact": "Ventas"
+       }
+     ]
    },
    "LITE": {
-      "name": "Lumentum Holdings",
-      "category": "SPECULATIVE",
-      "subtitle": "Recuperación Óptica y Componentes Láser",
-      "priceText": "$45.00 → $60.50",
-      "kpis": [
+     "name": "Lumentum Holdings",
+     "category": "SPECULATIVE",
+     "subtitle": "Recuperación Óptica y Componentes Láser",
+     "priceText": "$45.00 → $60.50",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$5.2B",
+         "icon": "Landmark",
+         "color": "text-purple-400"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+34.4%",
+         "subtext": "Precio: $60.50",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Cloud & Networking",
+         "value": ">50% Rev",
+         "subtext": "Pivotando a Datacom",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Margen Operativo",
+         "value": "12-15%",
+         "subtext": "Recuperación Activa",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$5.2B",
+       "pe": "32x",
+       "price": "$60.50",
+       "ytd": "+34.4%",
+       "yoy": "+15.0%",
+       "focus": "Componentes Láser (EML/VCSEL) y 800G/1.6T"
+     },
+     "estrategia": {
+       "intro": "Lumentum es la jugada clásica de 'turnaround' (recuperación). Fuertemente golpeada en años pasados por el colapso del capex de las telecomunicaciones tradicionales, pivotaron agresivamente hacia IA. Son el fabricante esencial (junto a Coherent) de los láseres base (EMLs y VCSELs) necesarios para la conectividad de 800G y 1.6T de los Data Centers.",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$5.2B",
-            "icon": "Landmark",
-            "color": "text-purple-400"
+           "title": "Adquisición Transformacional Cloud Light",
+           "date": "Integración Comercial",
+           "desc": "Compra clave de $750M que inyectó capacidades de fabricación rápida de transceptores, acelerando su penetración de mercado con proveedores Cloud de vanguardia.",
+           "icon": "Zap",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+34.4%",
-            "subtext": "Precio: $60.50",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Liderazgo en Chips EML",
+           "date": "Componentes Core",
+           "desc": "Productor fundamental de láseres modulados (EMLs). Su ventaja reside en que suministran estos chips tanto para sus propios módulos como a competidores que carecen de fábricas propias.",
+           "icon": "Cpu",
+           "color": "emerald"
          },
          {
-            "title": "Cloud & Networking",
-            "value": ">50% Rev",
-            "subtext": "Pivotando a Datacom",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Second Source para Hiperescaladores",
+           "date": "Estrategia Defensiva",
+           "desc": "Agresividad comercial para certificarse como el segundo proveedor oficial de óptica para gigantes como Google y AWS, reduciendo la dependencia monopolística hacia Coherent.",
+           "icon": "ShieldCheck",
+           "color": "purple"
          },
          {
-            "title": "Margen Operativo",
-            "value": "12-15%",
-            "subtext": "En fase de recuperación",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Vanguardia en Fotónica de Silicio (CPO)",
+           "date": "Inversión Futura",
+           "desc": "Desarrollo de láseres de onda continua (CW Lasers), la fuente de luz requerida para los inminentes sistemas Co-Packaged Optics promovidos por NVIDIA y Broadcom.",
+           "icon": "Layers",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$5.2B",
-         "pe": "32x",
-         "price": "$60.50",
-         "ytd": "+34.4%",
-         "yoy": "+15.0%",
-         "focus": "Componentes Láser (EML/VCSEL) y 800G/1.6T"
-      },
-      "estrategia": {
-         "intro": "Lumentum es la gran jugada de recuperación (turnaround) en el espacio óptico. Históricamente dependientes del mercado de telecomunicaciones tradicionales (muy cíclico y deprimido), están pivotando agresivamente hacia los Data Centers de IA (Datacom). Su capacidad para fabricar los láseres base (EMLs) necesarios para la conectividad de 800G y 1.6T los posiciona como una alternativa crítica a Coherent para evitar monopolios en la cadena de suministro.",
-         "pilares": [
-            {
-               "title": "Adquisición de Cloud Light",
-               "date": "Cierre: Fines 2023",
-               "desc": "Compra estratégica por $750M que les inyectó capacidad inmediata de manufactura de transceptores para hiperescaladores, acelerando su entrada en el ciclo de la IA.",
-               "icon": "Zap",
-               "color": "blue"
-            },
-            {
-               "title": "Liderazgo en Láseres EML",
-               "date": "Core Tech",
-               "desc": "Fabricantes de los chips láser (Electro-absorption Modulated Lasers) que van dentro de los transceptores de altísima velocidad. Venden tanto sus propios módulos como componentes a terceros.",
-               "icon": "Cpu",
-               "color": "emerald"
-            },
-            {
-               "title": "Diversificación de Clientes",
-               "date": "Mitigación de Riesgo",
-               "desc": "Esfuerzo masivo por ganar cuota de mercado entre los Tier-1 Cloud (AWS, Google) como segundo proveedor oficial (second-source) de óptica, garantizando resiliencia de suministro.",
-               "icon": "Network",
-               "color": "purple"
-            },
-            {
-               "title": "Fotónica de Silicio (CPO)",
-               "date": "I+D Futuro",
-               "desc": "Inversiones clave en láseres de onda continua (CW) requeridos como fuentes de luz externas para las futuras arquitecturas Co-Packaged Optics de Broadcom y NVIDIA.",
-               "icon": "Layers",
-               "color": "cyan"
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "12 Mayo 2026",
-            "tag": "Q3 FY26 Earnings",
-            "title": "El Sorpasso de Datacom",
-            "desc": "El mercado busca el punto de inflexión donde los ingresos por Cloud/AI compensen y superen definitivamente el lastre del mercado de telecomunicaciones tradicionales.",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Agosto 2026",
-            "tag": "1.6T Qualification",
-            "title": "Certificación Tier-1",
-            "desc": "Noticias sobre la calificación exitosa de sus módulos de 1.6T por parte de los principales hiperescaladores. Un \"design win\" confirmado aquí justificaría una expansión agresiva de múltiplos.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Noviembre 2026",
-            "tag": "Analyst Day",
-            "title": "Recuperación de Márgenes",
-            "desc": "Visibilidad sobre la utilización de sus fábricas (Fab utilization). A medida que escalan la producción de Datacom, el apalancamiento operativo debería empujar su margen bruto de vuelta a niveles históricos (>40%).",
-            "color": "amber",
-            "impact": "Margen"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "8-13 Mayo 2026",
+         "tag": "Q3 FY26 Earnings",
+         "title": "Punto de Inflexión (Crossover)",
+         "desc": "Catalizador macro. Se exige demostrar que el segmento de Datacom (IA) ha superado permanentemente al negocio declinante de Telecomunicaciones, justificando un múltiplo de crecimiento.",
+         "color": "blue",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "Agosto 2026",
+         "tag": "Product Qualification",
+         "title": "Certificación Tier-1 Módulos 1.6T",
+         "desc": "Confirmación formal de victorias de diseño (Design Wins) y cualificación exitosa de sus módulos de 1.6 Terabits en los centros de datos de clientes masivos.",
+         "color": "emerald",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Noviembre 2026",
+         "tag": "Analyst Day",
+         "title": "Proyección de 'Fab Utilization'",
+         "desc": "Visibilidad sobre las tasas de utilización de sus costosas fábricas de obleas. Tasas superiores al 80% garantizarían un fuerte apalancamiento operativo de márgenes brutos.",
+         "color": "purple",
+         "impact": "Margen"
+       },
+       {
+         "date": "Marzo 2027",
+         "tag": "OFC Conference",
+         "title": "Ramp-up Láseres CW para CPO",
+         "desc": "Demostraciones prácticas del escalamiento en volumen de fuentes de luz externas (ELS) preparadas para la integración física con switches Tomahawk y GPUs Blackwell.",
+         "color": "amber",
+         "impact": "Ventas"
+       }
+     ]
    },
    "SITM": {
-      "name": "SiTime Corp.",
-      "category": "SPECULATIVE",
-      "subtitle": "Temporización MEMS de Precisión",
-      "priceText": "$110.00 → $165.00",
-      "kpis": [
+     "name": "SiTime Corp.",
+     "category": "SPECULATIVE",
+     "subtitle": "Temporización MEMS de Precisión",
+     "priceText": "$110.00 → $165.00",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$3.8B",
+         "icon": "Landmark",
+         "color": "text-purple-400"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+50.0%",
+         "subtext": "Precio: $165.00",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Comm/Enterprise",
+         "value": ">45% Rev",
+         "subtext": "Impulso por IA",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Margen Bruto",
+         "value": "~58-60%",
+         "subtext": "Poder de Precios",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$3.8B",
+       "pe": "48x",
+       "price": "$165.00",
+       "ytd": "+50.0%",
+       "yoy": "+85.0%",
+       "focus": "Osciladores MEMS de Silicio para IA"
+     },
+     "estrategia": {
+       "intro": "SiTime ataca un cuello de botella físico microscópico: el tiempo. A 800G y 1.6T, las redes IA mueven datos tan rápido que la pérdida de sincronización fraccional causa descarte de paquetes y colapso de red. Los viejos osciladores de cuarzo fallan por la vibración y el calor de los ventiladores en Data Centers de IA; los osciladores de silicio (MEMS) de SiTime son impermeables a ese estrés.",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$3.8B",
-            "icon": "Landmark",
-            "color": "text-purple-400"
+           "title": "Plataforma de Precisión Epoch",
+           "date": "Reemplazo del Cuarzo",
+           "desc": "Osciladores con precisión a nivel de picosegundos. Obligatorios para la sincronización perfecta de la capa física de los switches de Broadcom, Arista y Cisco.",
+           "icon": "Clock",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+50.0%",
-            "subtext": "Precio: $165.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Resistencia a Estresores Físicos",
+           "date": "Moat Técnico",
+           "desc": "La tecnología MEMS no se corrompe por ruido acústico, vibración de ventiladores gigantescos, o choques térmicos, eliminando fallos catastróficos en servidores ultra-densos.",
+           "icon": "ShieldCheck",
+           "color": "emerald"
          },
          {
-            "title": "Comm/Enterprise",
-            "value": ">45% Rev",
-            "subtext": "Impulso por IA",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Ecosistema de Fundición Estándar",
+           "date": "Eficiencia Operativa",
+           "desc": "Fabricados en silicio tradicional a través de socios como TSMC, lo que otorga una escalabilidad, tamaño y fiabilidad que la minería y tallado del cuarzo nunca podrá igualar.",
+           "icon": "Factory",
+           "color": "purple"
          },
          {
-            "title": "Margen Bruto",
-            "value": "~58-60%",
-            "subtext": "Poder de Precios",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Multiplicador de TAM por Servidor",
+           "date": "Expansión de SAM",
+           "desc": "La subida a velocidades 1.6T multiplica por tres el contenido en dólares de chips de temporización (Timing Content) requeridos en cada rack de servidor AI.",
+           "icon": "TrendingUp",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$3.8B",
-         "pe": "48x",
-         "price": "$165.00",
-         "ytd": "+50.0%",
-         "yoy": "+85.0%",
-         "focus": "Osciladores MEMS de Silicio para IA"
-      },
-      "estrategia": {
-         "intro": "SiTime ataca un cuello de botella físico microscópico: el tiempo (Timing). Las redes Ethernet de IA (800G y 1.6T) mueven datos tan rápido que la más mínima pérdida de sincronización descarta paquetes y frena el entrenamiento de la red neuronal. Los tradicionales osciladores de cuarzo fallan ante el calor, la vibración y el flujo de aire masivo de los racks de IA. SiTime fabrica osciladores de silicio (MEMS) que son impermeables a este estrés ambiental.",
-         "pilares": [
-            {
-               "title": "Plataforma Epoch",
-               "date": "Core Product IA",
-               "desc": "Osciladores diseñados para reemplazar el cuarzo en centros de datos. Ofrecen precisión a nivel de picosegundos, vital para la sincronización de switches de Broadcom y Arista.",
-               "icon": "Clock",
-               "color": "blue"
-            },
-            {
-               "title": "Resistencia Ambiental",
-               "date": "Moat Físico",
-               "desc": "Sus chips MEMS no se degradan por la vibración acústica de los enormes ventiladores de los Data Centers de alta densidad, un fallo catastrófico común en la infraestructura legacy.",
-               "icon": "ShieldCheck",
-               "color": "emerald"
-            },
-            {
-               "title": "Ecosistema de Silicio",
-               "date": "Eficiencia",
-               "desc": "Al estar basados en silicio, se fabrican en las mismas fundiciones estándar (como TSMC) que el resto de los semiconductores, permitiendo una escala y miniaturización imposibles con el cuarzo.",
-               "icon": "Cpu",
-               "color": "purple"
-            },
-            {
-               "title": "Expansión de SAM",
-               "date": "Mercado Abordable",
-               "desc": "La transición obligatoria a 800G y 1.6T multiplica por tres el contenido en dólares de temporización de precisión (Timing Content) por cada rack de IA vendido.",
-               "icon": "TrendingUp",
-               "color": "cyan"
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "Primeros Mayo 2026",
-            "tag": "Q1 Earnings",
-            "title": "Crecimiento Comms & Enterprise",
-            "desc": "Wall Street monitorea de cerca este segmento específico. SiTime debe demostrar que la adopción en redes de IA compensa la debilidad o ciclicidad de su negocio de consumo (móviles/IoT).",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Septiembre 2026",
-            "tag": "Partnerships",
-            "title": "Validación de Referencia",
-            "desc": "Anuncios de inclusión en los \"Reference Designs\" de Broadcom, NVIDIA o AMD. Estar pre-certificado en las placas base de los gigantes garantiza ventas masivas.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Diciembre 2026",
-            "tag": "Q4 FY26",
-            "title": "Defensa del Margen Bruto",
-            "desc": "A medida que el volumen escala exponencialmente, el mercado exigirá que la empresa mantenga sus márgenes brutos de software-like (~60%), demostrando un \"Pricing Power\" inquebrantable.",
-            "color": "amber",
-            "impact": "Margen"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "1-6 Mayo 2026",
+         "tag": "Q1 Earnings",
+         "title": "Resiliencia Comms/Enterprise",
+         "desc": "Los inversores necesitan confirmar que el meteórico crecimiento del segmento de IA compensa ampliamente cualquier ciclicidad o debilidad del mercado heredado de IoT y Smartphones.",
+         "color": "blue",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Septiembre 2026",
+         "tag": "Hardware Certifications",
+         "title": "Inclusión en Reference Designs",
+         "desc": "Anuncios vitales de certificación. Ser el oscilador pre-recomendado ('pre-qualified') en las placas base maestras de NVIDIA y AMD garantiza ingresos masivos a perpetuidad.",
+         "color": "purple",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "Diciembre 2026",
+         "tag": "FY26 End",
+         "title": "Defensa de Márgenes Software-like",
+         "desc": "Verificación del estado financiero. A pesar de los altos volúmenes de hardware, la empresa debe mantener márgenes brutos rozando el 60% por la prima de innovación técnica de los MEMS.",
+         "color": "emerald",
+         "impact": "Margen"
+       },
+       {
+         "date": "Segundo Trimestre 2027",
+         "tag": "Standards",
+         "title": "Sincronización PCIe Gen 6 y 1.6T",
+         "desc": "Presentaciones validando la adopción y despliegue ineludible de tecnología SiTime como columna vertebral temporal para la próxima generación de conectividad ultrarrápida.",
+         "color": "amber",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Todo 2028",
+         "tag": "Auto Expansion",
+         "title": "Penetración en Sistemas ADAS Tier-1",
+         "desc": "Tracción material de ingresos en la automoción, donde la conducción autónoma exige temporización sin fallos, creando un segundo pilar de crecimiento gigante.",
+         "color": "blue",
+         "impact": "Multiplicador"
+       }
+     ]
    },
    "POET": {
-      "name": "POET Technologies",
-      "category": "SPECULATIVE",
-      "subtitle": "Disrupción en Empaquetado Fotónico",
-      "priceText": "$1.50 → $4.20",
-      "kpis": [
+     "name": "POET Technologies",
+     "category": "SPECULATIVE",
+     "subtitle": "Disrupción en Empaquetado Fotónico",
+     "priceText": "$1.50 → $4.20",
+     "kpis": [
+       {
+         "title": "Market Cap",
+         "value": "~$800M",
+         "icon": "Landmark",
+         "color": "text-purple-400"
+       },
+       {
+         "title": "YTD (Ene-Abr 2026)",
+         "value": "+180.0%",
+         "subtext": "Precio: $4.20",
+         "icon": "TrendingUp",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Adopción",
+         "value": "Design Wins",
+         "subtext": "Fase de Escalamiento",
+         "icon": "Briefcase",
+         "color": "text-emerald-400"
+       },
+       {
+         "title": "Modelo",
+         "value": "Fabless IP",
+         "subtext": "Licencias / Módulos",
+         "icon": "Target",
+         "color": "text-amber-400"
+       }
+     ],
+     "tableData": {
+       "marketCap": "$800M",
+       "pe": "N/A",
+       "price": "$4.20",
+       "ytd": "+180.0%",
+       "yoy": "+250.0%",
+       "focus": "Optical Interposer y CPO"
+     },
+     "estrategia": {
+       "intro": "POET es una Micro-Cap asimétrica pura. Su patente 'POET Optical Interposer' permite integrar chips electrónicos y láseres a nivel de oblea, sin requerir alineación activa (el proceso más caro de la óptica actual). Si los hiperescaladores adoptan esta arquitectura para abaratar la fabricación de módulos 800G y 1.6T, sus ingresos por licencias explotarán.",
+       "pilares": [
          {
-            "title": "Market Cap",
-            "value": "~$800M",
-            "icon": "Landmark",
-            "color": "text-purple-400"
+           "title": "Tecnología Optical Interposer",
+           "date": "Patente Disruptiva",
+           "desc": "Plataforma revolucionaria que utiliza litografía estándar para alinear pasivamente componentes ópticos, reduciendo el Coste de Lista de Materiales (BOM) general hasta en un 40%.",
+           "icon": "Layers",
+           "color": "blue"
          },
          {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+180.0%",
-            "subtext": "Precio: $4.20",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
+           "title": "Optical Engines de 800G / 1.6T",
+           "date": "Producto Estandarizado",
+           "desc": "Desarrollo y venta de motores de transmisión y recepción listos para ser empaquetados por fabricantes de módulos de terceros, aliviando el altísimo consumo energético de la IA.",
+           "icon": "Zap",
+           "color": "emerald"
          },
          {
-            "title": "Adopción",
-            "value": "Design Wins",
-            "subtext": "Fase de Escalamiento",
-            "icon": "Briefcase",
-            "color": "text-emerald-400"
+           "title": "Alianza con Celestial AI",
+           "date": "Sello de Aprobación Técnico",
+           "desc": "Asociación clave con el unicornio de memoria fotónica Celestial AI para utilizar el interposer de POET como placa base para futuras infraestructuras de memoria óptica.",
+           "icon": "Network",
+           "color": "purple"
          },
          {
-            "title": "Modelo",
-            "value": "Fabless IP",
-            "subtext": "Licencias / Módulos",
-            "icon": "Target",
-            "color": "text-amber-400"
+           "title": "Modelo Fabless de Bajo CAPEX",
+           "date": "Alta Palanca Financiera",
+           "desc": "Subcontratan la producción en volumen a fundiciones establecidas como Sanan IC, permitiendo escalar a la rentabilidad rápidamente (vía venta de IP o motores) sin quema masiva de efectivo.",
+           "icon": "Settings",
+           "color": "amber"
          }
-      ],
-      "tableData": {
-         "marketCap": "$800M",
-         "pe": "N/A",
-         "price": "$4.20",
-         "ytd": "+180.0%",
-         "yoy": "+250.0%",
-         "focus": "Optical Interposer y CPO"
-      },
-      "estrategia": {
-         "intro": "POET es la definición de Micro-Cap asimétrica. Su patente clave es el \"POET Optical Interposer\", una tecnología que permite integrar chips electrónicos y fotónicos (láseres) directamente a nivel de oblea, sin necesidad de usar lentes ni alineación activa (el proceso más caro y lento en la fabricación de óptica hoy en día). Si los gigantes la adoptan para abaratar la fotónica de 800G y 1.6T, su potencial de licenciamiento es explosivo.",
-         "pilares": [
-            {
-               "title": "Optical Interposer",
-               "date": "Patente Core",
-               "desc": "Plataforma de integración que reduce el coste de lista de materiales (BOM) de un módulo óptico hasta en un 40% al eliminar el ensamblaje activo de precisión.",
-               "icon": "Layers",
-               "color": "blue"
-            },
-            {
-               "title": "Soluciones 800G y 1.6T",
-               "date": "Motores de Transmisión",
-               "desc": "Desarrollo de \"Transmit and Receive Engines\" listos para ser empaquetados por los grandes fabricantes, resolviendo el problema de coste y consumo de energía en redes de IA.",
-               "icon": "Zap",
-               "color": "emerald"
-            },
-            {
-               "title": "Alianza Celestial AI",
-               "date": "Validación Técnica",
-               "desc": "Asociación clave con Celestial AI (unicornio de CPO) para usar el interposer de POET como plataforma base para la tecnología de memoria fotónica de la próxima década.",
-               "icon": "Network",
-               "color": "purple"
-            },
-            {
-               "title": "Modelo Fabless (CAPEX Light)",
-               "date": "Eficiencia",
-               "desc": "No fabrican los chips; subcontratan a fundiciones como Sanan IC. Su negocio se basa en vender la IP y los motores ópticos pre-emsamblados, lo que permite altísimos márgenes si logran tracción.",
-               "icon": "Settings",
-               "color": "cyan"
-            }
-         ]
-      },
-      "roadmap": [
-         {
-            "date": "Junio 2026",
-            "tag": "Design Wins",
-            "title": "Adopción por Clientes Tier-1",
-            "desc": "El catalizador de vida o muerte. POET necesita anunciar formalmente que un fabricante de módulos Tier-1 o un hiperescalador integrará sus motores en producción masiva. Un solo anuncio multiplicaría su capitalización.",
-            "color": "purple",
-            "impact": "Multiplicador"
-         },
-         {
-            "date": "Agosto 2026",
-            "tag": "OFC / ECOC",
-            "title": "Muestras de 1.6T / 3.2T",
-            "desc": "Demostraciones técnicas exitosas de sus plataformas de próxima generación en las ferias clave de fibra óptica, asegurando su relevancia tecnológica a largo plazo.",
-            "color": "blue",
-            "impact": "Ventas"
-         },
-         {
-            "date": "Noviembre 2026",
-            "tag": "Q3 & Cash Runway",
-            "title": "Ramp-up de Ingresos",
-            "desc": "Transición de la fase de prototipado/NRE (Non-Recurring Engineering) a la venta de volúmenes comerciales masivos. Demostrar que el flujo de caja puede sostener el negocio sin diluir agresivamente al accionista minoritario.",
-            "color": "amber",
-            "impact": "Margen"
-         }
-      ]
+       ]
+     },
+     "roadmap": [
+       {
+         "date": "2-20 Junio 2026",
+         "tag": "Design Wins",
+         "title": "Adopción por Clientes Tier-1",
+         "desc": "Catalizador binario de vida o muerte. POET necesita anunciar imperativamente que un fabricante Cloud integrará sus motores en la producción masiva de servidores comerciales.",
+         "color": "purple",
+         "impact": "Multiplicador"
+       },
+       {
+         "date": "21-25 Septiembre 2026",
+         "tag": "ECOC Exhibition",
+         "title": "Muestras de Rendimiento en Vivo 3.2T",
+         "desc": "Demostraciones de validación de que su interposer es capaz de manejar las futuras y extremas tasas de 3.2 Terabits sin degradación de señal, asegurando permanencia tecnológica.",
+         "color": "blue",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Noviembre 2026",
+         "tag": "Q3 Financials",
+         "title": "Transición de NRE a Ingreso Comercial",
+         "desc": "Demostrar en su P&L que los ingresos provienen mayoritariamente de venta de unidades de volumen y no solo de subvenciones por prototipado (Non-Recurring Engineering).",
+         "color": "emerald",
+         "impact": "Margen"
+       },
+       {
+         "date": "Primer Semestre 2027",
+         "tag": "Supply Chain",
+         "title": "Escalabilidad de Producción Sanan IC",
+         "desc": "Confirmación de que la fundición colaboradora tiene la tasa de rendimiento (yield) suficiente para cumplir grandes órdenes de compra sin retrasar a los clientes finales.",
+         "color": "amber",
+         "impact": "Ventas"
+       },
+       {
+         "date": "Finales 2028",
+         "tag": "Licensing Model",
+         "title": "Madurez del Ingreso por Regalías",
+         "desc": "Validación de la tesis alcista donde POET licencia directamente el uso de su tecnología de interposer a gigantes como Broadcom a cambio de altos márgenes recurrentes.",
+         "color": "blue",
+         "impact": "Multiplicador"
+       }
+     ]
    }
-}
+ }

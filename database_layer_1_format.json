@@ -46,7 +46,7 @@
       "pilares": [
         {
           "title": "Grasberg Subterránea",
-          "date": "Activo Core",
+          "date": "Activo Core Activo",
           "desc": "La mina de cobre y oro más grande del mundo en Indonesia. Produce a costes increíblemente bajos gracias a los subproductos de oro que subsidian la extracción.",
           "icon": "Factory",
           "color": "blue"
@@ -54,35 +54,66 @@
         {
           "title": "Expansión en EE.UU.",
           "date": "Soberanía de Materiales",
-          "desc": "Inversiones en la mina Bagdad en Arizona para asegurar suministro nacional a los fabricantes de transformadores como Eaton y GE Vernova.",
+          "desc": "Inversiones críticas en la mina Bagdad (Arizona) para asegurar suministro nacional a los fabricantes de transformadores (Eaton, GE Vernova).",
           "icon": "ShieldCheck",
           "color": "emerald"
         },
         {
           "title": "Tecnología de Lixiviación",
-          "date": "Innovación",
+          "date": "Innovación Operativa",
           "desc": "Uso de nuevas tecnologías para extraer cobre adicional de las pilas de desechos históricos, añadiendo millones de libras de producción sin nuevo CAPEX masivo.",
           "icon": "Zap",
           "color": "purple"
+        },
+        {
+          "title": "Proyecto Kucing Liar",
+          "date": "Desarrollo a Largo Plazo",
+          "desc": "Extensión subterránea en el distrito de Grasberg que asegura más de 6,000 millones de libras de cobre adicionales para la próxima década.",
+          "icon": "Layers",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Mayo 2026",
-        "tag": "Permisos",
-        "title": "Licencias de Exportación Indonesia",
-        "desc": "Resolución de las negociaciones con el gobierno indonesio sobre la extensión de licencias de exportación y aranceles, un riesgo político clave.",
+        "date": "24-28 Julio 2026",
+        "tag": "Q2 Earnings",
+        "title": "Ramp-up del Smelter Manyar",
+        "desc": "Confirmación de que la nueva fundición en Indonesia ha alcanzado el 100% de su capacidad comercial, eliminando penalizaciones arancelarias de exportación.",
+        "color": "blue",
+        "impact": "Margen"
+      },
+      {
+        "date": "Mediados Septiembre 2026",
+        "tag": "Operaciones",
+        "title": "Hito de Lixiviación (Leaching)",
+        "desc": "El mercado vigilará si la recuperación de cobre por lixiviación alcanza la tasa de ejecución anualizada (run-rate) de 200 millones de libras.",
+        "color": "emerald",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Diciembre 2026",
+        "tag": "CAPEX Update",
+        "title": "FID de la Expansión Bagdad",
+        "desc": "Decisión Final de Inversión para duplicar la capacidad en Arizona. Un retraso aquí tensaría aún más el mercado norteamericano del cobre.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Marzo 2028",
+        "tag": "Desarrollo",
+        "title": "Inicio de Producción Kucing Liar",
+        "desc": "Primer mineral extraído de la nueva fase subterránea en Indonesia, compensando el declive natural de otras zonas de Grasberg.",
         "color": "amber",
         "impact": "Ventas"
       },
       {
-        "date": "Agosto 2026",
-        "tag": "Earnings",
-        "title": "Guidance de Producción Lixiviada",
-        "desc": "Actualización sobre el éxito de las nuevas tecnologías de extracción en escombreras. Si superan el objetivo de 200M lbs adicionales, el margen de beneficio explotará.",
+        "date": "Finales 2030",
+        "tag": "Long Term",
+        "title": "Mega-Expansión El Abra (Chile)",
+        "desc": "Puesta en marcha proyectada del proyecto masivo en Chile que requerirá infraestructura de desalinización. Asegura volumen para la próxima década de IA.",
         "color": "blue",
-        "impact": "Margen"
+        "impact": "Ventas"
       }
     ]
   },
@@ -133,43 +164,74 @@
       "pilares": [
         {
           "title": "Diversificación Geográfica",
-          "date": "Resiliencia",
-          "desc": "A diferencia de SQM, Albemarle opera en Australia (Roca Dura / Spodumene), Chile (Salar) y EE.UU., minimizando el riesgo regulatorio de un solo país.",
+          "date": "Moat de Resiliencia",
+          "desc": "A diferencia de SQM, Albemarle opera en Australia (Roca Dura), Chile (Salar) y EE.UU., minimizando el riesgo regulatorio de un solo país.",
           "icon": "Layers",
           "color": "blue"
         },
         {
-          "title": "Contratos a Largo Plazo",
+          "title": "Contratos Indexados",
           "date": "Modelo de Precios",
-          "desc": "Han transicionado sus contratos para estar vinculados a índices de precios, lo que asegura que capturen las subidas de demanda de litio para BESS e EVs sin quedarse rezagados.",
+          "desc": "Han transicionado sus contratos para estar vinculados a índices de precios, capturando las subidas de demanda de litio para BESS sin quedarse rezagados.",
           "icon": "Handshake",
           "color": "emerald"
         },
         {
           "title": "Mina Kings Mountain",
           "date": "Desarrollo EE.UU.",
-          "desc": "Reapertura de su mina en Carolina del Norte apoyada por el Departamento de Defensa para asegurar litio 100% doméstico.",
+          "desc": "Reapertura de su mina en Carolina del Norte apoyada por el Pentágono para asegurar litio 100% doméstico.",
           "icon": "Factory",
           "color": "purple"
+        },
+        {
+          "title": "Refino Global (Kemerton/Meishan)",
+          "date": "Expansión Downstream",
+          "desc": "Capacidad masiva de conversión química de espodumeno a hidróxido de litio, capturando el margen de refinación que antes se iba a terceros.",
+          "icon": "Zap",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Junio 2026",
-        "tag": "Precios",
-        "title": "Rebote del Carbonato de Litio",
-        "desc": "El mercado vigilará los precios al contado (spot) en China. La demanda de BESS para IA está actuando como el catalizador alcista que el mercado de EVs no pudo sostener en 2024.",
-        "color": "emerald",
+        "date": "10-15 Agosto 2026",
+        "tag": "Q2 Earnings",
+        "title": "Rendimiento Planta Meishan",
+        "desc": "Reporte de eficiencia sobre la planta de conversión en China de 50ktpa. Demostrar bajos costes operativos aquí es vital para la rentabilidad.",
+        "color": "blue",
+        "impact": "Margen"
+      },
+      {
+        "date": "Noviembre 2026",
+        "tag": "Regulación",
+        "title": "Permiso Final Kings Mountain",
+        "desc": "Se espera el Record of Decision (ROD) federal para la mina en Carolina del Norte. Una aprobación disparará la prima geopolítica de la acción.",
+        "color": "purple",
         "impact": "Multiplicador"
       },
       {
-        "date": "Septiembre 2026",
-        "tag": "Capex Update",
-        "title": "Eficiencia de Capital",
-        "desc": "Tras la brutal caída de precios de 2023-2024, Albemarle recortó CAPEX. El anuncio de reanudación controlada de expansiones indicará confianza total en el ciclo de IA.",
-        "color": "blue",
+        "date": "Febrero 2027",
+        "tag": "Operations",
+        "title": "Comisionado Kemerton Tren 3",
+        "desc": "Puesta en marcha de la nueva línea de procesamiento en Australia, aliviando el cuello de botella del mineral extraído en Greenbushes.",
+        "color": "emerald",
         "impact": "Ventas"
+      },
+      {
+        "date": "Mediados 2028",
+        "tag": "EE.UU. Supply Chain",
+        "title": "Inicio Extracción Kings Mountain",
+        "desc": "Extracción del primer mineral comercial en suelo estadounidense, marcando un hito en la desconexión de la cadena de suministro china.",
+        "color": "amber",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Finales 2029",
+        "tag": "Mega-Proyecto",
+        "title": "Lanzamiento Richburg Mega-Flex",
+        "desc": "Apertura de la mega-instalación de conversión en Carolina del Sur, diseñada para procesar el litio de Kings Mountain directamente para el mercado de EE.UU.",
+        "color": "blue",
+        "impact": "Multiplicador"
       }
     ]
   },
@@ -220,43 +282,74 @@
       "pilares": [
         {
           "title": "Refinación Nacional (Stage 2)",
-          "date": "Ventaja Competitiva",
-          "desc": "Ya no envían el mineral a China. Han dominado el complejo proceso de separar los óxidos de tierras raras directamente en California.",
+          "date": "Operativo",
+          "desc": "Han dominado el complejo proceso de separar los óxidos de tierras raras directamente en California, dejando de exportar el concentrado a China.",
           "icon": "Factory",
           "color": "blue"
         },
         {
           "title": "Fábrica de Imanes (Stage 3)",
           "date": "Integración Vertical",
-          "desc": "Construcción de una planta en Texas para fabricar los imanes finales, vendiendo directamente a los fabricantes de motores y a GM, capturando todo el margen de la cadena.",
+          "desc": "Construcción de una planta en Texas para fabricar los imanes finales, vendiendo directamente a los fabricantes de motores y capturando todo el margen.",
           "icon": "Layers",
           "color": "emerald"
         },
         {
-          "title": "Subsidios DoD",
-          "date": "Apoyo Gubernamental",
-          "desc": "Financiación directa del Pentágono para asegurar que la cadena de suministro militar y tecnológica occidental no dependa de las cuotas de exportación chinas.",
+          "title": "Separación HRE (Heavy Rare Earths)",
+          "date": "Subsidios DoD",
+          "desc": "Proyecto financiado por el Pentágono para separar Disprosio y Terbio, elementos vitales para que los imanes resistan el inmenso calor de los Data Centers.",
           "icon": "ShieldCheck",
           "color": "purple"
+        },
+        {
+          "title": "Asociación con GM",
+          "date": "Offtake Asegurado",
+          "desc": "Acuerdo fundamental vinculante con General Motors para absorber la producción temprana de imanes, mitigando el riesgo de demanda inicial.",
+          "icon": "Handshake",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Mayo 2026",
-        "tag": "Earnings",
-        "title": "Ramp-up de la Fábrica de Texas",
-        "desc": "El catalizador más importante. La confirmación de que la fábrica de imanes de Texas está produciendo a escala comercial validará su modelo de integración vertical total.",
+        "date": "Julio 2026",
+        "tag": "Fábrica Texas",
+        "title": "Primeras Entregas de Imanes Comerciales",
+        "desc": "Catalizador masivo. Confirmar la entrega exitosa de imanes terminados a GM probará que Occidente puede fabricar imanes sin ayuda china.",
         "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Septiembre 2026",
+        "tag": "Operaciones",
+        "title": "Run-rate NdPr a 6,000 mtpa",
+        "desc": "El mercado exige que la instalación de Mountain Pass alcance finalmente su producción nominal máxima y estable de óxido de NdPr.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Primer Trimestre 2027",
+        "tag": "HRE Facility",
+        "title": "Comisionado Planta de Tierras Pesadas",
+        "desc": "Inicio de pruebas en la instalación financiada por el DoD para refinar Disprosio, un hito de seguridad nacional estadounidense.",
+        "color": "emerald",
         "impact": "Margen"
       },
       {
-        "date": "Todo 2026",
-        "tag": "Geopolítica",
-        "title": "Cuotas de Exportación Chinas",
-        "desc": "Cualquier restricción adicional por parte de China a la exportación de tecnologías de procesamiento de tierras raras disparará el valor estratégico de MP Materials.",
+        "date": "Finales 2027",
+        "tag": "Diversificación",
+        "title": "Calificación para Infraestructura IA",
+        "desc": "Noticias sobre la certificación de sus imanes para componentes no automotrices, como las bombas de refrigeración de servidores AI de alta gama.",
+        "color": "amber",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Todo 2028",
+        "tag": "Escalabilidad",
+        "title": "Stage 3 a Plena Capacidad (1,000 mtpa)",
+        "desc": "La fábrica de Texas alcanza su volumen objetivo, transformando completamente el perfil de ingresos de la compañía de minero a fabricante industrial.",
         "color": "blue",
-        "impact": "Multiplicador"
+        "impact": "Margen"
       }
     ]
   },
@@ -303,47 +396,78 @@
       "focus": "Minería Cobre Bajo Coste / Dividendos"
     },
     "estrategia": {
-      "intro": "Southern Copper (controlada por Grupo México) es la jugada defensiva perfecta en la tesis del cobre para la IA. No tienen los problemas geológicos de otras mineras chilenas. Tienen las mayores reservas comprobadas del mundo y los costes de extracción (cash costs) más bajos de la industria. Cuando el cobre sube impulsado por la red eléctrica, casi todo el precio extra va directo a su beneficio neto.",
+      "intro": "Southern Copper (controlada por Grupo México) es la jugada defensiva perfecta en la tesis del cobre para la IA. Tienen las mayores reservas comprobadas del mundo y los costes de extracción (cash costs) más bajos de la industria. Cuando el cobre sube impulsado por la expansión masiva de la red eléctrica, casi todo el precio marginal extra fluye directo a su beneficio neto.",
       "pilares": [
         {
           "title": "Costes Ultrabajos",
           "date": "Moat Financiero",
-          "desc": "Su estructura de costes les permite ser rentables en el peor de los mercados bajistas, y máquinas de imprimir billetes en el actual superciclo del cobre.",
+          "desc": "Su estructura de costes les permite ser rentables en ciclos bajistas y máquinas de generar caja en el actual superciclo del cobre.",
           "icon": "Landmark",
           "color": "blue"
         },
         {
           "title": "Proyecto Tía María (Perú)",
-          "date": "Crecimiento Largo Plazo",
-          "desc": "Tras años de bloqueos sociales, el desbloqueo de este masivo proyecto añadirá 120,000 toneladas de producción anual de cobre puro.",
+          "date": "Crecimiento Clave",
+          "desc": "Tras años de bloqueos sociales, este masivo proyecto añadirá 120,000 toneladas de producción anual de cobre puro.",
           "icon": "Factory",
           "color": "emerald"
         },
         {
-          "title": "Retorno al Accionista",
-          "date": "Dividendos Variables",
-          "desc": "Tienen una política de pagar casi todo su flujo de caja libre en dividendos, convirtiéndolos en un activo de alto rendimiento (Yield) para fondos institucionales.",
-          "icon": "Handshake",
+          "title": "Pipeline Los Chancas/Michiquillay",
+          "date": "Visibilidad a 2030+",
+          "desc": "Proyectos greenfield en Perú que aseguran el crecimiento de la producción mucho más allá de la década actual.",
+          "icon": "Layers",
           "color": "purple"
+        },
+        {
+          "title": "Retorno al Accionista",
+          "date": "Dividendos Dinámicos",
+          "desc": "Política de pagar la inmensa mayoría de su flujo de caja libre en dividendos, convirtiéndolos en un activo de alto Yield para fondos institucionales.",
+          "icon": "Handshake",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Julio 2026",
-        "tag": "Perú Update",
-        "title": "Avance en Tía María y Los Chancas",
-        "desc": "Noticias sobre la estabilización social en Perú y el avance físico de la construcción de sus nuevos megaproyectos. Clave para su crecimiento a 2030.",
+        "date": "Agosto 2026",
+        "tag": "Social License",
+        "title": "Actualización Obras Tía María",
+        "desc": "Confirmación del avance sin interrupciones sociales en los trabajos iniciales de movimiento de tierras en Perú.",
         "color": "emerald",
-        "impact": "Ventas"
+        "impact": "Multiplicador"
       },
       {
         "date": "Octubre 2026",
-        "tag": "Earnings",
-        "title": "Anuncio de Dividendo Extraordinario",
-        "desc": "Con el cobre por encima de los $5/lb, el mercado espera anuncios de dividendos masivos que sostengan su alto múltiplo de valoración frente a pares.",
+        "tag": "Integración",
+        "title": "Producción Mina Pilares",
+        "desc": "Se espera que la mina Pilares en México alcance su máxima capacidad, añadiendo 35,000 toneladas de cobre de muy bajo coste a la matriz.",
         "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Segundo Trimestre 2027",
+        "tag": "Permisos México",
+        "title": "Estudio Ambiental El Arco",
+        "desc": "Aprobación esperada del estudio de impacto ambiental para el masivo proyecto El Arco, desbloqueando reservas críticas en Norteamérica.",
+        "color": "purple",
         "impact": "Multiplicador"
+      },
+      {
+        "date": "Finales 2028",
+        "tag": "Crecimiento",
+        "title": "Primera Producción Tía María",
+        "desc": "Inicio comercial de la mina más polémica e importante de Perú, inyectando volumen sustancial en el momento pico de escasez global de cobre.",
+        "color": "amber",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Hacia 2030",
+        "tag": "Long Term",
+        "title": "Puesta en Marcha Los Chancas",
+        "desc": "Inicio proyectado de este depósito de pórfido de cobre/molibdeno (130k tons anuales), cimentando a SCCO como el rey del volumen global.",
+        "color": "blue",
+        "impact": "Ventas"
       }
     ]
   },
@@ -390,45 +514,76 @@
       "focus": "Litio de Salmuera / Fertilizantes"
     },
     "estrategia": {
-      "intro": "SQM (Sociedad Química y Minera de Chile) es el productor de litio con los márgenes más altos del planeta debido a que extrae por evaporación en el desierto de Atacama (costes ínfimos frente a la roca dura). Han estado deprimidos por el miedo a la nacionalización, pero su histórico acuerdo con Codelco (la empresa estatal chilena) les garantiza operar y expandir la producción de litio para baterías hasta el año 2060.",
+      "intro": "SQM (Sociedad Química y Minera de Chile) es el productor de litio con los márgenes más altos del planeta gracias a la evaporación solar en el desierto de Atacama (costes ínfimos frente a la minería de roca). Su histórico acuerdo con Codelco (estatal chilena) ha despejado los miedos de nacionalización, garantizando la expansión de cuotas para abastecer los BESS de la IA hasta 2060.",
       "pilares": [
         {
           "title": "El Acuerdo con Codelco",
-          "date": "Desbloqueo de Valor",
-          "desc": "Asociación público-privada que elimina la incertidumbre de expropiación y permite aumentar la cuota de extracción de litio en casi 300,000 toneladas.",
+          "date": "Certidumbre Jurídica",
+          "desc": "Asociación público-privada que elimina el riesgo de expropiación y permite aumentar agresivamente la cuota de extracción de litio.",
           "icon": "ShieldCheck",
           "color": "blue"
         },
         {
           "title": "Costes de Evaporación",
           "date": "Ventaja Insuperable",
-          "desc": "El sol hace el trabajo de separar el litio en el Salar. Esto permite a SQM ser inmensamente rentable incluso en los valles de precio de la materia prima.",
+          "desc": "El sol realiza el trabajo intensivo en energía de separar el litio en el Salar, permitiendo a SQM ser inmensamente rentable en los valles de precios.",
           "icon": "Zap",
           "color": "emerald"
         },
         {
-          "title": "Expansión en Australia",
-          "date": "Mt Holland",
-          "desc": "Diversificación fuera de Chile a través de su proyecto conjunto (JV) en Australia, añadiendo capacidad de litio de roca dura a su cartera.",
+          "title": "Expansión Mt Holland (Aus)",
+          "date": "Diversificación Geográfica",
+          "desc": "Proyecto conjunto en Australia Occidental, añadiendo capacidad de litio de roca dura (espodumeno) a su cartera predominantemente de salmuera.",
           "icon": "Layers",
           "color": "purple"
+        },
+        {
+          "title": "Tecnología DLE (Salar Futuro)",
+          "date": "Sostenibilidad Hídrica",
+          "desc": "Transición hacia la Extracción Directa de Litio (DLE) para reducir el consumo de agua y mejorar drásticamente los rendimientos de recuperación.",
+          "icon": "Factory",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Mayo 2026",
-        "tag": "Earnings",
-        "title": "Impacto de la JV con Codelco",
-        "desc": "Primeros resultados financieros incorporando la nueva estructura de propiedad y regalías con el Estado chileno. Aclarará los márgenes netos reales a largo plazo.",
+        "date": "1-15 Junio 2026",
+        "tag": "Joint Venture",
+        "title": "Traspaso Operativo a Nueva Sociedad Codelco",
+        "desc": "Hito formal de la integración operativa bajo la nueva estructura corporativa. Elimina definitivamente el 'descuento Chile' de la acción.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Septiembre 2026",
+        "tag": "Refino Australia",
+        "title": "Primeras Entregas Refinería Kwinana",
+        "desc": "Validación de que SQM y Wesfarmers logran procesar el espodumeno de Mt Holland en hidróxido de litio comercial a gran escala.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Primer Trimestre 2027",
+        "tag": "Capacidad China",
+        "title": "Ramp-up Planta Sichuan",
+        "desc": "La planta de conversión en China alcanza una tasa de ejecución de 30,000 toneladas métricas, mejorando el margen al vender producto químico final.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Todo 2028",
+        "tag": "Tecnología",
+        "title": "Implementación Piloto Salar Futuro (DLE)",
+        "desc": "Pruebas comerciales a gran escala de tecnologías DLE, vital para convencer a los activistas medioambientales e inversores ESG.",
         "color": "amber",
         "impact": "Margen"
       },
       {
-        "date": "Agosto 2026",
-        "tag": "Capacidad",
-        "title": "Ramp-up Refinería en China",
-        "desc": "Avances en la conversión de su sulfato de litio a hidróxido de grado batería en sus plantas de China y Australia.",
+        "date": "Hacia 2030",
+        "tag": "Expansión Cuota",
+        "title": "Materialización Cuota Extra Atacama",
+        "desc": "Impacto pleno en P&L de las casi 300,000 toneladas adicionales permitidas bajo el nuevo acuerdo gubernamental.",
         "color": "blue",
         "impact": "Ventas"
       }
@@ -477,47 +632,78 @@
       "focus": "Tierras Raras / Mina Mt Weld (Australia)"
     },
     "estrategia": {
-      "intro": "Junto con MP Materials, Lynas (cotizada en Australia y OTC en EE.UU. como LYSDY) es la barrera de defensa de Occidente en tierras raras. Poseen la mina Mt Weld en Australia, uno de los depósitos de mayor grado del mundo, y operan la única planta masiva de separación avanzada fuera de China (en Malasia). Son vitales para suministrar el NdPr que necesitan los Data Centers en Asia-Pacífico y EE.UU.",
+      "intro": "Junto con MP Materials, Lynas es el muro de contención de Occidente contra el monopolio chino de tierras raras. Poseen la mina Mt Weld en Australia y operan la mayor planta de separación avanzada fuera de China (en Malasia). Su expansión a EE.UU. asegura el flujo de NdPr esencial para los motores de refrigeración líquida y robótica avanzada de los hiperescaladores.",
       "pilares": [
         {
           "title": "Mina Mt Weld",
           "date": "Activo Estratégico",
-          "desc": "Expansión masiva de capacidad en la mina australiana para satisfacer el déficit proyectado de tierras raras magnéticas.",
-          "icon": "Factory",
+          "desc": "Uno de los depósitos de tierras raras de mayor grado del mundo, actualmente en una masiva fase de expansión para duplicar el suministro de concentrado.",
+          "icon": "Layers",
           "color": "blue"
         },
         {
-          "title": "Mitigación Riesgo Malasia",
-          "date": "Planta Kalgoorlie",
-          "desc": "Construcción de una nueva planta de procesamiento en Australia Occidental para evitar las estrictas (y cambiantes) regulaciones medioambientales del gobierno malayo.",
+          "title": "Planta Kalgoorlie",
+          "date": "Mitigación de Riesgo",
+          "desc": "Nueva instalación de procesamiento primario en Australia Occidental para sortear las restrictivas regulaciones de importación de residuos del gobierno malayo.",
           "icon": "ShieldCheck",
           "color": "emerald"
         },
         {
-          "title": "Expansión en Texas",
-          "date": "Socio del Pentágono",
-          "desc": "Construcción de una instalación de separación de tierras raras pesadas y ligeras en EE.UU., respaldada con más de $250M del Departamento de Defensa.",
+          "title": "Separación en Texas (LRE/HRE)",
+          "date": "Seguridad Nacional US",
+          "desc": "Complejo dual en Texas co-financiado por el Pentágono (> $250M) para procesar tierras raras ligeras y pesadas de forma independiente.",
           "icon": "Handshake",
           "color": "purple"
+        },
+        {
+          "title": "El Monopolio Ex-China",
+          "date": "Moat de Escala",
+          "desc": "Son los únicos con el 'know-how' comercial probado durante una década para extraer, separar y refinar sin la cadena de suministro asiática.",
+          "icon": "Factory",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Junio 2026",
+        "date": "10-25 Julio 2026",
         "tag": "Operations",
-        "title": "Rendimiento de Kalgoorlie",
-        "desc": "El mercado evaluará la estabilización de los procesos en la nueva instalación de Kalgoorlie. Cualquier cuello de botella aquí retrasa la cadena de suministro global.",
+        "title": "Kalgoorlie a Nameplate Capacity",
+        "desc": "La planta de craqueo en Australia debe demostrar que opera a su máxima capacidad de diseño sin interrupciones técnicas.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Diciembre 2026",
+        "tag": "Construcción",
+        "title": "Mechanical Completion Texas LRE",
+        "desc": "Hito físico. Finalización de la construcción estructural de la planta de tierras ligeras en Texas, dando paso a la fase de comisionado.",
+        "color": "blue",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Segundo Trimestre 2027",
+        "tag": "Heavy Rare Earths",
+        "title": "Primera Producción Texas HRE",
+        "desc": "Generación de los primeros volúmenes comerciales de Disprosio/Terbio separados en EE.UU., vital para los imanes de alta temperatura.",
+        "color": "purple",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Mediados 2028",
+        "tag": "Expansión de Mina",
+        "title": "Mt Weld 12,000 mtpa NdPr",
+        "desc": "Finalización del proyecto de expansión de la mina australiana para abastecer las nuevas capacidades de refino globales.",
         "color": "amber",
         "impact": "Ventas"
       },
       {
-        "date": "Septiembre 2026",
-        "tag": "Texas Plant",
-        "title": "Hitos de Construcción EE.UU.",
-        "desc": "Actualizaciones sobre el avance físico de la planta de Texas. Su finalización es clave para conectar la materia prima australiana con los fabricantes de EE.UU.",
+        "date": "2029",
+        "tag": "Supply Chain",
+        "title": "Integración Comercial Plena DoD",
+        "desc": "La cadena de suministro desde Australia hasta los fabricantes de armamento y motores de IA de EE.UU. opera fluidamente sin depender de Asia.",
         "color": "blue",
-        "impact": "Multiplicador"
+        "impact": "Margen"
       }
     ]
   },
@@ -564,46 +750,77 @@
       "focus": "Desarrollo de Cobre en las Américas"
     },
     "estrategia": {
-      "intro": "Hudbay Minerals es la jugada especulativa para maximizar la exposición a la subida del cobre. No son un gigante como Freeport, pero tienen minas productivas en Perú (Constancia) y Canadá, además de haber adquirido Copper Mountain. Su verdadero as en la manga es el proyecto Copper World en Arizona: una mina de bajo coste que, si logra sortear los escollos legales, duplicará el valor de la empresa.",
+      "intro": "Hudbay Minerals es la jugada especulativa para maximizar la exposición al déficit del cobre. Poseen minas productivas en Perú (Constancia) y Canadá (Copper Mountain), pero su verdadero as en la manga es el proyecto Copper World en Arizona. Debido a su perfil de deuda, Hudbay tiene un apalancamiento operativo brutal: cada céntimo que sube el cobre global multiplica sus beneficios netos.",
       "pilares": [
         {
-          "title": "Sinergias Copper Mountain",
-          "date": "Operativa",
-          "desc": "Integración exitosa de la mina canadiense adquirida, aumentando su flujo de caja inmediato y su perfil de producción en jurisdicciones seguras.",
-          "icon": "Layers",
+          "title": "El As: Copper World (EE.UU.)",
+          "date": "Desarrollo Crítico",
+          "desc": "Masivo proyecto en Arizona estructurado inteligentemente en tierras estatales/privadas para evitar la paralización de los reguladores federales.",
+          "icon": "Factory",
           "color": "blue"
         },
         {
-          "title": "El As: Copper World (EE.UU.)",
-          "date": "Fase de Permisos",
-          "desc": "Proyecto masivo en Arizona estructurado en tierras privadas para evitar las trabas federales. Tiene el potencial de ser una de las mayores minas de EE.UU.",
-          "icon": "Factory",
+          "title": "Sinergias Copper Mountain",
+          "date": "Integración Canadiense",
+          "desc": "Adquisición que aumentó inmediatamente su flujo de caja y diversificó su perfil de producción hacia jurisdicciones mineras de riesgo nulo.",
+          "icon": "Layers",
           "color": "emerald"
         },
         {
           "title": "Fuerte Apalancamiento",
           "date": "Alta Beta Cobre",
-          "desc": "Debido a su tamaño y deuda, los beneficios de Hudbay crecen de forma desproporcionada por cada céntimo que sube el precio global del cobre.",
+          "desc": "Su estructura de capital actúa como un acelerador: en un superciclo del cobre, su ratio de desapalancamiento (De-leveraging) es el más rápido del sector.",
           "icon": "TrendingUp",
           "color": "purple"
+        },
+        {
+          "title": "Leyes de Pampacancha",
+          "date": "Optimización en Perú",
+          "desc": "Acceso al tajo satélite de alta ley en Perú que impulsa significativamente los márgenes operativos de su complejo sudamericano.",
+          "icon": "Zap",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Mayo 2026",
-        "tag": "De-leveraging",
-        "title": "Reducción de Deuda",
-        "desc": "El catalizador financiero. Demostrar que el alto precio del cobre está destruyendo su deuda neta acercará la acción a una revalorización de múltiplo (re-rating).",
+        "date": "15-30 Junio 2026",
+        "tag": "Permisos",
+        "title": "Permiso de Acuíferos Arizona",
+        "desc": "Se espera la emisión final del Permiso de Protección de Acuíferos (APP) por el Estado de Arizona. Evento binario masivo para la viabilidad de Copper World.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Noviembre 2026",
+        "tag": "Producción Perú",
+        "title": "Pico de Leyes en Pampacancha",
+        "desc": "Los resultados de Q3 reflejarán el pico de extracción de mineral de alta ley en Perú, generando flujos de caja récord para amortizar deuda.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Primer Trimestre 2027",
+        "tag": "Financiación",
+        "title": "FID de Copper World Phase 1",
+        "desc": "Decisión Final de Inversión. Confirmar la estructura de deuda/capital para empezar a construir la mina disipará las dudas del mercado.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Todo 2028",
+        "tag": "Operaciones Canadá",
+        "title": "Copper Mountain a 50k tons",
+        "desc": "Las iniciativas de optimización de la planta logran llevar el rendimiento del activo canadiense a 50,000 toneladas anuales estabilizadas.",
         "color": "amber",
         "impact": "Margen"
       },
       {
-        "date": "Finales 2026",
-        "tag": "Copper World",
-        "title": "Aprobaciones Estatales de Arizona",
-        "desc": "Eventos binarios sobre los permisos de agua y aire. Un fallo positivo del tribunal o del estado desencadenará una fuerte subida del ticker.",
-        "color": "purple",
+        "date": "2029",
+        "tag": "Hito Comercial",
+        "title": "Primera Producción Copper World",
+        "desc": "Hito transformacional. Transición de Hudbay de un productor mid-tier a un proveedor principal de cobre estratégico en Norteamérica.",
+        "color": "blue",
         "impact": "Multiplicador"
       }
     ]
@@ -651,45 +868,76 @@
       "focus": "Desarrollo de Uranio (Athabasca, Canadá)"
     },
     "estrategia": {
-      "intro": "Si la IA va a resucitar la energía nuclear, el mundo necesita uranio a una escala que las minas actuales no pueden suministrar. NexGen no produce un solo gramo todavía, pero son los dueños de 'Arrow' en Saskatchewan (Canadá), el yacimiento no desarrollado de uranio más grande y de mayor ley del mundo. Es la apuesta especulativa definitiva: si construyen la mina, reescribirán la cadena de suministro nuclear occidental.",
+      "intro": "Si la IA va a resucitar la energía nuclear (SMRs y reactores base), el mundo necesita uranio a una escala inédita. NexGen es la apuesta especulativa definitiva: aún no producen, pero son dueños del depósito 'Arrow' en Saskatchewan (Canadá), el yacimiento de uranio no desarrollado de mayor ley y tamaño del mundo. Si logran construir la mina, reescribirán la cadena de suministro occidental.",
       "pilares": [
         {
           "title": "El Depósito Arrow",
-          "date": "Activo Único",
-          "desc": "Ubicado en la Cuenca de Athabasca. Su concentración de uranio es tan alta que producirán materia prima a una fracción del coste de sus rivales africanos o kazajos.",
-          "icon": "Factory",
+          "date": "Activo Único Global",
+          "desc": "Ubicado en la Cuenca de Athabasca. Su concentración de uranio es tan alta que producirán materia prima en el primer cuartil de costes globales.",
+          "icon": "Layers",
           "color": "blue"
         },
         {
           "title": "Permisología Canadiense",
-          "date": "Proceso Federal",
-          "desc": "Han superado las evaluaciones ambientales provinciales y están en la fase final de aprobación federal canadiense, el último gran obstáculo.",
+          "date": "Fase Federal Final",
+          "desc": "Tras años de estudios, han superado las evaluaciones provinciales y están en la antesala de la aprobación federal de la CNSC.",
           "icon": "ShieldCheck",
           "color": "emerald"
         },
         {
-          "title": "Apoyo de Occidente",
-          "date": "Seguridad Energética",
-          "desc": "EE.UU. y Europa necesitan desesperadamente que esta mina entre en funcionamiento para 2028-2030 para dejar de importar uranio de Rusia y Kazajistán.",
+          "title": "Financiación Híbrida",
+          "date": "Estructura de Capital",
+          "desc": "Negociación activa de acuerdos de compra (offtakes) con utilities globales para asegurar deuda que minimice la dilución de acciones.",
           "icon": "Handshake",
           "color": "purple"
+        },
+        {
+          "title": "Seguridad de Occidente",
+          "date": "Geopolítica Crítica",
+          "desc": "EE.UU. y Europa necesitan que esta mina (jurisdicción top) funcione para 2030 para independizarse del suministro de Rusia y Kazajistán.",
+          "icon": "Factory",
+          "color": "amber"
         }
       ]
     },
     "roadmap": [
       {
-        "date": "Julio 2026",
-        "tag": "Permisos",
-        "title": "Aprobación de la CNSC",
-        "desc": "Catalizador de vida o muerte. La decisión final de la Comisión Canadiense de Seguridad Nuclear (CNSC) sobre la licencia de construcción. Si es verde, la acción volará.",
+        "date": "Mediados Julio 2026",
+        "tag": "Regulación",
+        "title": "Aprobación Final de la CNSC",
+        "desc": "Catalizador de vida o muerte. Aprobación final de la Evaluación Ambiental por la Comisión Canadiense de Seguridad Nuclear. Liberará el precio de la acción.",
         "color": "purple",
         "impact": "Multiplicador"
       },
       {
-        "date": "Octubre 2026",
-        "tag": "Financiación",
+        "date": "Noviembre 2026",
+        "tag": "Finanzas",
+        "title": "Anuncio de Financiamiento y Offtakes",
+        "desc": "Confirmación de la estructura bancaria y contratos de venta a largo plazo para levantar los ~$1.5B necesarios para el CAPEX inicial.",
+        "color": "blue",
+        "impact": "Margen"
+      },
+      {
+        "date": "Febrero 2027",
+        "tag": "Desarrollo",
         "title": "Decisión Final de Inversión (FID)",
-        "desc": "Anuncio de la estructura de financiación (deuda + offtakes) para los >$1.5B necesarios para construir la mina, cerrando el ciclo especulativo.",
+        "desc": "La junta directiva autoriza el inicio oficial de las obras principales de movimiento de tierras y construcción del campamento minero.",
+        "color": "emerald",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Todo 2028",
+        "tag": "Ingeniería",
+        "title": "Hundimiento del Pozo Principal",
+        "desc": "Hito técnico masivo. La excavación del pozo (shaft sinking) alcanza el cuerpo principal de mineral subterráneo sin inundaciones.",
+        "color": "amber",
+        "impact": "Margen"
+      },
+      {
+        "date": "Hacia 2030",
+        "tag": "Comercialización",
+        "title": "Primera Producción Comercial de Uranio",
+        "desc": "El proyecto Arrow arranca, apuntando a inyectar ~29 millones de libras de U3O8 al año en el mercado, resolviendo el déficit global.",
         "color": "blue",
         "impact": "Ventas"
       }
