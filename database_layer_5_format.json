@@ -1,589 +1,589 @@
 {
-   "SK_HYNIX":{
-      "name":"SK Hynix",
-      "category":"KINGMAKER",
-      "subtitle":"El Monopolio de Facto en HBM",
-      "priceText":"₩145k → ₩210k",
-      "kpis":[
+   "SK_HYNIX": {
+      "name": "SK Hynix",
+      "category": "KINGMAKER",
+      "subtitle": "El Monopolio de Facto en HBM",
+      "priceText": "₩145k → ₩210k",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$105.0B",
-            "icon":"Landmark",
-            "color":"text-amber-500"
+            "title": "Market Cap",
+            "value": "~$105.0B",
+            "icon": "Landmark",
+            "color": "text-amber-500"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+32.0%",
-            "subtext":"Ticker: 000660.KS",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+32.0%",
+            "subtext": "Ticker: 000660.KS",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"HBM Market Share",
-            "value":"~50%",
-            "subtext":"Dominio NVIDIA",
-            "icon":"Target",
-            "color":"text-emerald-400"
+            "title": "HBM Market Share",
+            "value": "~50%",
+            "subtext": "Dominio NVIDIA",
+            "icon": "Target",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Margen Operativo",
-            "value":"35-38%",
-            "subtext":"Ciclo HBM3E",
-            "icon":"Target",
-            "color":"text-amber-400"
+            "title": "Margen Operativo",
+            "value": "35-38%",
+            "subtext": "Ciclo HBM3E",
+            "icon": "Target",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$105.0B",
-         "pe":"18x",
-         "price":"₩210,000",
-         "ytd":"+32.0%",
-         "yoy":"+68.0%",
-         "focus":"Memoria HBM3E / HBM4"
+      "tableData": {
+         "marketCap": "$105.0B",
+         "pe": "18x",
+         "price": "₩210,000",
+         "ytd": "+32.0%",
+         "yoy": "+68.0%",
+         "focus": "Memoria HBM3E / HBM4"
       },
-      "estrategia":{
-         "intro":"SK Hynix es el socio más crítico de NVIDIA. Fueron los primeros en resolver la ingeniería de apilamiento vertical necesaria para la memoria de banda ancha (HBM). Su ventaja competitiva reside en su proceso MR-MUF, que permite una mejor disipación térmica en los chips de memoria que cualquier competidor, consolidando una cuota de mercado superior al 50% en servidores de IA.",
-         "pilares":[
+      "estrategia": {
+         "intro": "SK Hynix es el socio más crítico de NVIDIA. Fueron los primeros en resolver la ingeniería de apilamiento vertical necesaria para la memoria de banda ancha (HBM). Su ventaja competitiva reside en su proceso MR-MUF, que permite una mejor disipación térmica en los chips de memoria que cualquier competidor, consolidando una cuota de mercado superior al 50% en servidores de IA.",
+         "pilares": [
             {
-               "title":"Liderazgo en HBM3E",
-               "date":"Q1 2026 | Producción",
-               "desc":"Certificación masiva para el chip Blackwell. Son los únicos con capacidad de escala para satisfacer la demanda inmediata de SKUs de 12 y 16 capas.",
-               "icon":"Cpu",
-               "color":"blue"
+               "title": "Liderazgo en HBM3E",
+               "date": "Q1 2026 | Producción",
+               "desc": "Certificación masiva para el chip Blackwell. Son los únicos con capacidad de escala para satisfacer la demanda inmediata de SKUs de 12 y 16 capas.",
+               "icon": "Cpu",
+               "color": "blue"
             },
             {
-               "title":"Proceso MR-MUF",
-               "date":"Tecnología Core",
-               "desc":"Técnica de encapsulado propia que reduce el calor y mejora la integridad de la señal. Es el 'moat' tecnológico frente a Samsung.",
-               "icon":"Layers",
-               "color":"emerald"
+               "title": "Proceso MR-MUF",
+               "date": "Tecnología Core",
+               "desc": "Técnica de encapsulado propia que reduce el calor y mejora la integridad de la señal. Es el 'moat' tecnológico frente a Samsung.",
+               "icon": "Layers",
+               "color": "emerald"
             },
             {
-               "title":"Mega-fábrica Indiana",
-               "date":"Inversión: $3.9B",
-               "desc":"Construcción de la primera planta de empaquetado avanzado en EE.UU. para acercar la producción a sus clientes finales hiperescaladores.",
-               "icon":"Factory",
-               "color":"purple"
+               "title": "Mega-fábrica Indiana",
+               "date": "Inversión: $3.9B",
+               "desc": "Construcción de la primera planta de empaquetado avanzado en EE.UU. para acercar la producción a sus clientes finales hiperescaladores.",
+               "icon": "Factory",
+               "color": "purple"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Mayo 2026",
-            "tag":"Earnings",
-            "title":"Beat en Margen de HBM",
-            "desc":"El mercado espera ver si la transición a HBM3E de 12 capas dispara los márgenes por encima de las previsiones de los analistas.",
-            "color":"blue",
-            "impact":"Margen"
+            "date": "Mayo 2026",
+            "tag": "Earnings",
+            "title": "Beat en Margen de HBM",
+            "desc": "El mercado espera ver si la transición a HBM3E de 12 capas dispara los márgenes por encima de las previsiones de los analistas.",
+            "color": "blue",
+            "impact": "Margen"
          },
          {
-            "date":"Septiembre 2026",
-            "tag":"Tech Update",
-            "title":"Muestras de HBM4",
-            "desc":"Primeros prototipos de memoria de próxima generación con controladoras integradas directamente en el sustrato del chip.",
-            "color":"purple",
-            "impact":"Multiplicador"
+            "date": "Septiembre 2026",
+            "tag": "Tech Update",
+            "title": "Muestras de HBM4",
+            "desc": "Primeros prototipos de memoria de próxima generación con controladoras integradas directamente en el sustrato del chip.",
+            "color": "purple",
+            "impact": "Multiplicador"
          }
       ]
    },
-   "MU":{
-      "name":"Micron Technology",
-      "category":"KINGMAKER",
-      "subtitle":"La Alternativa de Eficiencia Energética",
-      "priceText":"$95.00 → $132.00",
-      "kpis":[
+   "MU": {
+      "name": "Micron Technology",
+      "category": "KINGMAKER",
+      "subtitle": "La Alternativa de Eficiencia Energética",
+      "priceText": "$95.00 → $132.00",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$145.0B",
-            "icon":"Landmark",
-            "color":"text-amber-500"
+            "title": "Market Cap",
+            "value": "~$145.0B",
+            "icon": "Landmark",
+            "color": "text-amber-500"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+28.5%",
-            "subtext":"Precio: $132.00",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+28.5%",
+            "subtext": "Precio: $132.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Eficiencia HBM3E",
-            "value":"+30%",
-            "subtext":"vs Competencia",
-            "icon":"Zap",
-            "color":"text-emerald-400"
+            "title": "Eficiencia HBM3E",
+            "value": "+30%",
+            "subtext": "vs Competencia",
+            "icon": "Zap",
+            "color": "text-emerald-400"
          },
          {
-            "title":"CHIPS Act Funding",
-            "value":"$6.1B",
-            "icon":"Landmark",
-            "color":"text-amber-400"
+            "title": "CHIPS Act Funding",
+            "value": "$6.1B",
+            "icon": "Landmark",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$145.0B",
-         "pe":"22x",
-         "price":"$132.00",
-         "ytd":"+28.5%",
-         "yoy":"+55.0%",
-         "focus":"HBM / Memoria DDR5"
+      "tableData": {
+         "marketCap": "$145.0B",
+         "pe": "22x",
+         "price": "$132.00",
+         "ytd": "+28.5%",
+         "yoy": "+55.0%",
+         "focus": "HBM / Memoria DDR5"
       },
-      "estrategia":{
-         "intro":"Micron ha ejecutado el 'sorpasso' tecnológico de la década. Tras ir por detrás de los coreanos, su arquitectura HBM3E de 8 capas consume un 30% menos de energía que la de SK Hynix. En un mundo de Data Centers limitados por la red eléctrica, la eficiencia energética de Micron los ha convertido en el 'Second Source' preferido de NVIDIA.",
-         "pilares":[
+      "estrategia": {
+         "intro": "Micron ha ejecutado el 'sorpasso' tecnológico de la década. Tras ir por detrás de los coreanos, su arquitectura HBM3E de 8 capas consume un 30% menos de energía que la de SK Hynix. En un mundo de Data Centers limitados por la red eléctrica, la eficiencia energética de Micron los ha convertido en el 'Second Source' preferido de NVIDIA.",
+         "pilares": [
             {
-               "title":"Eficiencia Energética",
-               "date":"Ventaja Competitiva",
-               "desc":"Su diseño 1-beta DRAM permite mayor densidad de datos con menor consumo de vatios, crítico para la arquitectura Blackwell.",
-               "icon":"Zap",
-               "color":"blue"
+               "title": "Eficiencia Energética",
+               "date": "Ventaja Competitiva",
+               "desc": "Su diseño 1-beta DRAM permite mayor densidad de datos con menor consumo de vatios, crítico para la arquitectura Blackwell.",
+               "icon": "Zap",
+               "color": "blue"
             },
             {
-               "title":"Expansión en Idaho/NY",
-               "date":"CapEx: $100B+ (10yr)",
-               "desc":"Construcción de las mayores fábricas de memoria en suelo estadounidense con apoyo federal, garantizando soberanía tecnológica.",
-               "icon":"Factory",
-               "color":"emerald"
+               "title": "Expansión en Idaho/NY",
+               "date": "CapEx: $100B+ (10yr)",
+               "desc": "Construcción de las mayores fábricas de memoria en suelo estadounidense con apoyo federal, garantizando soberanía tecnológica.",
+               "icon": "Factory",
+               "color": "emerald"
             },
             {
-               "title":"DDR5 y LPDDR5X",
-               "date":"IA en el Edge",
-               "desc":"Liderazgo en memorias de bajo consumo para PCs y Smartphones con IA integrada, diversificando los ingresos más allá del Data Center.",
-               "icon":"Smartphone",
-               "color":"purple"
+               "title": "DDR5 y LPDDR5X",
+               "date": "IA en el Edge",
+               "desc": "Liderazgo en memorias de bajo consumo para PCs y Smartphones con IA integrada, diversificando los ingresos más allá del Data Center.",
+               "icon": "Smartphone",
+               "color": "purple"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Junio 2026",
-            "tag":"Earnings",
-            "title":"Sell-out Total de 2026",
-            "desc":"Confirmación de que toda la capacidad de producción de HBM para 2026 está ya vendida y con prepagos de clientes.",
-            "color":"blue",
-            "impact":"Ventas"
+            "date": "Junio 2026",
+            "tag": "Earnings",
+            "title": "Sell-out Total de 2026",
+            "desc": "Confirmación de que toda la capacidad de producción de HBM para 2026 está ya vendida y con prepagos de clientes.",
+            "color": "blue",
+            "impact": "Ventas"
          }
       ]
    },
-   "LRCX":{
-      "name":"Lam Research",
-      "category":"CHALLENGER",
-      "subtitle":"El Arquitecto de los Agujeros TSV",
-      "priceText":"$850.00 → $1,050.00",
-      "kpis":[
+   "LRCX": {
+      "name": "Lam Research",
+      "category": "CHALLENGER",
+      "subtitle": "El Arquitecto de los Agujeros TSV",
+      "priceText": "$850.00 → $1,050.00",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$138.0B",
-            "icon":"Landmark",
-            "color":"text-blue-400"
+            "title": "Market Cap",
+            "value": "~$138.0B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+18.0%",
-            "subtext":"Precio: $1,050.00",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+18.0%",
+            "subtext": "Precio: $1,050.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Market Share TSV",
-            "value":">70%",
-            "subtext":"Etch & Deposition",
-            "icon":"Target",
-            "color":"text-emerald-400"
+            "title": "Market Share TSV",
+            "value": ">70%",
+            "subtext": "Etch & Deposition",
+            "icon": "Target",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Margen Operativo",
-            "value":"~29%",
-            "subtext":"High Efficiency",
-            "icon":"Target",
-            "color":"text-amber-400"
+            "title": "Margen Operativo",
+            "value": "~29%",
+            "subtext": "High Efficiency",
+            "icon": "Target",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$138.0B",
-         "pe":"28x",
-         "price":"$1,050.00",
-         "ytd":"+18.0%",
-         "yoy":"+45.0%",
-         "focus":"Máquinas de Grabado / TSV"
+      "tableData": {
+         "marketCap": "$138.0B",
+         "pe": "28x",
+         "price": "$1,050.00",
+         "ytd": "+18.0%",
+         "yoy": "+45.0%",
+         "focus": "Máquinas de Grabado / TSV"
       },
-      "estrategia":{
-         "intro":"Sin Lam Research, la memoria HBM es físicamente imposible de fabricar. Ellos proveen las máquinas que realizan el 'grabado' (etching) de los Through-Silicon Vias (TSV): millones de túneles microscópicos que atraviesan las capas de silicio para conectarlas verticalmente. A medida que el HBM pasa de 8 a 12 y 16 capas, la complejidad de estos túneles crece exponencialmente.",
-         "pilares":[
+      "estrategia": {
+         "intro": "Sin Lam Research, la memoria HBM es físicamente imposible de fabricar. Ellos proveen las máquinas que realizan el 'grabado' (etching) de los Through-Silicon Vias (TSV): millones de túneles microscópicos que atraviesan las capas de silicio para conectarlas verticalmente. A medida que el HBM pasa de 8 a 12 y 16 capas, la complejidad de estos túneles crece exponencialmente.",
+         "pilares": [
             {
-               "title":"Monopolio TSV",
-               "date":"Tecnología Core",
-               "desc":"Liderazgo absoluto en el grabado de alta relación de aspecto necesario para apilar chips de memoria sin fallos.",
-               "icon":"Settings",
-               "color":"blue"
+               "title": "Monopolio TSV",
+               "date": "Tecnología Core",
+               "desc": "Liderazgo absoluto en el grabado de alta relación de aspecto necesario para apilar chips de memoria sin fallos.",
+               "icon": "Settings",
+               "color": "blue"
             },
             {
-               "title":"Advanced Packaging",
-               "date":"Crecimiento 2.5D/3D",
-               "desc":"Sus máquinas son indispensables para el proceso CoWoS de TSMC, expandiendo su mercado más allá del silicio tradicional.",
-               "icon":"Layers",
-               "color":"emerald"
+               "title": "Advanced Packaging",
+               "date": "Crecimiento 2.5D/3D",
+               "desc": "Sus máquinas son indispensables para el proceso CoWoS de TSMC, expandiendo su mercado más allá del silicio tradicional.",
+               "icon": "Layers",
+               "color": "emerald"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Julio 2026",
-            "tag":"Product Launch",
-            "title":"Nueva Gen de Grabado Criogénico",
-            "desc":"Lanzamiento de máquinas que graban el silicio a temperaturas extremas para aumentar la precisión en memorias de >200 capas.",
-            "color":"purple",
-            "impact":"Margen"
+            "date": "Julio 2026",
+            "tag": "Product Launch",
+            "title": "Nueva Gen de Grabado Criogénico",
+            "desc": "Lanzamiento de máquinas que graban el silicio a temperaturas extremas para aumentar la precisión en memorias de >200 capas.",
+            "color": "purple",
+            "impact": "Margen"
          }
       ]
    },
-   "AMKR":{
-      "name":"Amkor Technology",
-      "category":"CHALLENGER",
-      "subtitle":"La Válvula de Escape del Empaquetado",
-      "priceText":"$30.00 → $42.50",
-      "kpis":[
+   "AMKR": {
+      "name": "Amkor Technology",
+      "category": "CHALLENGER",
+      "subtitle": "La Válvula de Escape del Empaquetado",
+      "priceText": "$30.00 → $42.50",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$10.5B",
-            "icon":"Landmark",
-            "color":"text-blue-400"
+            "title": "Market Cap",
+            "value": "~$10.5B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+25.4%",
-            "subtext":"Precio: $42.50",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+25.4%",
+            "subtext": "Precio: $42.50",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"OSAT Ranking",
-            "value":"#2 Global",
-            "subtext":"Líder US OSAT",
-            "icon":"Target",
-            "color":"text-emerald-400"
+            "title": "OSAT Ranking",
+            "value": "#2 Global",
+            "subtext": "Líder US OSAT",
+            "icon": "Target",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Revenue DC/AI",
-            "value":"Crec. +40%",
-            "icon":"Briefcase",
-            "color":"text-amber-400"
+            "title": "Revenue DC/AI",
+            "value": "Crec. +40%",
+            "icon": "Briefcase",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$10.5B",
-         "pe":"16x",
-         "price":"$42.50",
-         "ytd":"+25.4%",
-         "yoy":"+52.0%",
-         "focus":"Ensamblaje OSAT / 2.5D Packaging"
+      "tableData": {
+         "marketCap": "$10.5B",
+         "pe": "16x",
+         "price": "$42.50",
+         "ytd": "+25.4%",
+         "yoy": "+52.0%",
+         "focus": "Ensamblaje OSAT / 2.5D Packaging"
       },
-      "estrategia":{
-         "intro":"Amkor es el mayor proveedor de servicios de empaquetado (OSAT) fuera de China/Taiwán. Su oportunidad reside en que TSMC no tiene capacidad suficiente para todo el empaquetado CoWoS del mundo. Amkor ha invertido masivamente en su planta de Arizona para ofrecer empaquetado avanzado 2.5D a NVIDIA y Apple en suelo americano.",
-         "pilares":[
+      "estrategia": {
+         "intro": "Amkor es el mayor proveedor de servicios de empaquetado (OSAT) fuera de China/Taiwán. Su oportunidad reside en que TSMC no tiene capacidad suficiente para todo el empaquetado CoWoS del mundo. Amkor ha invertido masivamente en su planta de Arizona para ofrecer empaquetado avanzado 2.5D a NVIDIA y Apple en suelo americano.",
+         "pilares": [
             {
-               "title":"Socio de TSMC/Apple",
-               "date":"Alianza Estratégica",
-               "desc":"Actúan como la extensión de capacidad para el empaquetado de chips de alto rendimiento cuando las fundiciones están saturadas.",
-               "icon":"Handshake",
-               "color":"blue"
+               "title": "Socio de TSMC/Apple",
+               "date": "Alianza Estratégica",
+               "desc": "Actúan como la extensión de capacidad para el empaquetado de chips de alto rendimiento cuando las fundiciones están saturadas.",
+               "icon": "Handshake",
+               "color": "blue"
             },
             {
-               "title":"Planta de Arizona",
-               "date":"Operativa 2026",
-               "desc":"Inversión de $2B para crear el ecosistema de empaquetado más avanzado de EE.UU. junto a las nuevas plantas de TSMC.",
-               "icon":"Factory",
-               "color":"emerald"
+               "title": "Planta de Arizona",
+               "date": "Operativa 2026",
+               "desc": "Inversión de $2B para crear el ecosistema de empaquetado más avanzado de EE.UU. junto a las nuevas plantas de TSMC.",
+               "icon": "Factory",
+               "color": "emerald"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Agosto 2026",
-            "tag":"Q2 Earnings",
-            "title":"Volumen de HBM3E",
-            "desc":"Primer reporte financiero que incluirá el impacto de las nuevas líneas de ensamblaje dedicadas exclusivamente a módulos de memoria IA.",
-            "color":"emerald",
-            "impact":"Ventas"
+            "date": "Agosto 2026",
+            "tag": "Q2 Earnings",
+            "title": "Volumen de HBM3E",
+            "desc": "Primer reporte financiero que incluirá el impacto de las nuevas líneas de ensamblaje dedicadas exclusivamente a módulos de memoria IA.",
+            "color": "emerald",
+            "impact": "Ventas"
          }
       ]
    },
-   "WDC":{
-      "name":"Western Digital",
-      "category":"CHALLENGER",
-      "subtitle":"El Gigante del Almacenamiento Masivo",
-      "priceText":"$65.00 → $88.00",
-      "kpis":[
+   "WDC": {
+      "name": "Western Digital",
+      "category": "CHALLENGER",
+      "subtitle": "El Gigante del Almacenamiento Masivo",
+      "priceText": "$65.00 → $88.00",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$28.5B",
-            "icon":"Landmark",
-            "color":"text-blue-400"
+            "title": "Market Cap",
+            "value": "~$28.5B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+15.0%",
-            "subtext":"Precio: $88.00",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+15.0%",
+            "subtext": "Precio: $88.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Nand Revenue",
-            "value":"+45% YoY",
-            "icon":"Briefcase",
-            "color":"text-emerald-400"
+            "title": "Nand Revenue",
+            "value": "+45% YoY",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Separación de Negocio",
-            "value":"Finalizada",
-            "icon":"RefreshCcw",
-            "color":"text-amber-400"
+            "title": "Separación de Negocio",
+            "value": "Finalizada",
+            "icon": "RefreshCcw",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$28.5B",
-         "pe":"14x",
-         "price":"$88.00",
-         "ytd":"+15.0%",
-         "yoy":"+35.0%",
-         "focus":"SSD Enterprise / NAND Flash"
+      "tableData": {
+         "marketCap": "$28.5B",
+         "pe": "14x",
+         "price": "$88.00",
+         "ytd": "+15.0%",
+         "yoy": "+35.0%",
+         "focus": "SSD Enterprise / NAND Flash"
       },
-      "estrategia":{
-         "intro":"Western Digital ha completado su transformación tras separar sus negocios de HDD y NAND. En la era de la IA, su división de memoria Flash está viendo una demanda sin precedentes para SSDs de grado empresarial, necesarios para almacenar los terabytes de datos que alimentan el entrenamiento de los LLM.",
-         "pilares":[
+      "estrategia": {
+         "intro": "Western Digital ha completado su transformación tras separar sus negocios de HDD y NAND. En la era de la IA, su división de memoria Flash está viendo una demanda sin precedentes para SSDs de grado empresarial, necesarios para almacenar los terabytes de datos que alimentan el entrenamiento de los LLM.",
+         "pilares": [
             {
-               "title":"SSD de Alta Capacidad",
-               "date":"Liderazgo: 64TB+",
-               "desc":"Sistemas de almacenamiento masivo optimizados para lectura rápida, fundamentales para clústeres de servidores de IA.",
-               "icon":"Server",
-               "color":"blue"
+               "title": "SSD de Alta Capacidad",
+               "date": "Liderazgo: 64TB+",
+               "desc": "Sistemas de almacenamiento masivo optimizados para lectura rápida, fundamentales para clústeres de servidores de IA.",
+               "icon": "Server",
+               "color": "blue"
             },
             {
-               "title":"Joint Venture Kioxia",
-               "date":"Escala Global",
-               "desc":"Su alianza de fabricación con Kioxia les permite mantener costes competitivos y liderar la transición a memorias NAND de >300 capas.",
-               "icon":"Handshake",
-               "color":"emerald"
+               "title": "Joint Venture Kioxia",
+               "date": "Escala Global",
+               "desc": "Su alianza de fabricación con Kioxia les permite mantener costes competitivos y liderar la transición a memorias NAND de >300 capas.",
+               "icon": "Handshake",
+               "color": "emerald"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Mayo 2026",
-            "tag":"Update",
-            "title":"Independencia de la división Flash",
-            "desc":"Primer trimestre operando como Pure Play de memoria Flash tras la escisión total del negocio de discos mecánicos.",
-            "color":"blue",
-            "impact":"Multiplicador"
+            "date": "Mayo 2026",
+            "tag": "Update",
+            "title": "Independencia de la división Flash",
+            "desc": "Primer trimestre operando como Pure Play de memoria Flash tras la escisión total del negocio de discos mecánicos.",
+            "color": "blue",
+            "impact": "Multiplicador"
          }
       ]
    },
-   "PSTG":{
-      "name":"Pure Storage",
-      "category":"SPECULATIVE",
-      "subtitle":"El Fin de los Discos Mecánicos",
-      "priceText":"$52.00 → $75.00",
-      "kpis":[
+   "PSTG": {
+      "name": "Pure Storage",
+      "category": "SPECULATIVE",
+      "subtitle": "El Fin de los Discos Mecánicos",
+      "priceText": "$52.00 → $75.00",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$22.5B",
-            "icon":"Landmark",
-            "color":"text-purple-400"
+            "title": "Market Cap",
+            "value": "~$22.5B",
+            "icon": "Landmark",
+            "color": "text-purple-400"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+44.0%",
-            "subtext":"Precio: $75.00",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+44.0%",
+            "subtext": "Precio: $75.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"DirectFlash Tech",
-            "value":"Propia / No SSD",
-            "icon":"Cpu",
-            "color":"text-emerald-400"
+            "title": "DirectFlash Tech",
+            "value": "Propia / No SSD",
+            "icon": "Cpu",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Subscription ARR",
-            "value":"+25% YoY",
-            "icon":"RefreshCcw",
-            "color":"text-amber-400"
+            "title": "Subscription ARR",
+            "value": "+25% YoY",
+            "icon": "RefreshCcw",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$22.5B",
-         "pe":"35x",
-         "price":"$75.00",
-         "ytd":"+44.0%",
-         "yoy":"+55.0%",
-         "focus":"Almacenamiento All-Flash para RAG"
+      "tableData": {
+         "marketCap": "$22.5B",
+         "pe": "35x",
+         "price": "$75.00",
+         "ytd": "+44.0%",
+         "yoy": "+55.0%",
+         "focus": "Almacenamiento All-Flash para RAG"
       },
-      "estrategia":{
-         "intro":"La tesis de Pure Storage es radical: en 2028 no se venderán más discos duros (HDD) en centros de datos. Su tecnología DirectFlash permite que el software hable directamente con la memoria Flash, eliminando la latencia de los SSDs tradicionales. Esto es crítico para 'RAG' (Retrieval Augmented Generation), donde la IA debe buscar datos corporativos en milisegundos.",
-         "pilares":[
+      "estrategia": {
+         "intro": "La tesis de Pure Storage es radical: en 2028 no se venderán más discos duros (HDD) en centros de datos. Su tecnología DirectFlash permite que el software hable directamente con la memoria Flash, eliminando la latencia de los SSDs tradicionales. Esto es crítico para 'RAG' (Retrieval Augmented Generation), donde la IA debe buscar datos corporativos en milisegundos.",
+         "pilares": [
             {
-               "title":"DirectFlash Modules",
-               "date":"Moat de Hardware",
-               "desc":"A diferencia de la competencia que compra SSDs estándar, Pure diseña su propia arquitectura de memoria, logrando densidades de datos 3x superiores.",
-               "icon":"Zap",
-               "color":"blue"
+               "title": "DirectFlash Modules",
+               "date": "Moat de Hardware",
+               "desc": "A diferencia de la competencia que compra SSDs estándar, Pure diseña su propia arquitectura de memoria, logrando densidades de datos 3x superiores.",
+               "icon": "Zap",
+               "color": "blue"
             },
             {
-               "title":"Pure1 AI Management",
-               "date":"Software-as-a-Service",
-               "desc":"Gestión predictiva de fallos basada en IA, garantizando que los datos estén siempre disponibles para el entrenamiento de modelos.",
-               "icon":"Code",
-               "color":"emerald"
+               "title": "Pure1 AI Management",
+               "date": "Software-as-a-Service",
+               "desc": "Gestión predictiva de fallos basada en IA, garantizando que los datos estén siempre disponibles para el entrenamiento de modelos.",
+               "icon": "Code",
+               "color": "emerald"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Junio 2026",
-            "tag":"Earnings",
-            "title":"Adopción por Hiperescalador",
-            "desc":"Se rumorea un contrato masivo con un proveedor de Cloud Tier-1 para sustituir sus granjas de HDD por módulos Flash de alta capacidad.",
-            "color":"purple",
-            "impact":"Ventas"
+            "date": "Junio 2026",
+            "tag": "Earnings",
+            "title": "Adopción por Hiperescalador",
+            "desc": "Se rumorea un contrato masivo con un proveedor de Cloud Tier-1 para sustituir sus granjas de HDD por módulos Flash de alta capacidad.",
+            "color": "purple",
+            "impact": "Ventas"
          }
       ]
    },
-   "FORM":{
-      "name":"FormFactor",
-      "category":"SPECULATIVE",
-      "subtitle":"El Inspector de Calidad del HBM",
-      "priceText":"$45.00 → $62.00",
-      "kpis":[
+   "FORM": {
+      "name": "FormFactor",
+      "category": "SPECULATIVE",
+      "subtitle": "El Inspector de Calidad del HBM",
+      "priceText": "$45.00 → $62.00",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$4.8B",
-            "icon":"Landmark",
-            "color":"text-purple-400"
+            "title": "Market Cap",
+            "value": "~$4.8B",
+            "icon": "Landmark",
+            "color": "text-purple-400"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+37.7%",
-            "subtext":"Precio: $62.00",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+37.7%",
+            "subtext": "Precio: $62.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Probe Card Lead",
-            "value":"#1 Global",
-            "icon":"Target",
-            "color":"text-emerald-400"
+            "title": "Probe Card Lead",
+            "value": "#1 Global",
+            "icon": "Target",
+            "color": "text-emerald-400"
          },
          {
-            "title":"DRAM Revenue",
-            "value":"+55% YoY",
-            "icon":"Briefcase",
-            "color":"text-amber-400"
+            "title": "DRAM Revenue",
+            "value": "+55% YoY",
+            "icon": "Briefcase",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$4.8B",
-         "pe":"32x",
-         "price":"$62.00",
-         "ytd":"+37.7%",
-         "yoy":"+48.0%",
-         "focus":"Tarjetas de Prueba (Probe Cards)"
+      "tableData": {
+         "marketCap": "$4.8B",
+         "pe": "32x",
+         "price": "$62.00",
+         "ytd": "+37.7%",
+         "yoy": "+48.0%",
+         "focus": "Tarjetas de Prueba (Probe Cards)"
       },
-      "estrategia":{
-         "intro":"FormFactor fabrica las 'Probe Cards': interfaces de altísima precisión que tocan físicamente los chips de silicio para probarlos antes de que sean cortados de la oblea. En el HBM, si pegas un chip defectuoso en una pila de 12 capas, arruinas todo el producto. FormFactor es el guardián de los rendimientos (yields) de SK Hynix y Micron.",
-         "pilares":[
+      "estrategia": {
+         "intro": "FormFactor fabrica las 'Probe Cards': interfaces de altísima precisión que tocan físicamente los chips de silicio para probarlos antes de que sean cortados de la oblea. En el HBM, si pegas un chip defectuoso en una pila de 12 capas, arruinas todo el producto. FormFactor es el guardián de los rendimientos (yields) de SK Hynix y Micron.",
+         "pilares": [
             {
-               "title":"Prueba de Memoria Avanzada",
-               "date":"Nicho Crítico",
-               "desc":"Su tecnología de contacto MEMS es la única capaz de probar los densos puntos de contacto de los chips HBM3E a altas velocidades.",
-               "icon":"Cpu",
-               "color":"blue"
+               "title": "Prueba de Memoria Avanzada",
+               "date": "Nicho Crítico",
+               "desc": "Su tecnología de contacto MEMS es la única capaz de probar los densos puntos de contacto de los chips HBM3E a altas velocidades.",
+               "icon": "Cpu",
+               "color": "blue"
             },
             {
-               "title":"Crecimiento del Yield",
-               "date":"Moat Económico",
-               "desc":"A medida que el HBM4 sea más complejo, el valor de las pruebas de FormFactor por cada oblea fabricada aumenta.",
-               "icon":"TrendingUp",
-               "color":"emerald"
+               "title": "Crecimiento del Yield",
+               "date": "Moat Económico",
+               "desc": "A medida que el HBM4 sea más complejo, el valor de las pruebas de FormFactor por cada oblea fabricada aumenta.",
+               "icon": "TrendingUp",
+               "color": "emerald"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Agosto 2026",
-            "tag":"Earnings",
-            "title":"Ramp-up de Foundry/Logic",
-            "desc":"Expansión de sus servicios de prueba más allá de la memoria hacia los chips lógicos de IA (Custom ASICs).",
-            "color":"blue",
-            "impact":"Ventas"
+            "date": "Agosto 2026",
+            "tag": "Earnings",
+            "title": "Ramp-up de Foundry/Logic",
+            "desc": "Expansión de sus servicios de prueba más allá de la memoria hacia los chips lógicos de IA (Custom ASICs).",
+            "color": "blue",
+            "impact": "Ventas"
          }
       ]
    },
-   "CAMT":{
-      "name":"Camtek",
-      "category":"SPECULATIVE",
-      "subtitle":"Visión Láser para el CoWoS",
-      "priceText":"$80.00 → $115.00",
-      "kpis":[
+   "CAMT": {
+      "name": "Camtek",
+      "category": "SPECULATIVE",
+      "subtitle": "Visión Láser para el CoWoS",
+      "priceText": "$80.00 → $115.00",
+      "kpis": [
          {
-            "title":"Market Cap",
-            "value":"~$5.2B",
-            "icon":"Landmark",
-            "color":"text-purple-400"
+            "title": "Market Cap",
+            "value": "~$5.2B",
+            "icon": "Landmark",
+            "color": "text-purple-400"
          },
          {
-            "title":"YTD (Ene-Abr 2026)",
-            "value":"+43.5%",
-            "subtext":"Precio: $115.00",
-            "icon":"TrendingUp",
-            "color":"text-emerald-400"
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+43.5%",
+            "subtext": "Precio: $115.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Order Backlog",
-            "value":"Récord 2026",
-            "icon":"Briefcase",
-            "color":"text-emerald-400"
+            "title": "Order Backlog",
+            "value": "Récord 2026",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
          },
          {
-            "title":"Margen Neto",
-            "value":"~25%",
-            "icon":"Target",
-            "color":"text-amber-400"
+            "title": "Margen Neto",
+            "value": "~25%",
+            "icon": "Target",
+            "color": "text-amber-400"
          }
       ],
-      "tableData":{
-         "marketCap":"$5.2B",
-         "pe":"38x",
-         "price":"$115.00",
-         "ytd":"+43.5%",
-         "yoy":"+90.0%",
-         "focus":"Inspección Óptica 3D"
+      "tableData": {
+         "marketCap": "$5.2B",
+         "pe": "38x",
+         "price": "$115.00",
+         "ytd": "+43.5%",
+         "yoy": "+90.0%",
+         "focus": "Inspección Óptica 3D"
       },
-      "estrategia":{
-         "intro":"Camtek provee los equipos de inspección óptica automática (AOI) que utilizan los fabricantes de HBM y CoWoS. Sus máquinas escanean en 3D cada capa de chips apilados buscando grietas o impurezas microscópicas. Cuantas más capas se añaden al HBM (de 8 a 16), se necesitan exponencialmente más pasos de inspección de Camtek.",
-         "pilares":[
+      "estrategia": {
+         "intro": "Camtek provee los equipos de inspección óptica automática (AOI) que utilizan los fabricantes de HBM y CoWoS. Sus máquinas escanean en 3D cada capa de chips apilados buscando grietas o impurezas microscópicas. Cuantas más capas se añaden al HBM (de 8 a 16), se necesitan exponencialmente más pasos de inspección de Camtek.",
+         "pilares": [
             {
-               "title":"Inspección 3D de CoWoS",
-               "date":"Crecimiento IA",
-               "desc":"Liderazgo en la detección de defectos en los 'bumps' (puntos de soldadura microscópicos) que unen la GPU con la memoria.",
-               "icon":"Zap",
-               "color":"blue"
+               "title": "Inspección 3D de CoWoS",
+               "date": "Crecimiento IA",
+               "desc": "Liderazgo en la detección de defectos en los 'bumps' (puntos de soldadura microscópicos) que unen la GPU con la memoria.",
+               "icon": "Zap",
+               "color": "blue"
             },
             {
-               "title":"Escalabilidad de Software",
-               "date":"Algoritmos Propios",
-               "desc":"Su software de reconocimiento de imágenes acelera el proceso de inspección, reduciendo el tiempo de fabricación para las fundiciones.",
-               "icon":"Code",
-               "color":"emerald"
+               "title": "Escalabilidad de Software",
+               "date": "Algoritmos Propios",
+               "desc": "Su software de reconocimiento de imágenes acelera el proceso de inspección, reduciendo el tiempo de fabricación para las fundiciones.",
+               "icon": "Code",
+               "color": "emerald"
             }
          ]
       },
-      "roadmap":[
+      "roadmap": [
          {
-            "date":"Julio 2026",
-            "tag":"Investor Day",
-            "title":"Expansión de Capacidad",
-            "desc":"Inauguración de nuevas líneas de producción en Israel y Alemania para duplicar el output de sus máquinas de inspección de gama alta.",
-            "color":"purple",
-            "impact":"Multiplicador"
+            "date": "Julio 2026",
+            "tag": "Investor Day",
+            "title": "Expansión de Capacidad",
+            "desc": "Inauguración de nuevas líneas de producción en Israel y Alemania para duplicar el output de sus máquinas de inspección de gama alta.",
+            "color": "purple",
+            "impact": "Multiplicador"
          }
       ]
    }
