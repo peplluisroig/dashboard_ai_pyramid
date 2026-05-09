@@ -1,1 +1,202 @@
-
+{
+    "FCX": {
+      "name": "Freeport-McMoRan",
+      "category": "KINGMAKER",
+      "subtitle": "El Rey del Cobre Global",
+      "priceText": "$45.00 → $60.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$85.0B", "icon": "Landmark", "color": "text-amber-500" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+33.3%", "subtext": "Precio: $60.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Producción Cobre", "value": "4.2B lbs", "subtext": "Target Anual", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Margen EBITDA", "value": "~42%", "subtext": "Fuerte Apalancamiento", "icon": "Briefcase", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$85.0B", "pe": "18x", "price": "$60.00", "ytd": "+33.3%", "yoy": "+45.0%", "focus": "Minería de Cobre (Grasberg/EE.UU.)" },
+      "estrategia": {
+        "intro": "El cobre es el nuevo petróleo. Un Data Center de IA requiere hasta 3 veces más cobre que uno tradicional debido a los transformadores de alta densidad, barras colectoras (busbars) para racks líquidos y cableado grueso. Freeport es el mayor productor de cobre cotizado del mundo, con operaciones clave en EE.UU. (Bagdad, Morenci) e Indonesia (Grasberg), posicionándose como el grifo principal de este déficit estructural.",
+        "pilares": [
+          { "title": "Grasberg Subterránea", "date": "Activo Core", "desc": "La mina de cobre y oro más grande del mundo en Indonesia. Produce a costes increíblemente bajos gracias a los subproductos de oro que subsidian la extracción.", "icon": "Factory", "color": "blue" },
+          { "title": "Expansión en EE.UU.", "date": "Soberanía de Materiales", "desc": "Inversiones en la mina Bagdad en Arizona para asegurar suministro nacional a los fabricantes de transformadores como Eaton y GE Vernova.", "icon": "ShieldCheck", "color": "emerald" },
+          { "title": "Tecnología de Lixiviación", "date": "Innovación", "desc": "Uso de nuevas tecnologías para extraer cobre adicional de las pilas de desechos históricos, añadiendo millones de libras de producción sin nuevo CAPEX masivo.", "icon": "Zap", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Mayo 2026", "tag": "Permisos", "title": "Licencias de Exportación Indonesia", "desc": "Resolución de las negociaciones con el gobierno indonesio sobre la extensión de licencias de exportación y aranceles, un riesgo político clave.", "color": "amber", "impact": "Ventas" },
+        { "date": "Agosto 2026", "tag": "Earnings", "title": "Guidance de Producción Lixiviada", "desc": "Actualización sobre el éxito de las nuevas tecnologías de extracción en escombreras. Si superan el objetivo de 200M lbs adicionales, el margen de beneficio explotará.", "color": "blue", "impact": "Margen" }
+      ]
+    },
+    "ALB": {
+      "name": "Albemarle",
+      "category": "KINGMAKER",
+      "subtitle": "El Gigante del Litio para BESS",
+      "priceText": "$120.00 → $160.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$28.0B", "icon": "Landmark", "color": "text-amber-500" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+33.3%", "subtext": "Precio: $160.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Volumen Litio", "value": "+20% YoY", "subtext": "Crecimiento Capacidad", "icon": "Briefcase", "color": "text-emerald-400" },
+        { "title": "Precio Contratos", "value": "Fijado a Índice", "subtext": "Estructura Defensiva", "icon": "Target", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$28.0B", "pe": "15x", "price": "$160.00", "ytd": "+33.3%", "yoy": "+25.0%", "focus": "Litio Grado Batería / BESS" },
+      "estrategia": {
+        "intro": "Los Data Centers de IA no pueden permitirse un solo microsegundo sin energía. Para gestionar los picos masivos de demanda de las GPUs y almacenar energía renovable intermitente, necesitan BESS (Battery Energy Storage Systems) del tamaño de estadios. Albemarle, como productor Tier-1 de litio (Chile, Australia, EE.UU.), es quien suministra la materia prima base para que estas baterías existan.",
+        "pilares": [
+          { "title": "Diversificación Geográfica", "date": "Resiliencia", "desc": "A diferencia de SQM, Albemarle opera en Australia (Roca Dura / Spodumene), Chile (Salar) y EE.UU., minimizando el riesgo regulatorio de un solo país.", "icon": "Layers", "color": "blue" },
+          { "title": "Contratos a Largo Plazo", "date": "Modelo de Precios", "desc": "Han transicionado sus contratos para estar vinculados a índices de precios, lo que asegura que capturen las subidas de demanda de litio para BESS e EVs sin quedarse rezagados.", "icon": "Handshake", "color": "emerald" },
+          { "title": "Mina Kings Mountain", "date": "Desarrollo EE.UU.", "desc": "Reapertura de su mina en Carolina del Norte apoyada por el Departamento de Defensa para asegurar litio 100% doméstico.", "icon": "Factory", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Junio 2026", "tag": "Precios", "title": "Rebote del Carbonato de Litio", "desc": "El mercado vigilará los precios al contado (spot) en China. La demanda de BESS para IA está actuando como el catalizador alcista que el mercado de EVs no pudo sostener en 2024.", "color": "emerald", "impact": "Multiplicador" },
+        { "date": "Septiembre 2026", "tag": "Capex Update", "title": "Eficiencia de Capital", "desc": "Tras la brutal caída de precios de 2023-2024, Albemarle recortó CAPEX. El anuncio de reanudación controlada de expansiones indicará confianza total en el ciclo de IA.", "color": "blue", "impact": "Ventas" }
+      ]
+    },
+    "MP": {
+      "name": "MP Materials",
+      "category": "KINGMAKER",
+      "subtitle": "El Monopolio de NdPr en EE.UU.",
+      "priceText": "$15.00 → $38.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$6.5B", "icon": "Landmark", "color": "text-amber-500" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+153.3%", "subtext": "Precio: $38.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Producción NdPr", "value": "Acelerando", "subtext": "Stage 2 Completo", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Margen Bruto", "value": "~50%", "subtext": "Expansión Refino", "icon": "Briefcase", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$6.5B", "pe": "25x", "price": "$38.00", "ytd": "+153.3%", "yoy": "+180.0%", "focus": "Tierras Raras (NdPr) / Imanes Permanentes" },
+      "estrategia": {
+        "intro": "Para que Vertiv o Modine fabriquen sistemas de refrigeración de altísima eficiencia para la IA, necesitan motores y ventiladores impulsados por imanes permanentes de Neodimio-Praseodimio (NdPr). China controla el 85% de este mercado. MP Materials es la única mina y refinería a escala comercial en Norteamérica (Mountain Pass), lo que la convierte en un activo de seguridad nacional.",
+        "pilares": [
+          { "title": "Refinación Nacional (Stage 2)", "date": "Ventaja Competitiva", "desc": "Ya no envían el mineral a China. Han dominado el complejo proceso de separar los óxidos de tierras raras directamente en California.", "icon": "Factory", "color": "blue" },
+          { "title": "Fábrica de Imanes (Stage 3)", "date": "Integración Vertical", "desc": "Construcción de una planta en Texas para fabricar los imanes finales, vendiendo directamente a los fabricantes de motores y a GM, capturando todo el margen de la cadena.", "icon": "Layers", "color": "emerald" },
+          { "title": "Subsidios DoD", "date": "Apoyo Gubernamental", "desc": "Financiación directa del Pentágono para asegurar que la cadena de suministro militar y tecnológica occidental no dependa de las cuotas de exportación chinas.", "icon": "ShieldCheck", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Mayo 2026", "tag": "Earnings", "title": "Ramp-up de la Fábrica de Texas", "desc": "El catalizador más importante. La confirmación de que la fábrica de imanes de Texas está produciendo a escala comercial validará su modelo de integración vertical total.", "color": "purple", "impact": "Margen" },
+        { "date": "Todo 2026", "tag": "Geopolítica", "title": "Cuotas de Exportación Chinas", "desc": "Cualquier restricción adicional por parte de China a la exportación de tecnologías de procesamiento de tierras raras disparará el valor estratégico de MP Materials.", "color": "blue", "impact": "Multiplicador" }
+      ]
+    },
+    "SCCO": {
+      "name": "Southern Copper",
+      "category": "CHALLENGER",
+      "subtitle": "Las Mayores Reservas de Cobre",
+      "priceText": "$110.00 → $135.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$105.0B", "icon": "Landmark", "color": "text-blue-400" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+22.7%", "subtext": "Precio: $135.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Reservas", "value": "#1 Global", "subtext": "Vida útil >70 años", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Cash Cost", "value": "<$0.90/lb", "subtext": "Extrema Rentabilidad", "icon": "Briefcase", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$105.0B", "pe": "20x", "price": "$135.00", "ytd": "+22.7%", "yoy": "+30.0%", "focus": "Minería Cobre Bajo Coste / Dividendos" },
+      "estrategia": {
+        "intro": "Southern Copper (controlada por Grupo México) es la jugada defensiva perfecta en la tesis del cobre para la IA. No tienen los problemas geológicos de otras mineras chilenas. Tienen las mayores reservas comprobadas del mundo y los costes de extracción (cash costs) más bajos de la industria. Cuando el cobre sube impulsado por la red eléctrica, casi todo el precio extra va directo a su beneficio neto.",
+        "pilares": [
+          { "title": "Costes Ultrabajos", "date": "Moat Financiero", "desc": "Su estructura de costes les permite ser rentables en el peor de los mercados bajistas, y máquinas de imprimir billetes en el actual superciclo del cobre.", "icon": "Landmark", "color": "blue" },
+          { "title": "Proyecto Tía María (Perú)", "date": "Crecimiento Largo Plazo", "desc": "Tras años de bloqueos sociales, el desbloqueo de este masivo proyecto añadirá 120,000 toneladas de producción anual de cobre puro.", "icon": "Factory", "color": "emerald" },
+          { "title": "Retorno al Accionista", "date": "Dividendos Variables", "desc": "Tienen una política de pagar casi todo su flujo de caja libre en dividendos, convirtiéndolos en un activo de alto rendimiento (Yield) para fondos institucionales.", "icon": "Handshake", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Julio 2026", "tag": "Perú Update", "title": "Avance en Tía María y Los Chancas", "desc": "Noticias sobre la estabilización social en Perú y el avance físico de la construcción de sus nuevos megaproyectos. Clave para su crecimiento a 2030.", "color": "emerald", "impact": "Ventas" },
+        { "date": "Octubre 2026", "tag": "Earnings", "title": "Anuncio de Dividendo Extraordinario", "desc": "Con el cobre por encima de los $5/lb, el mercado espera anuncios de dividendos masivos que sostengan su alto múltiplo de valoración frente a pares.", "color": "blue", "impact": "Multiplicador" }
+      ]
+    },
+    "SQM": {
+      "name": "SQM",
+      "category": "CHALLENGER",
+      "subtitle": "El Retador del Salar de Atacama",
+      "priceText": "$40.00 → $62.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$17.5B", "icon": "Landmark", "color": "text-blue-400" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+55.0%", "subtext": "Precio: $62.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Coste Extracción", "value": "#1 Eficiencia", "subtext": "Salmuera Chile", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Asociación Codelco", "value": "Aprobada", "subtext": "Certidumbre 2060", "icon": "Handshake", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$17.5B", "pe": "12x", "price": "$62.00", "ytd": "+55.0%", "yoy": "+45.0%", "focus": "Litio de Salmuera / Fertilizantes" },
+      "estrategia": {
+        "intro": "SQM (Sociedad Química y Minera de Chile) es el productor de litio con los márgenes más altos del planeta debido a que extrae por evaporación en el desierto de Atacama (costes ínfimos frente a la roca dura). Han estado deprimidos por el miedo a la nacionalización, pero su histórico acuerdo con Codelco (la empresa estatal chilena) les garantiza operar y expandir la producción de litio para baterías hasta el año 2060.",
+        "pilares": [
+          { "title": "El Acuerdo con Codelco", "date": "Desbloqueo de Valor", "desc": "Asociación público-privada que elimina la incertidumbre de expropiación y permite aumentar la cuota de extracción de litio en casi 300,000 toneladas.", "icon": "ShieldCheck", "color": "blue" },
+          { "title": "Costes de Evaporación", "date": "Ventaja Insuperable", "desc": "El sol hace el trabajo de separar el litio en el Salar. Esto permite a SQM ser inmensamente rentable incluso en los valles de precio de la materia prima.", "icon": "Zap", "color": "emerald" },
+          { "title": "Expansión en Australia", "date": "Mt Holland", "desc": "Diversificación fuera de Chile a través de su proyecto conjunto (JV) en Australia, añadiendo capacidad de litio de roca dura a su cartera.", "icon": "Layers", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Mayo 2026", "tag": "Earnings", "title": "Impacto de la JV con Codelco", "desc": "Primeros resultados financieros incorporando la nueva estructura de propiedad y regalías con el Estado chileno. Aclarará los márgenes netos reales a largo plazo.", "color": "amber", "impact": "Margen" },
+        { "date": "Agosto 2026", "tag": "Capacidad", "title": "Ramp-up Refinería en China", "desc": "Avances en la conversión de su sulfato de litio a hidróxido de grado batería en sus plantas de China y Australia.", "color": "blue", "impact": "Ventas" }
+      ]
+    },
+    "LYSDY": {
+      "name": "Lynas Rare Earths",
+      "category": "CHALLENGER",
+      "subtitle": "La Alternativa Estratégica a China",
+      "priceText": "$6.00 → $8.50",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$6.0B", "icon": "Landmark", "color": "text-blue-400" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+41.6%", "subtext": "Precio: $8.50", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Producción No-China", "value": "#1 Global", "subtext": "Mina Mt Weld", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Planta EE.UU.", "value": "En Desarrollo", "subtext": "Financiación DoD", "icon": "Factory", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$6.0B", "pe": "22x", "price": "$8.50", "ytd": "+41.6%", "yoy": "+60.0%", "focus": "Tierras Raras / Mina Mt Weld (Australia)" },
+      "estrategia": {
+        "intro": "Junto con MP Materials, Lynas (cotizada en Australia y OTC en EE.UU. como LYSDY) es la barrera de defensa de Occidente en tierras raras. Poseen la mina Mt Weld en Australia, uno de los depósitos de mayor grado del mundo, y operan la única planta masiva de separación avanzada fuera de China (en Malasia). Son vitales para suministrar el NdPr que necesitan los Data Centers en Asia-Pacífico y EE.UU.",
+        "pilares": [
+          { "title": "Mina Mt Weld", "date": "Activo Estratégico", "desc": "Expansión masiva de capacidad en la mina australiana para satisfacer el déficit proyectado de tierras raras magnéticas.", "icon": "Factory", "color": "blue" },
+          { "title": "Mitigación Riesgo Malasia", "date": "Planta Kalgoorlie", "desc": "Construcción de una nueva planta de procesamiento en Australia Occidental para evitar las estrictas (y cambiantes) regulaciones medioambientales del gobierno malayo.", "icon": "ShieldCheck", "color": "emerald" },
+          { "title": "Expansión en Texas", "date": "Socio del Pentágono", "desc": "Construcción de una instalación de separación de tierras raras pesadas y ligeras en EE.UU., respaldada con más de $250M del Departamento de Defensa.", "icon": "Handshake", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Junio 2026", "tag": "Operations", "title": "Rendimiento de Kalgoorlie", "desc": "El mercado evaluará la estabilización de los procesos en la nueva instalación de Kalgoorlie. Cualquier cuello de botella aquí retrasa la cadena de suministro global.", "color": "amber", "impact": "Ventas" },
+        { "date": "Septiembre 2026", "tag": "Texas Plant", "title": "Hitos de Construcción EE.UU.", "desc": "Actualizaciones sobre el avance físico de la planta de Texas. Su finalización es clave para conectar la materia prima australiana con los fabricantes de EE.UU.", "color": "blue", "impact": "Multiplicador" }
+      ]
+    },
+    "HBM": {
+      "name": "Hudbay Minerals",
+      "category": "SPECULATIVE",
+      "subtitle": "Cobre de Alto Crecimiento y Beta",
+      "priceText": "$8.00 → $12.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$4.5B", "icon": "Landmark", "color": "text-purple-400" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+50.0%", "subtext": "Precio: $12.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Producción Cobre", "value": "+150k Tons", "subtext": "Constancia Operativa", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Apalancamiento", "value": "Alta Beta", "subtext": "Sensibilidad al Precio", "icon": "Briefcase", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$4.5B", "pe": "15x", "price": "$12.00", "ytd": "+50.0%", "yoy": "+65.0%", "focus": "Desarrollo de Cobre en las Américas" },
+      "estrategia": {
+        "intro": "Hudbay Minerals es la jugada especulativa para maximizar la exposición a la subida del cobre. No son un gigante como Freeport, pero tienen minas productivas en Perú (Constancia) y Canadá, además de haber adquirido Copper Mountain. Su verdadero as en la manga es el proyecto Copper World en Arizona: una mina de bajo coste que, si logra sortear los escollos legales, duplicará el valor de la empresa.",
+        "pilares": [
+          { "title": "Sinergias Copper Mountain", "date": "Operativa", "desc": "Integración exitosa de la mina canadiense adquirida, aumentando su flujo de caja inmediato y su perfil de producción en jurisdicciones seguras.", "icon": "Layers", "color": "blue" },
+          { "title": "El As: Copper World (EE.UU.)", "date": "Fase de Permisos", "desc": "Proyecto masivo en Arizona estructurado en tierras privadas para evitar las trabas federales. Tiene el potencial de ser una de las mayores minas de EE.UU.", "icon": "Factory", "color": "emerald" },
+          { "title": "Fuerte Apalancamiento", "date": "Alta Beta Cobre", "desc": "Debido a su tamaño y deuda, los beneficios de Hudbay crecen de forma desproporcionada por cada céntimo que sube el precio global del cobre.", "icon": "TrendingUp", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Mayo 2026", "tag": "De-leveraging", "title": "Reducción de Deuda", "desc": "El catalizador financiero. Demostrar que el alto precio del cobre está destruyendo su deuda neta acercará la acción a una revalorización de múltiplo (re-rating).", "color": "amber", "impact": "Margen" },
+        { "date": "Finales 2026", "tag": "Copper World", "title": "Aprobaciones Estatales de Arizona", "desc": "Eventos binarios sobre los permisos de agua y aire. Un fallo positivo del tribunal o del estado desencadenará una fuerte subida del ticker.", "color": "purple", "impact": "Multiplicador" }
+      ]
+    },
+    "NXE": {
+      "name": "NexGen Energy",
+      "category": "SPECULATIVE",
+      "subtitle": "El Mega-Proyecto de Uranio (Arrow)",
+      "priceText": "$7.00 → $11.00",
+      "kpis": [
+        { "title": "Market Cap", "value": "~$6.0B", "icon": "Landmark", "color": "text-purple-400" },
+        { "title": "YTD (Ene-Abr 2026)", "value": "+57.1%", "subtext": "Precio: $11.00", "icon": "TrendingUp", "color": "text-emerald-400" },
+        { "title": "Proyecto Arrow", "value": "Fase Final", "subtext": "Cuenca Athabasca", "icon": "Target", "color": "text-emerald-400" },
+        { "title": "Ley de Uranio", "value": "Extrema Pureza", "subtext": "Bajo OpEx Futuro", "icon": "Zap", "color": "text-amber-400" }
+      ],
+      "tableData": { "marketCap": "$6.0B", "pe": "N/A", "price": "$11.00", "ytd": "+57.1%", "yoy": "+80.0%", "focus": "Desarrollo de Uranio (Athabasca, Canadá)" },
+      "estrategia": {
+        "intro": "Si la IA va a resucitar la energía nuclear, el mundo necesita uranio a una escala que las minas actuales no pueden suministrar. NexGen no produce un solo gramo todavía, pero son los dueños de 'Arrow' en Saskatchewan (Canadá), el yacimiento no desarrollado de uranio más grande y de mayor ley del mundo. Es la apuesta especulativa definitiva: si construyen la mina, reescribirán la cadena de suministro nuclear occidental.",
+        "pilares": [
+          { "title": "El Depósito Arrow", "date": "Activo Único", "desc": "Ubicado en la Cuenca de Athabasca. Su concentración de uranio es tan alta que producirán materia prima a una fracción del coste de sus rivales africanos o kazajos.", "icon": "Factory", "color": "blue" },
+          { "title": "Permisología Canadiense", "date": "Proceso Federal", "desc": "Han superado las evaluaciones ambientales provinciales y están en la fase final de aprobación federal canadiense, el último gran obstáculo.", "icon": "ShieldCheck", "color": "emerald" },
+          { "title": "Apoyo de Occidente", "date": "Seguridad Energética", "desc": "EE.UU. y Europa necesitan desesperadamente que esta mina entre en funcionamiento para 2028-2030 para dejar de importar uranio de Rusia y Kazajistán.", "icon": "Handshake", "color": "purple" }
+        ]
+      },
+      "roadmap": [
+        { "date": "Julio 2026", "tag": "Permisos", "title": "Aprobación de la CNSC", "desc": "Catalizador de vida o muerte. La decisión final de la Comisión Canadiense de Seguridad Nuclear (CNSC) sobre la licencia de construcción. Si es verde, la acción volará.", "color": "purple", "impact": "Multiplicador" },
+        { "date": "Octubre 2026", "tag": "Financiación", "title": "Decisión Final de Inversión (FID)", "desc": "Anuncio de la estructura de financiación (deuda + offtakes) para los >$1.5B necesarios para construir la mina, cerrando el ciclo especulativo.", "color": "blue", "impact": "Ventas" }
+      ]
+    }
+  }
