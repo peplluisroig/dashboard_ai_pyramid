@@ -1,0 +1,852 @@
+{
+   "AAON": {
+      "name": "AAON Inc.",
+      "category": "SPECULATIVE",
+      "subtitle": "Infraestructura Térmica Boutique para IA",
+      "priceText": "$79 → $98.00",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$8.1B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+24.0%",
+            "subtext": "Precio: $98.00",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Backlog (IA/Data Center)",
+            "value": "$1.3B",
+            "subtext": "+141% YoY",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "20-22%",
+            "subtext": "División BasX",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$8.1B",
+         "pe": "45x",
+         "price": "$98.00",
+         "ytd": "+24.0%",
+         "yoy": "+52.5%",
+         "focus": "Nicho / Alta Personalización Líquida"
+      },
+      "estrategia": {
+         "intro": "A diferencia de sus rivales enfocados en volumen (HVAC tradicional), AAON captura los proyectos de mayor margen y personalización. La explosión de la IA generativa y la arquitectura Blackwell de NVIDIA han forzado a los Data Centers a transicionar al enfriamiento líquido directo al chip (Direct-to-Chip). AAON, mediante su marca BasX, se posiciona como el proveedor boutique esencial para hiperescaladores con limitaciones energéticas.",
+         "pilares": [
+            {
+               "title": "Adquisición de BasX",
+               "date": "Dic 2021 | Coste: $100M",
+               "desc": "El cerebro técnico que les permitió el gran salto al enfriamiento líquido. Hoy representa la división de mayor crecimiento y la punta de lanza de su penetración en Data Centers.",
+               "icon": "Cpu",
+               "color": "blue"
+            },
+            {
+               "title": "Cartera Récord (Backlog)",
+               "date": "Visibilidad a 2 años",
+               "desc": "Acumulación masiva de pedidos enfocados en soluciones para centros de datos de IA, garantizando un flujo de ingresos predecible a prueba de recesiones macroeconómicas.",
+               "icon": "Briefcase",
+               "color": "emerald"
+            },
+            {
+               "title": "Mega-planta Memphis",
+               "date": "CapEx: $238M",
+               "desc": "Reacondicionamiento masivo en Tennessee (80,000m²). Multiplica su capacidad de producción para no perder cuota frente a Vertiv o Modine por falta de suministro.",
+               "icon": "Factory",
+               "color": "purple"
+            },
+            {
+               "title": "Línea CDU (Direct-to-Chip)",
+               "date": "Lanzamiento Estratégico",
+               "desc": "Fabricación de Unidades de Distribución de Refrigerante de alta presión para liquid cooling. Actúa como el principal multiplicador de márgenes brutos de la compañía.",
+               "icon": "Droplet",
+               "color": "cyan"
+            },
+            {
+               "title": "Músculo Financiero",
+               "date": "Línea: $600M",
+               "desc": "Fuerte flujo de caja libre y línea de crédito ampliada que proporcionan pólvora seca para acometer los requerimientos masivos de capital de los hiperescaladores sin diluir al accionista.",
+               "icon": "Landmark",
+               "color": "amber",
+               "colSpan": true
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "4 Mayo 2026",
+            "tag": "Q1 Earnings",
+            "title": "Conversión de Backlog a Ingresos",
+            "desc": "El mercado escrutará si la normalización de la cadena de suministro de componentes eléctricos permite a AAON facturar su cartera de IA más rápido, superando las estimaciones de EPS.",
+            "color": "blue",
+            "impact": "Ventas"
+         },
+         {
+            "date": "30 Julio 2026",
+            "tag": "Q2 & Operations",
+            "title": "Ramp-up de la Planta de Memphis",
+            "desc": "Con las nuevas líneas de ensamblaje a pleno rendimiento, los inversores buscarán confirmación de que la dilución de costes fijos empuja los márgenes operativos por encima del 22%.",
+            "color": "emerald",
+            "impact": "Margen"
+         },
+         {
+            "date": "12 Noviembre 2026",
+            "tag": "Investor Day",
+            "title": "Contratos Plurianuales (MSA)",
+            "desc": "Históricamente operando proyecto a proyecto, el anuncio de acuerdos vinculantes Master Service Agreements (MSA) con gigantes como Meta cambiaría la valoración a un múltiplo estructural superior.",
+            "color": "purple",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "25 Febrero 2027",
+            "tag": "Q4 FY26",
+            "title": "Ciclo de 'Retrofitting'",
+            "desc": "Presentación de las primeras guías sobre la actualización de Data Centers antiguos (reemplazo de aire por líquido), una línea de negocio con primas altísimas por complejidad técnica.",
+            "color": "amber",
+            "impact": "Ventas"
+         },
+         {
+            "date": "15 Agosto 2027",
+            "tag": "Expansión",
+            "title": "Adopción de CDU Gen 3",
+            "desc": "Despliegue de su tercera generación de CDUs diseñados específicamente para la arquitectura de servidores que sucederá a NVIDIA Blackwell, asegurando retención tecnológica.",
+            "color": "blue",
+            "impact": "Ventas"
+         }
+      ]
+   },
+   "VRT": {
+      "name": "Vertiv Holdings Co",
+      "category": "KINGMAKER",
+      "subtitle": "El Gigante Integral (Power + Cooling)",
+      "priceText": "$175 → $314.10",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$115.0B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+58.4%",
+            "subtext": "Precio: $314.10",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Backlog (Total)",
+            "value": "$6.3B+",
+            "subtext": "+60% YoY",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "18-19%",
+            "subtext": "Apalancamiento Escala",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$115.0B",
+         "pe": "60x",
+         "price": "$314.10",
+         "ytd": "+58.4%",
+         "yoy": "+142.0%",
+         "focus": "Infraestructura Masiva / End-to-End"
+      },
+      "estrategia": {
+         "intro": "Vertiv es el dominador indiscutible por escala en infraestructura crítica. Su ventaja competitiva radica en ser un 'One-Stop-Shop' (ofrecen la gestión de energía/UPS y térmica conjuntas). Ser el partner oficial de diseños de referencia para NVIDIA les otorga una posición cuasi-monopolística en los despliegues más grandes del planeta.",
+         "pilares": [
+            {
+               "title": "Partnership NVIDIA (GB200)",
+               "date": "Sello Técnico",
+               "desc": "Co-desarrollo de arquitecturas de referencia para los racks NVL72 de ultra-alta densidad de Blackwell, garantizando la adopción de sus diseños por defecto en el mercado.",
+               "icon": "Zap",
+               "color": "blue"
+            },
+            {
+               "title": "Solución End-to-End",
+               "date": "Sinergias de Ticket",
+               "desc": "Capacidad única para empaquetar sistemas de energía ininterrumpida (UPS) de alta densidad junto con enfriamiento líquido. Eleva dramáticamente el ticket promedio de compra por cliente.",
+               "icon": "Server",
+               "color": "emerald"
+            },
+            {
+               "title": "Adquisición CoolTera",
+               "date": "Integración In-house",
+               "desc": "Compra del especialista británico en CDUs y colectores para internalizar la tecnología de enfriamiento de alta densidad, mejorando el control de suministro y los márgenes.",
+               "icon": "Droplet",
+               "color": "cyan"
+            },
+            {
+               "title": "Músculo Productivo Global",
+               "date": "CapEx: >$200M",
+               "desc": "Expansión simultánea en Norteamérica, Europa (Rugvica, Croacia) y Asia para mantener los tiempos de entrega bajos y bloquear a competidores más pequeños.",
+               "icon": "Globe2",
+               "color": "purple"
+            },
+            {
+               "title": "Negocio de Servicios",
+               "date": "Margen: >30%",
+               "desc": "Contratos de mantenimiento a largo plazo y servicios profesionales aplicados sobre su inmensa base instalada global, actuando como un foso defensivo contracíclico.",
+               "icon": "ShieldCheck",
+               "color": "amber",
+               "colSpan": true
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "22 Abril 2026",
+            "tag": "Q1 Earnings",
+            "title": "Resultados y Reacción GB200",
+            "desc": "Reporte ya presentado con batida de expectativas. El mercado reaccionó al alza al confirmarse una aceleración palpable en la facturación y despliegue real de la infraestructura física para Blackwell.",
+            "color": "emerald",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "15-17 Septiembre 2026",
+            "tag": "OCP Summit",
+            "title": "Dominio en el Open Compute Project",
+            "desc": "Presentación de nuevas integraciones de gabinetes modulares para arquitecturas abiertas. Vertiv debe solidificar su cuota mostrando sistemas líquidos 'plug-and-play'.",
+            "color": "purple",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "28 Octubre 2026",
+            "tag": "Q3 Earnings",
+            "title": "Expansión por 'Attachment Rate'",
+            "desc": "Los analistas escrutarán el porcentaje de nuevas ventas de hardware que incluyen contratos de mantenimiento atados a 5 años, elevando el margen operativo mezclado consolidado.",
+            "color": "blue",
+            "impact": "Margen"
+         },
+         {
+            "date": "24 Febrero 2027",
+            "tag": "Supply Chain",
+            "title": "Dilución de COGS de CoolTera",
+            "desc": "Reporte de fin de año fiscal demostrando que la madurez de la integración de CoolTera permite a Vertiv fabricar CDUs íntegramente in-house, reduciendo su Coste de Bienes Vendidos.",
+            "color": "amber",
+            "impact": "Coste"
+         },
+         {
+            "date": "10 Noviembre 2027",
+            "tag": "Investor Day",
+            "title": "Estrategia para Arquitectura Rubin",
+            "desc": "Lanzamiento del roadmap de infraestructura térmica diseñado específicamente para soportar los racks de la generación Rubin de NVIDIA, proyectando ingresos a la década de 2030.",
+            "color": "emerald",
+            "impact": "Ventas"
+         }
+      ]
+   },
+   "MOD": {
+      "name": "Modine Manufacturing",
+      "category": "CHALLENGER",
+      "subtitle": "Estandarización Industrial a Escala",
+      "priceText": "$120 → $255.40",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$13.5B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+45.2%",
+            "subtext": "Precio: $255.40",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Data Center Revs",
+            "value": "~$1.8B",
+            "subtext": "Crecimiento Explosivo",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "13-15%",
+            "subtext": "Expansión Rápida",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$13.5B",
+         "pe": "32x",
+         "price": "$255.40",
+         "ytd": "+45.2%",
+         "yoy": "+115.8%",
+         "focus": "Industrial / Pure Play Volumen"
+      },
+      "estrategia": {
+         "intro": "Modine ha ejecutado el 'turnaround' perfecto, pivotando de la automoción de bajo margen a ser un jugador industrial crítico para Data Centers. Su enfoque reside en la escala volumétrica y la estandarización: ofrecer chillers y sistemas de enfriamiento altamente confiables en masa, algo que los competidores boutique no pueden igualar.",
+         "pilares": [
+            {
+               "title": "El Giro Estratégico a Pure Play",
+               "date": "Reestructuración",
+               "desc": "Desinversión implacable en líneas heredadas para reasignar capital agresivamente hacia el segmento de Soluciones Climáticas y Data Centers, elevando el múltiplo de la acción.",
+               "icon": "RefreshCcw",
+               "color": "blue"
+            },
+            {
+               "title": "Airedale by Modine",
+               "date": "Motor de Ingresos",
+               "desc": "Su marca estrella. Habiendo dominado el enfriamiento por aire avanzado en Europa (Chillers), ahora se expande ferozmente en el lucrativo mercado norteamericano de hiperescaladores.",
+               "icon": "Factory",
+               "color": "emerald"
+            },
+            {
+               "title": "Soluciones Térmicas Híbridas",
+               "date": "Transición de Mercado",
+               "desc": "Ingeniería de sistemas que combinan infraestructuras de enfriamiento de aire tradicionales con módulos líquidos directos (DLC), permitiendo a los clientes realizar transiciones tecnológicas escalonadas.",
+               "icon": "Droplet",
+               "color": "cyan"
+            },
+            {
+               "title": "Expansión de Escala Productiva",
+               "date": "CapEx Masivo",
+               "desc": "Inversión en nuevas mega-fábricas estandarizadas en EE.UU., Reino Unido y Canadá para garantizar los tiempos de entrega más cortos de la industria, ganando licitaciones por pura disponibilidad.",
+               "icon": "Globe2",
+               "color": "purple"
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "21 Mayo 2026",
+            "tag": "FY26 Earnings",
+            "title": "Consolidación de Identidad 'Pure Play'",
+            "desc": "Modine cierra su año fiscal atípicamente. El mercado espera ver que el negocio legacy automotriz es estadísticamente irrelevante frente a los ingresos de Data Center.",
+            "color": "purple",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "6 Agosto 2026",
+            "tag": "Q1 FY27",
+            "title": "Demostración de Eficiencia Volumétrica",
+            "desc": "Con la nueva capacidad en Norteamérica operando, los analistas exigen ver una reducción agresiva en los costes unitarios fijos (Apalancamiento Operativo).",
+            "color": "emerald",
+            "impact": "Coste"
+         },
+         {
+            "date": "15 Octubre 2026",
+            "tag": "Eventos de Industria",
+            "title": "Penetración Airedale en Enterprise",
+            "desc": "Durante eventos como DCD Connect, Modine debe anunciar victorias de su marca Airedale en centros Tier-2 corporativos, que pagan primas más altas que los hiperescaladores.",
+            "color": "blue",
+            "impact": "Margen"
+         },
+         {
+            "date": "28 Enero 2027",
+            "tag": "Q3 FY27",
+            "title": "Cifras de Cross-Selling Híbrido",
+            "desc": "Reporte de métricas demostrando que los clientes existentes de chillers de aire están adquiriendo masivamente los 'add-ons' de módulos líquidos, incrementando el ticket promedio.",
+            "color": "amber",
+            "impact": "Ventas"
+         },
+         {
+            "date": "12 Mayo 2028",
+            "tag": "Guidance",
+            "title": "Proyección Fiscal 2029",
+            "desc": "Confirmación a largo plazo de que la base instalada masiva generará un flujo recurrente de piezas de repuesto (aftermarket) altamente rentable, estabilizando el perfil de la compañía.",
+            "color": "blue",
+            "impact": "Multiplicador"
+         }
+      ]
+   },
+   "NVT": {
+      "name": "nVent Electric",
+      "category": "CHALLENGER",
+      "subtitle": "La Columna Vertebral y los Racks",
+      "priceText": "$106 → $137.25",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$22.5B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+18.5%",
+            "subtext": "Precio: $137.25",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Data Center Revs",
+            "value": "~$1.2B+",
+            "subtext": "Doble dígito YoY",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "21-22%",
+            "subtext": "Resiliencia Precios",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$22.5B",
+         "pe": "25x",
+         "price": "$137.25",
+         "ytd": "+18.5%",
+         "yoy": "+38.1%",
+         "focus": "Racks y Conexiones Físicas"
+      },
+      "estrategia": {
+         "intro": "nVent es el dueño del hardware físico perimetral. No diseñan la refrigeración primaria, sino las envolventes (Racks) y las conexiones eléctricas masivas. Con racks de servidores superando los 100kW de potencia, los hiperescaladores exigen gabinetes especializados con puertas líquidas y 'busbars' reforzadas para evitar incendios, posicionando a nVent en un punto crítico.",
+         "pilares": [
+            {
+               "title": "Liquid Cooling Racks",
+               "date": "Innovación Integrada",
+               "desc": "Diseño de racks premium blindados que integran la fontanería líquida (manifolds) y los CDUs en el propio chasis, vendiendo el gabinete como un sistema completo de alto margen.",
+               "icon": "Server",
+               "color": "blue"
+            },
+            {
+               "title": "Power Connections (Busbars)",
+               "date": "Dominio de Potencia",
+               "desc": "Liderazgo absoluto en barras colectoras de alta tensión. Transportar de forma segura la energía eléctrica brutal de un Data Center de IA sin fundir el rack es su foso técnico.",
+               "icon": "Cable",
+               "color": "emerald"
+            },
+            {
+               "title": "Campaña de Adquisiciones",
+               "date": "Consolidación de Mercado",
+               "desc": "Agresiva estrategia inorgánica comprando piezas clave como Trachte y Avail Infrastructure Solutions ($975M) para controlar todos los componentes eléctricos no-inteligentes del centro de datos.",
+               "icon": "RefreshCcw",
+               "color": "purple"
+            },
+            {
+               "title": "Base Industrial Resiliente",
+               "date": "Suelo Financiero",
+               "desc": "Su enorme negocio heredado de envolventes industriales estándar asegura un fuerte flujo de caja y limita el riesgo a la baja si el ciclo de inversión de la IA experimentara pausas temporales.",
+               "icon": "ShieldCheck",
+               "color": "cyan"
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "1 Mayo 2026",
+            "tag": "Q1 Earnings",
+            "title": "Demanda Inicial de Barras de Potencia",
+            "desc": "Reporte clave que validará el alza de los componentes eléctricos críticos (busbars). Se instalan meses antes que el enfriamiento, actuando como el indicador más temprano de construcción.",
+            "color": "blue",
+            "impact": "Ventas"
+         },
+         {
+            "date": "18 Junio 2026",
+            "tag": "Product Launch",
+            "title": "Lanzamiento Gabinetes All-in-One",
+            "desc": "Presentación global de la nueva familia de racks modulares pre-equipados con manifolds líquidos, diseñada para capturar una prima de precio al ahorrar horas de instalación al cliente final.",
+            "color": "emerald",
+            "impact": "Margen"
+         },
+         {
+            "date": "23 Octubre 2026",
+            "tag": "Q3 & M&A Update",
+            "title": "Sinergias de Avail y Trachte",
+            "desc": "El mercado castigará a la acción si la integración de las masivas adquisiciones recientes no muestra eliminación de redundancias y mejora en el Retorno sobre el Capital Invertido (ROIC).",
+            "color": "purple",
+            "impact": "Coste"
+         },
+         {
+            "date": "5 Febrero 2027",
+            "tag": "FY26 Earnings",
+            "title": "Cifras del 'Retrofit' Físico",
+            "desc": "Orientación de la gerencia sobre el tamaño del mercado de remodelación estructural. Los Data Centers antiguos se hunden por el peso de las GPUs; nVent se beneficia vendiendo refuerzos.",
+            "color": "amber",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "10 Septiembre 2028",
+            "tag": "OCP Summit",
+            "title": "Estándar OCP de Conexiones Blindadas",
+            "desc": "La posible inclusión de sus diseños propietarios de barras eléctricas de ultra-alta corriente como el estándar oficial recomendado por el Open Compute Project.",
+            "color": "blue",
+            "impact": "Ventas"
+         }
+      ]
+   },
+   "FIX": {
+      "name": "Comfort Systems USA",
+      "category": "CHALLENGER",
+      "subtitle": "El Ejecutor Crítico: La 'Fontanería' de la IA",
+      "priceText": "$305 → $378.20",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$13.8B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+24.0%",
+            "subtext": "Precio: $378.20",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Backlog",
+            "value": "$5.1B+",
+            "subtext": "+30% YoY",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "9-11%",
+            "subtext": "Líder Contratistas",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$13.8B",
+         "pe": "29x",
+         "price": "$378.20",
+         "ytd": "+24.0%",
+         "yoy": "+120.5%",
+         "focus": "Contratista MEP / Soldadura IA"
+      },
+      "estrategia": {
+         "intro": "Comfort Systems USA (FIX) es la pura definición de 'picos y palas'. Un equipo de Vertiv es inútil si no hay un ingeniero mecánico que lo instale y suelde tuberías de presión con precisión nanométrica sobre servidores millonarios. Como el principal contratista de ingeniería mecánica y plomería (MEP) de EE.UU., FIX se beneficia de la escasez crítica de talento técnico.",
+         "pilares": [
+            {
+               "title": "El Foso Laboral (Labor Moat)",
+               "date": "Escasez Estructural",
+               "desc": "Con una carencia nacional crónica de técnicos de oficios mecánicos, el gigantesco personal contratado de FIX les otorga un inmenso poder para dictar precios a los gigantes de la nube.",
+               "icon": "HardHat",
+               "color": "blue"
+            },
+            {
+               "title": "Prefabricación Off-Site",
+               "date": "Ventaja de Margen",
+               "desc": "Estrategia clave de ensamblar colectores y tuberías en instalaciones controladas de FIX, despachándolas listas al sitio, lo que reduce la variabilidad del clima, fallos y horas de obra cara.",
+               "icon": "Factory",
+               "color": "emerald"
+            },
+            {
+               "title": "Agnosticismo Tecnológico",
+               "date": "Reducción de Riesgo",
+               "desc": "FIX gana dinero independientemente de si el equipo instalado pertenece a Modine, Vertiv o AAON, inmunizando a la compañía frente a las guerras de hardware de los OEMs.",
+               "icon": "Handshake",
+               "color": "cyan"
+            },
+            {
+               "title": "M&A Geográfico Constante",
+               "date": "Consolidación Regional",
+               "desc": "Adquisiciones tácticas recurrentes financiadas con flujo de caja propio de competidores regionales fuertes, absorbiendo su personal técnico en los estados clave de Data Centers (Virginia, Texas).",
+               "icon": "Briefcase",
+               "color": "purple"
+            },
+            {
+               "title": "Mantenimiento Contractual",
+               "date": "Moat de Ingresos",
+               "desc": "Retención de los contratos de purgado, limpieza y mantenimiento químico de los sistemas líquidos, asegurando ingresos post-instalación de márgenes consistentemente altos.",
+               "icon": "Wrench",
+               "color": "amber",
+               "colSpan": true
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "23 Abril 2026",
+            "tag": "Q1 Earnings",
+            "title": "Expansión del Backlog",
+            "desc": "El catalizador primario de un contratista de ejecución. El mercado busca que la cartera de pedidos siga rompiendo barreras superando los $5.5B, garantizando años de capacidad agotada.",
+            "color": "blue",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "23 Julio 2026",
+            "tag": "Q2 & Margins",
+            "title": "Métricas de Eficiencia Prefabricada",
+            "desc": "Reporte crítico para evaluar si el incremento de ensamblaje en fábricas propias logra empujar los márgenes operativos consolidados hacia el rango alto de su objetivo histórico (11%).",
+            "color": "emerald",
+            "impact": "Margen"
+         },
+         {
+            "date": "16 Septiembre 2026",
+            "tag": "Macro FED",
+            "title": "Estímulo a la Construcción Tradicional",
+            "desc": "Impacto binario de la decisión de tipos de la Reserva Federal. Tipos más bajos impulsan agresivamente el gasto de capital para instalaciones no tecnológicas, segmento que complementa a su demanda de IA.",
+            "color": "purple",
+            "impact": "Ventas"
+         },
+         {
+            "date": "18 Febrero 2027",
+            "tag": "FY26 Report",
+            "title": "Monitoreo del Ratio 'Book-to-Bill'",
+            "desc": "Una lectura exigida. Un ratio sostenido superior a 1.0x es obligatorio para confirmar que las licitaciones por nuevas instalaciones de IA superan la alta velocidad con la que las construyen.",
+            "color": "amber",
+            "impact": "Ventas"
+         },
+         {
+            "date": "15 Noviembre 2027",
+            "tag": "M&A Update",
+            "title": "Compra de Subcontratista Eléctrico Core",
+            "desc": "Se especula con un anuncio de adquisición transformacional enfocado explícitamente en fortalecer su débil pata eléctrica (la 'E' de MEP) para competir en licitaciones masivas end-to-end.",
+            "color": "blue",
+            "impact": "Margen"
+         }
+      ]
+   },
+   "ETN": {
+      "name": "Eaton Corp",
+      "category": "KINGMAKER",
+      "subtitle": "El Guardián de la Red Eléctrica",
+      "priceText": "$240 → $335.50",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$134.2B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+39.8%",
+            "subtext": "Precio: $335.50",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Backlog Eléctrico",
+            "value": "$11.0B+",
+            "subtext": "Récord Histórico",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "22-24%",
+            "subtext": "Líder Sectorial",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$134.2B",
+         "pe": "30x",
+         "price": "$335.50",
+         "ytd": "+39.8%",
+         "yoy": "+102.1%",
+         "focus": "Gestión de Energía / Transformadores"
+      },
+      "estrategia": {
+         "intro": "Eaton es el guardián de la red. Cada Data Center masivo debe conectarse a la frágil infraestructura eléctrica global y Eaton proporciona los equipos que hacen esto posible sin colapsar las ciudades. Es un 'Kingmaker' con un foso regulatorio y de seguridad extremo: componentes como transformadores y sistemas UPS de misión crítica donde el fallo es inaceptable.",
+         "pilares": [
+            {
+               "title": "Dominio de Transformadores",
+               "date": "Control de Suministro",
+               "desc": "El componente más escaso en la construcción de Data Centers hoy. Su posición dominante les otorga un enorme poder de negociación en el aumento de precios corporativos.",
+               "icon": "Zap",
+               "color": "blue"
+            },
+            {
+               "title": "Gestión de Carga Crítica",
+               "date": "Sistemas de Alta Disponibilidad",
+               "desc": "Distribución de potencia ininterrumpida (UPS) e interruptores diseñados para que el entrenamiento de IA nunca experimente caídas de microsegundos ante inestabilidades de red.",
+               "icon": "Cpu",
+               "color": "emerald"
+            },
+            {
+               "title": "Software Brightlayer",
+               "date": "Migración Digital",
+               "desc": "Suite de inteligencia de datos que monetiza el mantenimiento predictivo sobre el hardware, expandiendo agresivamente los márgenes de beneficio a través del SaaS.",
+               "icon": "Code",
+               "color": "purple"
+            },
+            {
+               "title": "Megaciclo CapEx Norteamericano",
+               "date": "Expansión Física",
+               "desc": "Inversión de más de $1.000 millones para expandir líneas de producción de equipos pesados en Norteamérica, apostando a acortar tiempos de entrega frente a rivales asiáticos.",
+               "icon": "Factory",
+               "color": "amber"
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "5 Mayo 2026",
+            "tag": "Q1 Earnings",
+            "title": "Evidencia de Precio (Pricing Power)",
+            "desc": "El foco inversor estará exclusivamente en la expansión de márgenes de la división eléctrica para las Américas, el indicador absoluto de que pueden traspasar costes a la IA.",
+            "color": "blue",
+            "impact": "Margen"
+         },
+         {
+            "date": "30 Julio 2026",
+            "tag": "Q2 & Backlog",
+            "title": "Aceleración de Entregas",
+            "desc": "Reporte crítico que revelará si el masivo desembolso de CAPEX en fábricas propias empieza a diluir el backlog atrasado, acelerando el reconocimiento de ingresos reales.",
+            "color": "emerald",
+            "impact": "Ventas"
+         },
+         {
+            "date": "12 Noviembre 2026",
+            "tag": "M&A Táctico",
+            "title": "Compra en Smart Grid/Software",
+            "desc": "Altas probabilidades de que Eaton anuncie la adquisición de una firma de software especializada en 'Edge Computing' o integración de microrredes para engrosar el portfolio Brightlayer.",
+            "color": "purple",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "2 Marzo 2027",
+            "tag": "Analyst Day",
+            "title": "Impacto a Largo Plazo CHIPS/IRA",
+            "desc": "Presentación definitiva sobre los ingresos plurianuales garantizados por la masiva relocalización (on-shoring) industrial impulsada por fondos federales de EE.UU.",
+            "color": "amber",
+            "impact": "Ventas"
+         },
+         {
+            "date": "18 Agosto 2028",
+            "tag": "Capacity",
+            "title": "Inauguración Mega-planta Texas",
+            "desc": "Apertura oficial de la gigantesca fábrica de celdas y transformadores, resolviendo estructuralmente sus atascos productivos para alimentar el epicentro de Data Centers del estado.",
+            "color": "blue",
+            "impact": "Ventas"
+         }
+      ]
+   },
+   "HUBB": {
+      "name": "Hubbell Inc.",
+      "category": "SPECULATIVE",
+      "subtitle": "Conectividad Eléctrica de Alta Tensión",
+      "priceText": "$325 → $442.10",
+      "kpis": [
+         {
+            "title": "Market Cap",
+            "value": "$23.5B",
+            "icon": "Landmark",
+            "color": "text-blue-400"
+         },
+         {
+            "title": "YTD (Ene-Abr 2026)",
+            "value": "+36.0%",
+            "subtext": "Precio: $442.10",
+            "icon": "TrendingUp",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Utility Solutions Rev",
+            "value": "+15% YoY",
+            "subtext": "Crecimiento Red",
+            "icon": "Briefcase",
+            "color": "text-emerald-400"
+         },
+         {
+            "title": "Margen Operativo",
+            "value": "19-21%",
+            "subtext": "Defensa de Precios",
+            "icon": "Target",
+            "color": "text-amber-400"
+         }
+      ],
+      "tableData": {
+         "marketCap": "$23.5B",
+         "pe": "26x",
+         "price": "$442.10",
+         "ytd": "+36.0%",
+         "yoy": "+85.4%",
+         "focus": "Componentes de Red / Alta Tensión"
+      },
+      "estrategia": {
+         "intro": "Hubbell se especializa en las conexiones 'tontas' pero vitales del sistema eléctrico. Fabrican los aisladores, conectores, sistemas de puesta a tierra y cajas de empalme de subestación. Con la modernización urgente de la red eléctrica nacional (Grid Modernization) para soportar a la IA, capturan flujo de capital en las primeras fases del desarrollo de infraestructura.",
+         "pilares": [
+            {
+               "title": "Dominio en 'Utility Solutions'",
+               "date": "Motor Principal",
+               "desc": "Suministro directo ininterrumpido a empresas de servicios públicos (Utilities) que reconstruyen subestaciones de transmisión obsoletas, un proceso ineludible por años.",
+               "icon": "UtilityPole",
+               "color": "blue"
+            },
+            {
+               "title": "Integración Systems Control",
+               "date": "M&A Transformacional",
+               "desc": "Madurez de la adquisición de >$1.1B que proporcionó a Hubbell gabinetes de subestación de protección y control avanzados, elevando su ticket promedio drásticamente.",
+               "icon": "Layers",
+               "color": "emerald"
+            },
+            {
+               "title": "Apalancamiento de Precio Fijo",
+               "date": "Riesgo Mitigado",
+               "desc": "Al vender componentes de bajo coste que son vitales (un conector no rompe el presupuesto del Data Center, pero si falla lo destruye), ostentan un poder superior para subir precios sin destruir demanda.",
+               "icon": "TrendingUp",
+               "color": "purple"
+            },
+            {
+               "title": "Electrificación Rural / Federal",
+               "date": "Respaldo Gubernamental",
+               "desc": "Exposición constante a fondos protegidos por la Ley Bipartidista de Infraestructura (IIJA), financiando renovaciones de red de los municipios a través de décadas.",
+               "icon": "ShieldCheck",
+               "color": "amber"
+            }
+         ]
+      },
+      "roadmap": [
+         {
+            "date": "28 Abril 2026",
+            "tag": "Q1 Earnings",
+            "title": "Defensa de la Inflación Base",
+            "desc": "Prueba de fuego. Hubbell debe demostrar que sus aumentos de precio superan el alza implacable en los futuros del cobre y aluminio para proteger sus márgenes del ~20%.",
+            "color": "blue",
+            "impact": "Margen"
+         },
+         {
+            "date": "10 Junio 2026",
+            "tag": "Grid Contracts",
+            "title": "Anuncio de Acuerdos Marco con Utilities",
+            "desc": "Adjudicaciones públicas esperadas de macro-proyectos con gigantes como Duke Energy para estandarizar el despliegue de su hardware en nuevos corredores de IA.",
+            "color": "purple",
+            "impact": "Ventas"
+         },
+         {
+            "date": "22 Septiembre 2026",
+            "tag": "Macro Outlook",
+            "title": "Escrutinio del CAPEX de Servicios Públicos",
+            "desc": "Evaluación del sector tras las revisiones de presupuestos anuales de las Utilities. Cualquier recorte en el gasto de transmisión arrastraría el múltiplo de valoración general.",
+            "color": "emerald",
+            "impact": "Multiplicador"
+         },
+         {
+            "date": "26 Enero 2027",
+            "tag": "FY26 Guidance",
+            "title": "Previsión de 'Electrical Solutions'",
+            "desc": "Guidance sobre la división enfocada en bienes raíces comerciales e industriales ligeros. Se necesita recuperación aquí para que las ganancias por la IA no sean lastradas.",
+            "color": "amber",
+            "impact": "Ventas"
+         },
+         {
+            "date": "15 Mayo 2028",
+            "tag": "Tech Integration",
+            "title": "Lanzamiento Sensores Next-Gen",
+            "desc": "Introducción de tecnología de medidores y conectores 'Smart Grid' totalmente integrados con sistemas 5G, unificando la pata de hardware duro con telemetría de alto margen.",
+            "color": "blue",
+            "impact": "Margen"
+         }
+      ]
+   }
+}

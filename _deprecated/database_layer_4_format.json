@@ -1,0 +1,898 @@
+{
+  "NVDA": {
+    "name": "NVIDIA Corporation",
+    "category": "KINGMAKER",
+    "subtitle": "El Monopolio del Diseño y Ecosistema IA",
+    "priceText": "$950.00 → $1,280.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$3.1T",
+        "icon": "Landmark",
+        "color": "text-amber-500"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+34.7%",
+        "subtext": "Precio: $1,280.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Data Center Rev",
+        "value": ">$35B/QTR",
+        "subtext": "Crecimiento Exponencial",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Bruto",
+        "value": "75-76%",
+        "subtext": "Poder de Precios",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$3.1T",
+      "pe": "38x",
+      "price": "$1,280.00",
+      "ytd": "+34.7%",
+      "yoy": "+65.0%",
+      "focus": "GPUs Blackwell / CUDA"
+    },
+    "estrategia": {
+      "intro": "NVIDIA no es solo una empresa de hardware, es la plataforma computacional subyacente de la revolución de la IA. Su dominio no proviene solo de tener el silicio más rápido, sino de su foso inexpugnable: CUDA. Este software bloquea a los desarrolladores en su ecosistema, obligando a los hiperescaladores a absorber sus GPUs a márgenes brutos históricos del 75%. Su ciclo de innovación de un año no da margen de maniobra a la competencia.",
+      "pilares": [
+        {
+          "title": "Arquitectura Blackwell",
+          "date": "Ramp-up 2025/2026",
+          "desc": "La generación de GPUs (B100/B200/GB200) que interconecta dos matrices de silicio, multiplicando por 30 el rendimiento en inferencia frente a la H100 y consolidando el dominio en entrenamiento.",
+          "icon": "Cpu",
+          "color": "blue"
+        },
+        {
+          "title": "El Foso de CUDA",
+          "date": "Moat de Software",
+          "desc": "Millones de desarrolladores escriben código optimizado exclusivamente para las librerías de NVIDIA, haciendo técnica y financieramente inviable migrar cargas de trabajo masivas a hardware rival.",
+          "icon": "Code",
+          "color": "emerald"
+        },
+        {
+          "title": "Sistemas NVLink y Red",
+          "date": "Hardware de Escala",
+          "desc": "Su tecnología de interconexión interna (NVL72) permite que docenas de GPUs actúen como un solo cerebro gigante unificado, saltándose los cuellos de botella del Ethernet tradicional.",
+          "icon": "Network",
+          "color": "purple"
+        },
+        {
+          "title": "Sovereign AI & Enterprise",
+          "date": "Diversificación de Demanda",
+          "desc": "Captura de ingresos gubernamentales masivos mediante la venta de superordenadores a naciones (Japón, Francia, India) para entrenar LLMs en sus idiomas locales por seguridad nacional.",
+          "icon": "Globe",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "20-25 Mayo 2026",
+        "tag": "Q1 FY27 Earnings",
+        "title": "Guía de Ventas Blackwell y Margen Bruto",
+        "desc": "El mercado estará hiper-focalizado en el pronóstico de ingresos de Data Center y en si los costes iniciales de fabricación de la compleja arquitectura Blackwell erosionan el margen bruto por debajo del 74%.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "18-24 Agosto 2026",
+        "tag": "Q2 FY27 Earnings",
+        "title": "Normalización de Yields de Fabricación",
+        "desc": "Confirmación de que TSMC ha resuelto cualquier cuello de botella de empaquetado CoWoS-L, permitiendo a NVIDIA despachar el volumen completo de pedidos GB200.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "15-18 Octubre 2026",
+        "tag": "OCP Summit",
+        "title": "Métricas Operativas Racks NVL72",
+        "desc": "Divulgación de datos de rendimiento en el mundo real de los racks refrigerados por líquido operando en centros de datos de hiperescaladores, validando el TCO (Total Cost of Ownership).",
+        "color": "purple",
+        "impact": "Ventas"
+      },
+      {
+        "date": "10-15 Marzo 2027",
+        "tag": "GTC 2027",
+        "title": "Presentación Oficial Arquitectura Rubin",
+        "desc": "El evento central anual de Jensen Huang. Se esperan las especificaciones finales de las GPUs 'Rubin' de 3nm y la CPU Vera, apuntalando la tesis de innovación anual ininterrumpida.",
+        "color": "amber",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Cuarto Trimestre 2027",
+        "tag": "Comercialización",
+        "title": "Inicio Entregas Volumen Serie R100",
+        "desc": "Primeros ingresos reconocidos de la arquitectura Rubin, iniciando el siguiente superciclo de actualización para los hiperescaladores.",
+        "color": "blue",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "TSM": {
+    "name": "Taiwan Semiconductor",
+    "category": "KINGMAKER",
+    "subtitle": "La Única Fundición del Mundo",
+    "priceText": "$145.00 → $215.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$1.1T",
+        "icon": "Landmark",
+        "color": "text-amber-500"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+48.2%",
+        "subtext": "Precio: $215.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Market Share",
+        "value": ">60%",
+        "subtext": "Nodos Avanzados (<5nm)",
+        "icon": "Target",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Operativo",
+        "value": "~45%",
+        "subtext": "High Performance",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$1.1T",
+      "pe": "24x",
+      "price": "$215.00",
+      "ytd": "+48.2%",
+      "yoy": "+60.0%",
+      "focus": "Fabricación N3/N2 / CoWoS"
+    },
+    "estrategia": {
+      "intro": "TSMC es el árbitro geopolítico y tecnológico del planeta. Puedes diseñar el mejor chip del mundo, pero solo TSMC tiene las máquinas litográficas EUV, los rendimientos (yields) y la capacidad de empaquetado avanzado (CoWoS) para fabricarlo en volumen. Son el fabricante exclusivo de las GPUs de NVIDIA y AMD, y de los ASICs de Broadcom y Marvell.",
+      "pilares": [
+        {
+          "title": "Dominio Nodo 3nm (N3)",
+          "date": "Core Revenue",
+          "desc": "El 100% de los chips de IA de vanguardia y procesadores móviles premium (Apple A-series) están monopolizados en sus líneas de producción de 3 nanómetros.",
+          "icon": "Cpu",
+          "color": "blue"
+        },
+        {
+          "title": "Cuello de Botella CoWoS",
+          "date": "Expansión de Capacidad",
+          "desc": "La tecnología Chip-on-Wafer-on-Substrate es obligatoria para integrar la memoria HBM. TSMC está duplicando capacidad anualmente para saciar los pedidos de NVIDIA.",
+          "icon": "Layers",
+          "color": "emerald"
+        },
+        {
+          "title": "Transición a N2 (2nm)",
+          "date": "Innovación Tecnológica",
+          "desc": "El salto a la tecnología de transistores GAA (Gate-All-Around) promete mejoras masivas en eficiencia energética, asegurando su liderazgo tecnológico frente a Intel.",
+          "icon": "Zap",
+          "color": "purple"
+        },
+        {
+          "title": "Diversificación Geográfica",
+          "date": "Resiliencia Geopolítica",
+          "desc": "Apertura y comisionado de sus mega-fábricas en Arizona (EE.UU.), Kumamoto (Japón) y Dresden (Alemania), des-arriesgando su exposición a Taiwán.",
+          "icon": "Factory",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "15-20 Julio 2026",
+        "tag": "Q2 Earnings",
+        "title": "Actualización Capacidad CoWoS",
+        "desc": "Catalizador crítico. El mercado exige confirmación de que la capacidad de empaquetado avanzado ha superado las 50,000 obleas/mes para liberar los cuellos de botella de la IA.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Mediados Septiembre 2026",
+        "tag": "Tech Symposium",
+        "title": "Métricas Risk Production Nodo N2",
+        "desc": "Divulgación de los primeros rendimientos (yields) de la producción de riesgo de 2nm. Resultados positivos invalidarán las esperanzas de Intel de robarles liderazgo.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Diciembre 2026",
+        "tag": "US Expansion",
+        "title": "Producción en Volumen Fab 1 Arizona",
+        "desc": "Hito geopolítico. Inicio oficial de la producción comercial a gran escala (nodo N4) en suelo estadounidense, clave para los contratos con Apple y el DoD.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Abril - Junio 2027",
+        "tag": "Mass Production",
+        "title": "Inicio Comercial del Nodo N2 en Taiwán",
+        "desc": "Arranque de la producción en masa de la próxima generación de silicio (2nm), asegurando otra década de poder de fijación de precios.",
+        "color": "amber",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "MPWR": {
+    "name": "Monolithic Power Systems",
+    "category": "KINGMAKER",
+    "subtitle": "La Física de la Energía (Power Silicon)",
+    "priceText": "$650.00 → $920.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$45.0B",
+        "icon": "Landmark",
+        "color": "text-amber-500"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+41.5%",
+        "subtext": "Precio: $920.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Enterprise Data Rev",
+        "value": ">50% Crec.",
+        "subtext": "Impulso por IA",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Bruto",
+        "value": "~56%",
+        "subtext": "Pricing Power",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$45.0B",
+      "pe": "55x",
+      "price": "$920.00",
+      "ytd": "+41.5%",
+      "yoy": "+70.0%",
+      "focus": "Gestión de Energía 48V / Vertical Power"
+    },
+    "estrategia": {
+      "intro": "A medida que la arquitectura Blackwell supera los 1.000 vatios por GPU, la entrega de energía lateral tradicional fracasa (se pierde energía en calor antes de llegar al núcleo). MPS ha perfeccionado la tecnología 'Vertical Power Delivery' (VPD), suministrando energía de 48 voltios directamente desde debajo de la GPU. Son el estándar de oro en los Data Centers.",
+      "pilares": [
+        {
+          "title": "Vertical Power Delivery (VPD)",
+          "date": "Estándar de Arquitectura",
+          "desc": "Ubicación de los módulos de potencia directamente bajo el chip de IA, reduciendo drásticamente las pérdidas de conducción y liberando espacio crítico en la placa base.",
+          "icon": "Zap",
+          "color": "blue"
+        },
+        {
+          "title": "Migración a 48V",
+          "date": "Multiplicador de Mercado",
+          "desc": "La transición ineludible de los racks de 12V a 48V cuadriplica el mercado direccionable total para los circuitos integrados de gestión de energía (PMIC) de MPS.",
+          "icon": "TrendingUp",
+          "color": "emerald"
+        },
+        {
+          "title": "Escalabilidad Fabless",
+          "date": "Moat Operativo",
+          "desc": "Al externalizar la fabricación en fundiciones estandarizadas, pueden escalar la producción de sus chips de potencia con flexibilidad extrema ante picos de demanda.",
+          "icon": "Factory",
+          "color": "purple"
+        },
+        {
+          "title": "Diversificación Automotriz",
+          "date": "Suelo de Ingresos",
+          "desc": "Crecimiento constante proveyendo soluciones de electrificación para sistemas de asistencia al conductor (ADAS) e infoentretenimiento, mitigando la volatilidad del segmento Enterprise.",
+          "icon": "ShieldCheck",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "4-10 Mayo 2026",
+        "tag": "Q1 Earnings",
+        "title": "Multiplicador de Contenido Blackwell",
+        "desc": "Confirmación del contenido en dólares (BOM) exacto de componentes MPS dentro de cada plataforma NVL72 de NVIDIA, demostrando el aumento del ingreso por rack.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "20-25 Agosto 2026",
+        "tag": "Design Wins",
+        "title": "Validación en Arquitectura MI400",
+        "desc": "Se espera confirmación de que la tecnología VPD de MPS también será el estándar adoptado por AMD para su próxima generación de aceleradores masivos.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Noviembre 2026",
+        "tag": "Analyst Day",
+        "title": "Actualización del TAM 48V",
+        "desc": "Presentación de previsiones actualizadas sobre el Mercado Total Direccionable a medida que los Data Centers Enterprise Tier-2 comienzan a actualizar sus buses de energía.",
+        "color": "emerald",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Febrero 2027",
+        "tag": "FY26 End",
+        "title": "Cifras de Diversificación de Clientes",
+        "desc": "El mercado requiere pruebas de que MPS ha reducido el riesgo de concentración en NVIDIA, ganando cuota en los programas Custom ASIC de AWS y Google.",
+        "color": "amber",
+        "impact": "Margen"
+      }
+    ]
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices",
+    "category": "CHALLENGER",
+    "subtitle": "La Única Alternativa Abierta",
+    "priceText": "$140.00 → $210.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$340.0B",
+        "icon": "Landmark",
+        "color": "text-blue-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+50.0%",
+        "subtext": "Precio: $210.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Instinct AI Revs",
+        "value": ">$8.5B",
+        "subtext": "Target Anual",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Market Share CPU",
+        "value": "~35%",
+        "subtext": "Servidores EPYC",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$340.0B",
+      "pe": "45x",
+      "price": "$210.00",
+      "ytd": "+50.0%",
+      "yoy": "+80.0%",
+      "focus": "GPUs MI400 / CPUs EPYC"
+    },
+    "estrategia": {
+      "intro": "AMD es el seguro de vida de la industria tecnológica. Meta, Microsoft y AWS compran aceleradores AMD agresivamente para forzar la competencia y evitar un monopolio tarifario de NVIDIA. Mientras AMD presiona en IA con su plataforma abierta ROCm, continúan devorando la cuota de mercado de Intel en los procesadores centrales (CPUs) que gestionan el tráfico general del servidor.",
+      "pilares": [
+        {
+          "title": "Aceleradores Serie MI400",
+          "date": "Competidor de Volumen",
+          "desc": "Nueva arquitectura modular (chiplets) enfocada en maximizar la capacidad de memoria HBM, siendo ideal y más rentable para la fase de inferencia de modelos masivos.",
+          "icon": "Cpu",
+          "color": "blue"
+        },
+        {
+          "title": "Plataforma ROCm (Open Source)",
+          "date": "El Anti-CUDA",
+          "desc": "Esfuerzo colosal de ingeniería de software para crear una plataforma abierta que permita a los desarrolladores portar su código base desde NVIDIA a AMD sin fricción.",
+          "icon": "Code",
+          "color": "emerald"
+        },
+        {
+          "title": "CPUs EPYC Turin (Zen 5/6)",
+          "date": "Generador de Caja Core",
+          "desc": "Procesadores de servidor líderes en rendimiento/vatio. Indispensables ya que cada clúster de IA requiere potentes CPUs tradicionales en el 'front-end' para alimentar datos a las GPUs.",
+          "icon": "Server",
+          "color": "purple"
+        },
+        {
+          "title": "Integración Redes/Xilinx",
+          "date": "Sinergias de Plataforma",
+          "desc": "Uso de las FPGAs y tecnología de redes de la adquirida Xilinx para ofrecer soluciones completas de tarjeta de red inteligente (SmartNICs) a los hiperescaladores.",
+          "icon": "Network",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "28 Abril - 5 Mayo 2026",
+        "tag": "Q1 Earnings",
+        "title": "Revisión Guía de Ingresos IA",
+        "desc": "Catalizador masivo. Wall Street exige que Lisa Su aumente nuevamente el objetivo anual de facturación de GPUs Instinct (Target >$9B) para justificar el múltiplo actual.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "2-5 Junio 2026",
+        "tag": "Computex",
+        "title": "Especificaciones Familia MI400X",
+        "desc": "Presentaciones técnicas demostrando que su arquitectura chiplet puede competir en TCO (Total Cost of Ownership) y ancho de banda contra la serie B200 de NVIDIA.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "15-20 Octubre 2026",
+        "tag": "Advancing AI Event",
+        "title": "Adopción de EPYC Turin Enterprise",
+        "desc": "Eventos de despliegue mostrando penetración de su nueva generación de procesadores de servidor en clientes Enterprise tradicionales, robando el último bastión de Intel.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Enero 2027",
+        "tag": "FY26 End",
+        "title": "Resultados de Adopción ROCm",
+        "desc": "Métricas sobre contribuciones comunitarias y casos de éxito de hiperescaladores usando el software ROCm en producción plena, el mayor reto histórico de la empresa.",
+        "color": "amber",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Mediados 2028",
+        "tag": "Long Term",
+        "title": "Lanzamiento Arquitectura Zen 6 / MI500",
+        "desc": "Ejecución del roadmap a 3nm/2nm, combinando CPU y GPU en empaquetados híbridos extremos (APUs) para eficiencia máxima.",
+        "color": "blue",
+        "impact": "Multiplicador"
+      }
+    ]
+  },
+  "MRVL": {
+    "name": "Marvell Technology",
+    "category": "CHALLENGER",
+    "subtitle": "El Diseñador del Silicio a Medida",
+    "priceText": "$70.00 → $95.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$82.0B",
+        "icon": "Landmark",
+        "color": "text-blue-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+35.7%",
+        "subtext": "Precio: $95.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Custom ASIC Rev",
+        "value": "Crec. Masivo",
+        "subtext": "AWS Trainium",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Electro-Optics",
+        "value": ">65% Share",
+        "subtext": "DSPs PAM4",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$82.0B",
+      "pe": "30x",
+      "price": "$95.00",
+      "ytd": "+35.7%",
+      "yoy": "+60.0%",
+      "focus": "Custom ASICs / DSPs de Red"
+    },
+    "estrategia": {
+      "intro": "Si Amazon (AWS) o Google quieren hacer su propio chip de IA para evitar los precios de NVIDIA, contratan a Marvell. Junto a Broadcom, dominan el mercado de Custom ASICs, proporcionando bloques IP de diseño y empaquetado 2.5D. Además, controlan el cuello de botella de la fibra óptica: fabrican los chips de procesamiento de señal digital (DSP) que permiten enviar datos a 800G y 1.6T.",
+      "pilares": [
+        {
+          "title": "Custom Silicon (ASICs)",
+          "date": "El Escape de NVIDIA",
+          "desc": "Provisión de IP y servicios de diseño para crear procesadores de inferencia a medida, ayudando a los Cloud Providers a reducir sus costes masivos de CAPEX.",
+          "icon": "Settings",
+          "color": "blue"
+        },
+        {
+          "title": "Monopolio DSPs (PAM4)",
+          "date": "Fundamento Óptico",
+          "desc": "Chips de modulación de señal embebidos en transceptores ópticos. Sin la limpieza de señal de Marvell, el láser de la red colapsaría por ruido a altas velocidades.",
+          "icon": "Zap",
+          "color": "emerald"
+        },
+        {
+          "title": "Infraestructura de Retimers",
+          "date": "CXL y PCIe Gen 6",
+          "desc": "Expansión en switches internos y conectividad de rack-a-rack (AEC), compitiendo agresivamente con Astera Labs en el espacio de integridad de señal del servidor.",
+          "icon": "Network",
+          "color": "purple"
+        },
+        {
+          "title": "Conectividad Automotriz",
+          "date": "Diversificación Base",
+          "desc": "Liderazgo en Ethernet automotriz, conectando los sensores y cámaras de los vehículos autónomos de próxima generación.",
+          "icon": "Layers",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "25-30 Mayo 2026",
+        "tag": "Q1 FY27 Earnings",
+        "title": "Ramp-up Volumétrico de ASICs",
+        "desc": "Transición de la fase de diseño y prototipado (NRE) a la producción masiva comercial para AWS y Google. Esto impulsará el top-line (ingresos) de forma dramática.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "20 Agosto 2026",
+        "tag": "Q2 FY27 Earnings",
+        "title": "Inflexión de Módulos 1.6T",
+        "desc": "Confirmación de ventas masivas de sus nuevos DSPs PAM4 diseñados específicamente para el nuevo estándar de redes ópticas de 1.6 Terabits por segundo.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "15-18 Octubre 2026",
+        "tag": "OCP Summit",
+        "title": "Anuncio Nuevos Clientes Custom Silicon",
+        "desc": "Posible anuncio o filtración de 'Design Wins' (contratos de diseño) para crear chips a medida para otros gigantes como Meta o Microsoft, expandiendo su mercado base.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Marzo 2027",
+        "tag": "Tech Update",
+        "title": "Tape-outs en Nodo de 3nm",
+        "desc": "Finalización de diseños en el nodo N3 de TSMC, demostrando capacidad para mantener a sus clientes de ASICs en la vanguardia de la miniaturización.",
+        "color": "amber",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "INTC": {
+    "name": "Intel Corporation",
+    "category": "CHALLENGER",
+    "subtitle": "La Apuesta Geopolítica de Occidente",
+    "priceText": "$30.00 → $38.50",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$165.0B",
+        "icon": "Landmark",
+        "color": "text-blue-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+28.3%",
+        "subtext": "Precio: $38.50",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "CHIPS Act",
+        "value": "$8.5B+",
+        "subtext": "Subvención Directa",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "IFS Revenue",
+        "value": "Acelerando",
+        "subtext": "Nodos 18A",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$165.0B",
+      "pe": "22x",
+      "price": "$38.50",
+      "ytd": "+28.3%",
+      "yoy": "+15.0%",
+      "focus": "Foundry Services 18A / Gaudi 3"
+    },
+    "estrategia": {
+      "intro": "Intel representa el 'turnaround' más crítico y complejo de Occidente. Su tesis de inversión es recuperar el liderazgo de manufactura perdido frente a TSMC. Abren sus fábricas a terceros (Intel Foundry) para proveer seguridad nacional a EE.UU., mientras compiten en hardware de IA vendiendo sus aceleradores Gaudi 3 como una alternativa 'low-cost' a NVIDIA para empresas tradicionales.",
+      "pilares": [
+        {
+          "title": "Intel Foundry (Nodo 18A)",
+          "date": "El Todo o Nada",
+          "desc": "Proceso de manufactura de vanguardia que implementa PowerVia (entrega de energía posterior) para intentar igualar o superar la eficiencia de los nodos de TSMC.",
+          "icon": "Factory",
+          "color": "blue"
+        },
+        {
+          "title": "Aceleradores Gaudi 3 / Falcon Shores",
+          "date": "Hardware de IA Alternativo",
+          "desc": "Estrategia agresiva de precios vendiendo procesadores de inferencia maduros, buscando democratizar la IA para el sector Enterprise que no puede pagar las primas de NVIDIA.",
+          "icon": "Cpu",
+          "color": "emerald"
+        },
+        {
+          "title": "Empaquetado Avanzado (Foveros)",
+          "date": "Alternativa a CoWoS",
+          "desc": "Tecnología de apilamiento 3D propia que comercializan como un servicio independiente, ofreciendo ensamblaje a empresas fabless que sufren retrasos en Taiwán.",
+          "icon": "Layers",
+          "color": "purple"
+        },
+        {
+          "title": "Subvenciones Federales (CHIPS Act)",
+          "date": "Colchón de Capital",
+          "desc": "Recepción de miles de millones de dólares en préstamos y subvenciones a fondo perdido para sufragar la construcción de sus mega-fábricas en Ohio, Arizona y Europa.",
+          "icon": "ShieldCheck",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "23-28 Julio 2026",
+        "tag": "Q2 Earnings",
+        "title": "Pre-pagos de Clientes Foundry (IFS)",
+        "desc": "Catalizador decisivo. Intel debe confirmar la recepción de compromisos financieros masivos y prepagos de clientes fabless (Qualcomm, Microsoft, etc.) para utilizar el nodo 18A.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "15-18 Septiembre 2026",
+        "tag": "Intel Innovation",
+        "title": "Métricas de Rendimiento (Yields) 18A",
+        "desc": "Publicación de datos de fabricación demostrando que pueden producir obleas de 1.8nm comerciales con baja tasa de defectos. Foco en el lanzamiento de procesadores Panther Lake.",
+        "color": "blue",
+        "impact": "Margen"
+      },
+      {
+        "date": "Noviembre 2026",
+        "tag": "AI Roadmap",
+        "title": "Preparación Familia Gaudi 4",
+        "desc": "Adelantos de la próxima arquitectura de hardware de IA intentando mantener la relevancia comercial frente a la agresividad de AMD MI400 y NVIDIA Rubin.",
+        "color": "emerald",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Abril 2027",
+        "tag": "Manufacturing",
+        "title": "Comercialización Litografía High-NA EUV",
+        "desc": "Demostración de uso productivo del costoso equipo High-NA de ASML para el desarrollo del nodo futuro 14A, consolidando su compromiso con la física extrema.",
+        "color": "amber",
+        "impact": "Multiplicador"
+      }
+    ]
+  },
+  "ARM": {
+    "name": "Arm Holdings",
+    "category": "SPECULATIVE",
+    "subtitle": "Los Planos Arquitectónicos de la IA",
+    "priceText": "$115.00 → $135.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$140.0B",
+        "icon": "Landmark",
+        "color": "text-purple-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+17.3%",
+        "subtext": "Precio: $135.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Royalty Rev",
+        "value": "+35% YoY",
+        "subtext": "Adopción v9",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Operativo",
+        "value": "~45%",
+        "subtext": "Asset Light",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$140.0B",
+      "pe": "85x",
+      "price": "$135.00",
+      "ytd": "+17.3%",
+      "yoy": "+65.0%",
+      "focus": "Licencias IP / Compute Subsystems"
+    },
+    "estrategia": {
+      "intro": "Arm posee un modelo de negocio perfecto: no fabrican chips, venden las 'instrucciones lógicas' (IP) para que otros lo hagan. Históricamente monopolizaron el mercado móvil, pero su salto al Data Center de IA es imparable. Por su eficiencia energética extrema frente al ecosistema x86 (Intel/AMD), los hiperescaladores y NVIDIA diseñan sus CPUs de servidor utilizando tecnología Arm.",
+      "pilares": [
+        {
+          "title": "Transición a Arquitectura v9",
+          "date": "Multiplicador de Regalías",
+          "desc": "El núcleo de su tesis. La adopción de la arquitectura v9 casi duplica la tasa de regalías (royalties) cobrada por chip, impulsando directamente los márgenes operativos netos.",
+          "icon": "TrendingUp",
+          "color": "blue"
+        },
+        {
+          "title": "Compute Subsystems (CSS)",
+          "date": "Nuevo Modelo de Negocio",
+          "desc": "En lugar de vender solo planos, Arm vende bloques de silicio validados y preensamblados digitalmente, cobrando tarifas mucho más altas y reduciendo el tiempo de diseño del cliente.",
+          "icon": "Layers",
+          "color": "emerald"
+        },
+        {
+          "title": "Penetración Data Center (Grace/Cobalt)",
+          "date": "Sinergias con Hiperescaladores",
+          "desc": "NVIDIA Grace, AWS Graviton 4 y Microsoft Cobalt 100 operan todos sobre Arm. Cada despliegue de estos sistemas genera ingresos pasivos sin requerir CAPEX de fabricación por parte de Arm.",
+          "icon": "Server",
+          "color": "purple"
+        },
+        {
+          "title": "Windows on ARM / Edge AI",
+          "date": "Conquista del PC",
+          "desc": "Liderazgo en portátiles AI (Copilot+) gracias a procesadores de Qualcomm o NVIDIA que destruyen el histórico monopolio de la arquitectura x86 en computadoras personales.",
+          "icon": "Code",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "7-12 Mayo 2026",
+        "tag": "Q4 FY26 Earnings",
+        "title": "Penetración Arquitectura v9",
+        "desc": "El mercado requiere que Arm reporte que más del 35% de los ingresos totales por regalías ya proceden de v9, justificando la inmensa valoración bursátil actual.",
+        "color": "amber",
+        "impact": "Margen"
+      },
+      {
+        "date": "10-15 Septiembre 2026",
+        "tag": "Product Launch",
+        "title": "Nuevos Partners Plataforma CSS",
+        "desc": "Se anticipan anuncios sobre nuevos hiperescaladores (Google, Tencent) adoptando la plataforma Neoverse CSS para la próxima generación de su Custom Silicon.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Noviembre 2026",
+        "tag": "Q2 FY27 Earnings",
+        "title": "Confirmación de Tasa Mixta de Regalías",
+        "desc": "Actualización crítica sobre si la introducción masiva de PCs con IA (Edge AI) está contribuyendo materialmente a expandir el porcentaje cobrado por dispositivo.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Marzo 2027",
+        "tag": "Ecosistema PC",
+        "title": "Métricas de Cuota 'Windows on ARM'",
+        "desc": "Reportes de la industria confirmando si los procesadores basados en Arm logran capturar más del 20% de cuota del mercado de PC tradicional frente a Intel.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      }
+    ]
+  },
+  "SNPS": {
+    "name": "Synopsys",
+    "category": "SPECULATIVE",
+    "subtitle": "El Software de Diseño (EDA)",
+    "priceText": "$530.00 → $610.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$110.0B",
+        "icon": "Landmark",
+        "color": "text-purple-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+15.0%",
+        "subtext": "Precio: $610.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Design Auto Rev",
+        "value": "Crec. Resiliente",
+        "subtext": "Suscripción B2B",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Bruto",
+        "value": "~80%",
+        "subtext": "Monopolio Software",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$110.0B",
+      "pe": "42x",
+      "price": "$610.00",
+      "ytd": "+15.0%",
+      "yoy": "+30.0%",
+      "focus": "Software EDA / Propiedad Intelectual"
+    },
+    "estrategia": {
+      "intro": "Diseñar un chip de 3nm con cientos de miles de millones de transistores es humanamente imposible sin Synopsys (que opera en un duopolio práctico con Cadence). Controlan el mercado de EDA (Electronic Design Automation). Son la jugada 'picks and shovels' asimétrica perfecta: sin importar qué empresa (NVIDIA, AMD o Google) gane la guerra de chips IA, todas deben pagar suscripciones millonarias a su software.",
+      "pilares": [
+        {
+          "title": "Plataforma Synopsys.ai",
+          "date": "IA Diseñando IA",
+          "desc": "Suite de software que usa IA generativa para automatizar el enrutamiento complejo de circuitos, reduciendo meses enteros del ciclo de I+D de los ingenieros humanos.",
+          "icon": "Code",
+          "color": "blue"
+        },
+        {
+          "title": "Integración Ansys",
+          "date": "Sinergias Físicas",
+          "desc": "Sinergia masiva tras la fusión de $35B. Combinan el diseño lógico de Synopsys con la simulación física (estrés térmico, electromagnético) de Ansys, un requerimiento absoluto para el empaquetado CoWoS.",
+          "icon": "RefreshCcw",
+          "color": "emerald"
+        },
+        {
+          "title": "Venta de Bloques IP",
+          "date": "Librería de Componentes",
+          "desc": "Segundo mayor proveedor global de IP tras Arm. Venden controladores estandarizados pre-diseñados (PCIe Gen6, CXL, USB) a empresas fabless para acortar el 'Time to Market'.",
+          "icon": "Layers",
+          "color": "purple"
+        },
+        {
+          "title": "Silicon Lifecycle Management",
+          "date": "Telemetría Post-Fabricación",
+          "desc": "Incorporación de monitores dentro del silicio para recoger datos en tiempo real sobre la salud y degradación de los chips cuando están operando en Data Centers vivos.",
+          "icon": "ShieldCheck",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "20-25 Mayo 2026",
+        "tag": "Q2 Earnings",
+        "title": "Actualización de Sinergias Ansys",
+        "desc": "El mercado requiere informes sobre la ejecución de integración y confirmación de que la estrategia de ventas cruzadas (cross-selling) está generando ingresos incrementales.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "15 Agosto 2026",
+        "tag": "SNUG Conference",
+        "title": "Métricas de Herramientas Nodo 2nm",
+        "desc": "Presentación de casos de estudio mostrando métricas de éxito del copiloto de IA automatizando el flujo de diseño en las nuevas geometrías de transistores GAA.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "2 Diciembre 2026",
+        "tag": "Q4 FY26 Earnings",
+        "title": "Crecimiento del ARR en Fabless",
+        "desc": "Validación de la estabilidad del negocio mediante el crecimiento del 'Annual Recurring Revenue' proviniendo de los gigantes hiperescaladores que inician sus divisiones de silicio.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Junio 2027",
+        "tag": "Product Launch",
+        "title": "Flujo de Diseño 3D-IC Unificado",
+        "desc": "Lanzamiento comercial del entorno completamente integrado que permite a los arquitectos diseñar chips, interposers y empaquetado térmico en una sola herramienta unificada.",
+        "color": "amber",
+        "impact": "Ventas"
+      }
+    ]
+  }
+}

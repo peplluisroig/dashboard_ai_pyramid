@@ -1,0 +1,945 @@
+{
+  "CEG": {
+    "name": "Constellation Energy",
+    "category": "KINGMAKER",
+    "subtitle": "El Rey de la Energía Base Nuclear",
+    "priceText": "$210.00 → $285.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$88.5B",
+        "icon": "Landmark",
+        "color": "text-amber-500"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+35.7%",
+        "subtext": "Precio: $285.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Flota Nuclear",
+        "value": "1er EE.UU.",
+        "subtext": "Generación Libre de C02",
+        "icon": "Target",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Operativo",
+        "value": "~18%",
+        "subtext": "Expansión por PPAs",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$88.5B",
+      "pe": "28x",
+      "price": "$285.00",
+      "ytd": "+35.7%",
+      "yoy": "+65.0%",
+      "focus": "Nuclear Base-load / PPAs"
+    },
+    "estrategia": {
+      "intro": "Constellation es el mayor operador de plantas nucleares comerciales de EE.UU. Su activo más valioso es la energía 'Base-load' (24/7 y sin emisiones). Ante los cuellos de botella de la red eléctrica, hiperescaladores como Microsoft están firmando acuerdos de compra de energía (PPAs) a largo plazo directamente 'detrás del medidor' (behind-the-meter) de sus centrales nucleares, pagando primas masivas por la fiabilidad.",
+      "pilares": [
+        {
+          "title": "El Acuerdo Microsoft (Crane)",
+          "date": "PPA a 20 Años",
+          "desc": "Reinicio histórico de la Unidad 1 de Three Mile Island (renombrada Crane Clean Energy Center) garantizando 835 MW exclusivamente para los centros de datos de Microsoft.",
+          "icon": "Handshake",
+          "color": "blue"
+        },
+        {
+          "title": "Energía Libre de Carbono",
+          "date": "Ventaja Competitiva ESG",
+          "desc": "Permite a Google, Microsoft y AWS cumplir sus promesas climáticas (Net Zero) sin sacrificar el tiempo de actividad del 99.999% que requiere la IA.",
+          "icon": "Leaf",
+          "color": "emerald"
+        },
+        {
+          "title": "Extensión de Vida Útil (NRC)",
+          "date": "Optimización de CAPEX",
+          "desc": "Renovación de licencias para operar sus reactores existentes hasta los 80 años, maximizando el retorno de activos ya amortizados.",
+          "icon": "ShieldCheck",
+          "color": "purple"
+        },
+        {
+          "title": "Hubs de Hidrógeno Limpio",
+          "date": "Diversificación (MachH2)",
+          "desc": "Producción de hidrógeno a escala comercial utilizando energía nuclear (1 MW en Nine Mile Point), abriendo un mercado masivo financiado por el DOE.",
+          "icon": "Zap",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "28 Julio 2026",
+        "tag": "Q2 Earnings",
+        "title": "Márgenes de Co-location",
+        "desc": "El mercado buscará confirmación de que los nuevos acuerdos de 'Co-location' (Data Centers in-situ) superan la prima de rentabilidad del mercado mayorista (PJM).",
+        "color": "blue",
+        "impact": "Margen"
+      },
+      {
+        "date": "15 Octubre 2026",
+        "tag": "Ejecución",
+        "title": "Hitos de Reinicio del Crane Center",
+        "desc": "Reporte de entrega e instalación de la nueva turbina principal y transformadores para el reinicio de Three Mile Island. Crítico para cumplir la fecha límite de Microsoft.",
+        "color": "purple",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Primer Trimestre 2027",
+        "tag": "Fiscal",
+        "title": "Directrices Finales del PTC",
+        "desc": "Publicación del IRS sobre los Créditos Fiscales a la Producción (PTC) del IRA, estableciendo el precio 'suelo' definitivo de $43.75/MWh (ajustado por inflación) para su energía.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Noviembre 2027",
+        "tag": "Innovación",
+        "title": "Comisionado Comercial MachH2",
+        "desc": "Inicio de la producción comercial masiva de hidrógeno limpio en sus instalaciones del Medio Oeste, abriendo el flujo de ingresos de la economía del hidrógeno.",
+        "color": "amber",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Marzo 2028",
+        "tag": "Operaciones",
+        "title": "Sincronización a Red del Crane Center",
+        "desc": "Inicio de las operaciones comerciales completas de la planta Crane (Three Mile Island), entregando los 835 MW a la red PJM bajo el acuerdo de Microsoft.",
+        "color": "blue",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "GEV": {
+    "name": "GE Vernova",
+    "category": "KINGMAKER",
+    "subtitle": "La Columna Vertebral de la Red",
+    "priceText": "$150.00 → $210.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$65.0B",
+        "icon": "Landmark",
+        "color": "text-amber-500"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+40.0%",
+        "subtext": "Precio: $210.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Electrification Backlog",
+        "value": "Récord",
+        "subtext": "Equipos de Alta Tensión",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Transición Energética",
+        "value": "Líder",
+        "subtext": "Turbinas e Inversores",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$65.0B",
+      "pe": "25x",
+      "price": "$210.00",
+      "ytd": "+40.0%",
+      "yoy": "+55.0%",
+      "focus": "Infraestructura de Red / Turbinas"
+    },
+    "estrategia": {
+      "intro": "Escindida de General Electric, GE Vernova fabrica el 'hardware' pesado de la transición energética y la IA. Sus divisiones de 'Electrification' (transformadores gigantes) y 'Power' (turbinas de gas de altísima eficiencia) son cuellos de botella obligatorios. Si una utility quiere construir una nueva subestación para un clúster de IA, necesita los equipos de Vernova.",
+      "pilares": [
+        {
+          "title": "Turbinas de Gas Aeroderivadas",
+          "date": "Respaldo Inmediato",
+          "desc": "Turbinas LM2500 que se encienden en menos de 5 minutos para compensar los picos de demanda de la IA o las caídas de renovables, evitando apagones masivos.",
+          "icon": "Factory",
+          "color": "blue"
+        },
+        {
+          "title": "Electrificación y HVDC",
+          "date": "Modernización del Grid",
+          "desc": "Dominio en la fabricación de convertidores de corriente continua de alta tensión (HVDC), necesarios para transportar energía renovable lejana a los Data Centers.",
+          "icon": "Zap",
+          "color": "emerald"
+        },
+        {
+          "title": "Software de Red (GridOS)",
+          "date": "Margen Recurrente",
+          "desc": "Soluciones de orquestación de software que gestionan redes eléctricas complejas, sumando ingresos SaaS de alto margen a su base instalada de hardware.",
+          "icon": "Code",
+          "color": "purple"
+        },
+        {
+          "title": "Turnaround de Energía Eólica",
+          "date": "Reestructuración",
+          "desc": "Enfoque disciplinado en renegociar contratos desfavorables de energía eólica marina (Offshore) para detener la hemorragia de efectivo de esta división heredada.",
+          "icon": "RefreshCcw",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "10 Junio 2026",
+        "tag": "Investor Day",
+        "title": "Objetivos Margen Electrification",
+        "desc": "El mercado exige ver el plan para consolidar márgenes de EBITDA de doble dígito en su segmento de electrificación gracias a la subida de precios de los transformadores.",
+        "color": "amber",
+        "impact": "Margen"
+      },
+      {
+        "date": "15 Septiembre 2026",
+        "tag": "Supply Chain",
+        "title": "Actualización Tiempos de Entrega (LPT)",
+        "desc": "Confirmación de los 'Lead Times' de Transformadores de Gran Potencia (LPT). Tiempos superiores a 36 meses validarán un inmenso poder de fijación de precios.",
+        "color": "blue",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "20 Noviembre 2026",
+        "tag": "Reestructuración",
+        "title": "Punto de Equilibrio Eólico (Breakeven)",
+        "desc": "Se espera que el segmento eólico reporte su primer trimestre con EBITDA positivo, eliminando el gran lastre de la valoración de la compañía.",
+        "color": "purple",
+        "impact": "Margen"
+      },
+      {
+        "date": "Segundo Trimestre 2027",
+        "tag": "Product Launch",
+        "title": "Despliegue LM2500XPRESS",
+        "desc": "Lanzamiento y entrega masiva de su unidad modular de turbina de gas empaquetada, diseñada específicamente para instalación rápida en Data Centers.",
+        "color": "emerald",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Mediados 2028",
+        "tag": "Mega-Proyecto",
+        "title": "Comisionado Línea HVDC SunZia",
+        "desc": "Finalización de la entrega de válvulas y sistemas de control para uno de los mayores proyectos de transmisión renovable de EE.UU.",
+        "color": "blue",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "VST": {
+    "name": "Vistra Corp",
+    "category": "CHALLENGER",
+    "subtitle": "El Gigante Independiente (IPP)",
+    "priceText": "$75.00 → $108.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$45.5B",
+        "icon": "Landmark",
+        "color": "text-blue-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+44.0%",
+        "subtext": "Precio: $108.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Nuclear Capacity",
+        "value": "+4,000 MW",
+        "subtext": "Energy Harbor Acq.",
+        "icon": "Target",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "FCF Yield",
+        "value": "~12%",
+        "subtext": "Alto Retorno Capital",
+        "icon": "Briefcase",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$45.5B",
+      "pe": "20x",
+      "price": "$108.00",
+      "ytd": "+44.0%",
+      "yoy": "+85.0%",
+      "focus": "Generación Nuclear y Gas Natural"
+    },
+    "estrategia": {
+      "intro": "Vistra es uno de los mayores Productores Independientes de Energía (IPP). Operan en mercados desregulados (ERCOT, PJM), permitiéndoles capturar precios pico cuando la red está tensionada. Su adquisición de Energy Harbor los convirtió en una potencia nuclear masiva. La combinación de energía base (nuclear) y respaldo flexible (gas) los hace ideales para alimentar hiper-clústeres de IA.",
+      "pilares": [
+        {
+          "title": "El Mix IA (Nuclear + Gas)",
+          "date": "Generación Integral",
+          "desc": "Poseen la energía base libre de carbono (nuclear) y los peakers de respuesta rápida (gas) que los Data Centers exigen para tener redundancia absoluta.",
+          "icon": "Zap",
+          "color": "blue"
+        },
+        {
+          "title": "Generador de FCF",
+          "date": "Moat de Capital",
+          "desc": "Vistra genera cantidades inmensas de Free Cash Flow estructural, utilizado agresivamente para recomprar acciones (buybacks) y pagar dividendos.",
+          "icon": "Landmark",
+          "color": "emerald"
+        },
+        {
+          "title": "Dominio en Mercados Desregulados",
+          "date": "Agilidad ERCOT/PJM",
+          "desc": "Pueden firmar lucrativos PPAs minoristas privados directamente con hiperescaladores, sorteando la lenta burocracia de los estados regulados tradicionales.",
+          "icon": "Briefcase",
+          "color": "purple"
+        },
+        {
+          "title": "Sinergias Energy Harbor",
+          "date": "Integración Operativa",
+          "desc": "Consolidación de las plantas nucleares de Beaver Valley, Davis-Besse y Perry, extrayendo más de $150 millones en eficiencias operativas.",
+          "icon": "RefreshCcw",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "5 Agosto 2026",
+        "tag": "Q2 Earnings",
+        "title": "Avances en PPAs Minoristas ERCOT",
+        "desc": "El mercado vigilará si Vistra anuncia contratos cerrados con gigantes tecnológicos para suministrar energía combinada a nuevos campus de IA en Texas.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "15 Noviembre 2026",
+        "tag": "Capital Allocation",
+        "title": "Guía de Recompras 2027",
+        "desc": "Actualización del programa de retorno de capital. Un aumento en los miles de millones destinados a recompras (buybacks) impulsará el EPS y el múltiplo.",
+        "color": "amber",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Febrero 2027",
+        "tag": "Integración",
+        "title": "Reporte Final Sinergias Energy Harbor",
+        "desc": "Confirmación de que se ha alcanzado la tasa de ejecución anual (run-rate) máxima de eficiencias de la fusión, consolidando el margen estructural de Vistra Vision.",
+        "color": "purple",
+        "impact": "Margen"
+      },
+      {
+        "date": "Julio-Agosto 2027",
+        "tag": "Mercado Spot",
+        "title": "Test de Estrés ERCOT de Verano",
+        "desc": "Durante los picos de demanda por calor extremo en Texas, Vistra puede capturar precios máximos legales en el mercado mayorista, generando caja extraordinaria.",
+        "color": "emerald",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Primer Trimestre 2029",
+        "tag": "Licencias",
+        "title": "Aprobación Extensión Comanche Peak",
+        "desc": "Resolución de la NRC para extender la vida útil de los reactores 1 y 2 en Texas hasta 2050 y 2053, asegurando décadas de generación libre de carbono.",
+        "color": "blue",
+        "impact": "Multiplicador"
+      }
+    ]
+  },
+  "PWR": {
+    "name": "Quanta Services",
+    "category": "CHALLENGER",
+    "subtitle": "Los Constructores de la Red",
+    "priceText": "$260.00 → $335.00",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$48.2B",
+        "icon": "Landmark",
+        "color": "text-blue-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+28.8%",
+        "subtext": "Precio: $335.00",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Backlog Récord",
+        "value": ">$30B",
+        "subtext": "Visibilidad a 3 años",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen EBITDA",
+        "value": "~10-12%",
+        "subtext": "Ejecución Sólida",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$48.2B",
+      "pe": "32x",
+      "price": "$335.00",
+      "ytd": "+28.8%",
+      "yoy": "+45.0%",
+      "focus": "Infraestructura EPC y Subestaciones"
+    },
+    "estrategia": {
+      "intro": "Si Eaton hace los componentes y GE Vernova hace los transformadores gigantes, Quanta Services aporta la mano de obra física experta. Son la mayor empresa EPC (Ingeniería y Construcción) de la red eléctrica en EE.UU. Su cuadrilla de linieros de alta tensión es el recurso más escaso de la industria: sin ellos, los Data Centers de IA no pueden conectarse a la red.",
+      "pilares": [
+        {
+          "title": "Modernización de la Red (Grid)",
+          "date": "Megatendencia",
+          "desc": "Ejecución de contratos multianuales (MSAs) con utilities para reconstruir kilómetros de líneas de transmisión obsoletas y soportar nuevas cargas de IA.",
+          "icon": "Network",
+          "color": "blue"
+        },
+        {
+          "title": "Conexión de Renovables (Blattner)",
+          "date": "Integración EPC",
+          "desc": "Liderazgo en la construcción a gran escala de parques solares y eólicos y su conexión a la red de alta tensión, impulsados por la adquisición de Blattner Energy.",
+          "icon": "Leaf",
+          "color": "emerald"
+        },
+        {
+          "title": "Mano de Obra Certificada",
+          "date": "Moat Intangible",
+          "desc": "Operan el Northwest Lineman College, la academia de formación más grande del país, garantizando suministro de talento donde la competencia sufre escasez.",
+          "icon": "ShieldCheck",
+          "color": "purple"
+        },
+        {
+          "title": "Infraestructura Subterránea",
+          "date": "Resiliencia Urbana",
+          "desc": "Soterramiento masivo de cables eléctricos (Undergrounding) en zonas propensas a incendios forestales y huracanes, financiado por legislación estatal.",
+          "icon": "Layers",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "5-10 Agosto 2026",
+        "tag": "Q2 Earnings",
+        "title": "Tasa de Conversión del Backlog",
+        "desc": "El mercado escrutará si Quanta puede facturar su cartera de pedidos de >$30B lo suficientemente rápido sin que la inflación de los salarios erosione los márgenes.",
+        "color": "amber",
+        "impact": "Margen"
+      },
+      {
+        "date": "Octubre 2026",
+        "tag": "Ejecución",
+        "title": "Hitos del Proyecto SunZia",
+        "desc": "Finalización física de fases críticas en la construcción de la línea de transmisión SunZia de 550 millas, confirmando la capacidad de Quanta en megaproyectos.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Enero 2027",
+        "tag": "Nuevos Contratos",
+        "title": "EPC para Subestaciones Data Center",
+        "desc": "Se esperan anuncios de nuevos acuerdos Marco (MSA) enfocados exclusivamente en construir subestaciones dedicadas para campus de hiperescaladores.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Mediados 2027",
+        "tag": "Rentabilidad",
+        "title": "Expansión Margen Renovables",
+        "desc": "El segmento de 'Renewable Energy Infrastructure' debe demostrar que puede consolidar márgenes de EBITDA sostenibles por encima del 10% post-Blattner.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Todo 2028",
+        "tag": "Subvenciones Federales",
+        "title": "Ejecución de Proyectos GRIP",
+        "desc": "Despliegue a gran escala de los fondos federales del programa Grid Resilience and Innovation Partnerships (GRIP) del DOE que benefician a sus clientes utility.",
+        "color": "blue",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "CCJ": {
+    "name": "Cameco Corp",
+    "category": "CHALLENGER",
+    "subtitle": "El Cuello de Botella del Combustible",
+    "priceText": "$45.00 → $58.50",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$25.8B",
+        "icon": "Landmark",
+        "color": "text-blue-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+30.0%",
+        "subtext": "Precio: $58.50",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Uranium Market",
+        "value": "Déficit Físico",
+        "subtext": "Demanda IA / SMRs",
+        "icon": "Target",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Tier 1 Mines",
+        "value": "McArthur River",
+        "subtext": "Activos de Bajo Coste",
+        "icon": "Briefcase",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$25.8B",
+      "pe": "35x",
+      "price": "$58.50",
+      "ytd": "+30.0%",
+      "yoy": "+45.0%",
+      "focus": "Minería de Uranio / Westinghouse"
+    },
+    "estrategia": {
+      "intro": "Si Occidente va a extender la vida de las centrales nucleares y construir nuevos reactores SMR para IA, necesita Uranio. Hay un déficit estructural masivo tras una década de precios deprimidos y nula inversión. Cameco (Canadá) es la mayor minera de uranio cotizada geográficamente segura, y además posee el 49% de Westinghouse, el gigante global de servicios de plantas nucleares.",
+      "pilares": [
+        {
+          "title": "Activos Tier 1 (Cuenca Athabasca)",
+          "date": "Ventaja de Costes",
+          "desc": "Cigar Lake y McArthur River son las minas de uranio de mayor ley del mundo, garantizando una rentabilidad robusta sin importar la volatilidad del precio spot.",
+          "icon": "Factory",
+          "color": "blue"
+        },
+        {
+          "title": "Contratación a Largo Plazo",
+          "date": "Blindaje de Caja",
+          "desc": "Firman contratos de suministro a 5-10 años ('term market') con utilidades globales, fijando precios rentables vinculados a mecanismos que capturan el alza.",
+          "icon": "Handshake",
+          "color": "emerald"
+        },
+        {
+          "title": "Integración Westinghouse (49%)",
+          "date": "Moat de Ciclo de Vida",
+          "desc": "No solo extraen uranio; participan en el diseño (reactores AP1000/AP300) y mantenimiento del 50% de las plantas nucleares del mundo.",
+          "icon": "Settings",
+          "color": "purple"
+        },
+        {
+          "title": "Déficit Geopolítico Secundario",
+          "date": "Prima de Occidente",
+          "desc": "El riesgo de suministro de Níger, Kazajistán y la prohibición de enriquecimiento ruso posicionan a Cameco como el salvavidas exclusivo de Norteamérica.",
+          "icon": "ShieldCheck",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "5 Mayo 2026",
+        "tag": "Q1 Earnings",
+        "title": "Volumen de Contratación a Término",
+        "desc": "Actualización del volumen de libras aseguradas bajo contratos a largo plazo (objetivo: >30M lbs anuales). Confirmará el pánico de compra de las eléctricas.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Agosto 2026",
+        "tag": "Macro",
+        "title": "Impacto Prohibición Uranio Ruso",
+        "desc": "Evaluación del impacto en los márgenes de refinación/conversión tras la entrada en vigor completa de las restricciones de importación en EE.UU.",
+        "color": "purple",
+        "impact": "Margen"
+      },
+      {
+        "date": "Cuarto Trimestre 2026",
+        "tag": "Westinghouse",
+        "title": "Nuevas Firmas AP1000 en Europa",
+        "desc": "Posibles anuncios definitivos de construcción (EPC) de reactores Westinghouse en países de Europa del Este (Bulgaria, Polonia) alejándose del modelo ruso VVER.",
+        "color": "emerald",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Segundo Trimestre 2027",
+        "tag": "Operaciones",
+        "title": "McArthur River a Capacidad Máxima",
+        "desc": "Se espera que el activo estrella demuestre operación estable en su límite máximo de licencia (25 millones de libras anuales).",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "2029",
+        "tag": "Desarrollo Futuro",
+        "title": "Progreso en el Proyecto Millennium",
+        "desc": "Si los precios spot se estabilizan sostenidamente por encima de los $120/lb, Cameco podría anunciar el avance agresivo (FID) de su proyecto Millennium en Saskatchewan.",
+        "color": "amber",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "OKLO": {
+    "name": "Oklo Inc",
+    "category": "SPECULATIVE",
+    "subtitle": "La Apuesta Nuclear de Silicon Valley",
+    "priceText": "$10.50 → $23.10",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$2.8B",
+        "icon": "Landmark",
+        "color": "text-purple-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+120.0%",
+        "subtext": "Precio: $23.10",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Modelo de Negocio",
+        "value": "Power-as-a-Service",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Respaldo AI",
+        "value": "Sam Altman",
+        "subtext": "Chairman",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$2.8B",
+      "pe": "N/A",
+      "price": "$23.10",
+      "ytd": "+120.0%",
+      "yoy": "+200.0%",
+      "focus": "Microreactores (Aurora) / Fisión Rápida"
+    },
+    "estrategia": {
+      "intro": "Oklo es la visión de Silicon Valley sobre la energía nuclear, presidida por Sam Altman. Su modelo disrumpe a las utilities: no venden reactores enormes; diseñan 'baterías nucleares' líquidas (microreactores Aurora de 15-50 MW) y venden la electricidad como servicio directamente a campus de IA o al Pentágono. Es una apuesta de extremo riesgo regulatorio.",
+      "pilares": [
+        {
+          "title": "Reactor Aurora (Fisión Rápida)",
+          "date": "Diseño Sin Refrigerante Activo",
+          "desc": "Tecnología de reactor de metal líquido inherentemente seguro (no requiere bombas de agua para enfriarse) capaz de operar décadas sin recarga.",
+          "icon": "Zap",
+          "color": "blue"
+        },
+        {
+          "title": "Power as a Service",
+          "date": "Atractivo Financiero",
+          "desc": "Evitan el masivo CAPEX para el cliente. Oklo retiene la propiedad y la licencia, cobrando un PPA predecible por cada kilovatio generado in-situ.",
+          "icon": "RefreshCcw",
+          "color": "emerald"
+        },
+        {
+          "title": "Combustible HALEU",
+          "date": "Reciclaje Nuclear",
+          "desc": "Diseñado para alimentarse de Uranio de Alto Ensayo y Bajo Enriquecimiento (incluyendo residuos reciclados), solventando el problema del desecho histórico.",
+          "icon": "Leaf",
+          "color": "purple"
+        },
+        {
+          "title": "Partnership Equinix/Centrus",
+          "date": "Tracción Comercial",
+          "desc": "Acuerdos de intenciones con gigantes del Data Center (Equinix) y alianzas con procesadores de combustible (Centrus) para asegurar el suministro.",
+          "icon": "Handshake",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "Junio 2026",
+        "tag": "NRC Update",
+        "title": "Estado de la Licencia COLA",
+        "desc": "Riesgo binario. Avance o feedback de la Comisión Reguladora Nuclear sobre su nueva Solicitud de Licencia Combinada Personalizada. Un rechazo hundiría la acción.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "15 Octubre 2026",
+        "tag": "Construcción",
+        "title": "Site Prep en el INL",
+        "desc": "Hito físico. Inicio de los trabajos de preparación de tierras y obra civil básica en su sitio asegurado dentro del Laboratorio Nacional de Idaho.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Primer Trimestre 2027",
+        "tag": "Supply Chain",
+        "title": "Fabricación de Combustible HALEU",
+        "desc": "Actualización conjunta con socios (como Centrus o el DOE) sobre la disponibilidad física del combustible altamente enriquecido necesario para su primer núcleo.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Mediados 2027",
+        "tag": "Defensa",
+        "title": "Diseño Final Base Eielson (USAF)",
+        "desc": "Aprobación del diseño definitivo para su microreactor seleccionado por la Fuerza Aérea de EE.UU. en Alaska, validando el interés militar.",
+        "color": "amber",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Finales 2028 - 2029",
+        "tag": "Comercialización",
+        "title": "Primera Criticidad del Reactor Aurora",
+        "desc": "El catalizador definitivo: El primer microreactor comercial de Oklo alcanza la reacción nuclear sostenida y vuelca los primeros megavatios a la red en Idaho.",
+        "color": "blue",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "SMR": {
+    "name": "NuScale Power",
+    "category": "SPECULATIVE",
+    "subtitle": "Los Pioneros del SMR (Licencia NRC)",
+    "priceText": "$6.00 → $10.80",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$2.5B",
+        "icon": "Landmark",
+        "color": "text-purple-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+80.0%",
+        "subtext": "Precio: $10.80",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Certificación NRC",
+        "value": "Aprobado",
+        "subtext": "Diseño a 50MW",
+        "icon": "ShieldCheck",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Riesgo de Ejecución",
+        "value": "Extremo",
+        "subtext": "Quema de Efectivo",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$2.5B",
+      "pe": "N/A",
+      "price": "$10.80",
+      "ytd": "+80.0%",
+      "yoy": "+110.0%",
+      "focus": "Reactores Modulares (SMR) / Diseño VOYGR"
+    },
+    "estrategia": {
+      "intro": "NuScale posee el Santo Grial regulatorio: es la única empresa en EE.UU. que ha logrado certificar un diseño de SMR. Su tesis es fabricar módulos de 77 MW en serie dentro de una fábrica y ensamblarlos en piscinas subterráneas. Sin embargo, sufren una grave crisis de credibilidad financiera tras cancelar su proyecto bandera (UAMPS) por sobrecostes masivos, pivotando su supervivencia hacia Europa y Data Centers privados.",
+      "pilares": [
+        {
+          "title": "Moat Regulatorio (NRC)",
+          "date": "Barrera de Entrada",
+          "desc": "Tienen una ventaja de años sobre cualquier competidor (Oklo, TerraPower) en el infierno regulatorio estadounidense para su diseño base de reactor de agua ligera.",
+          "icon": "ShieldCheck",
+          "color": "blue"
+        },
+        {
+          "title": "Acuerdos Standard Power",
+          "date": "Pivot hacia la IA",
+          "desc": "Intento de validar el modelo comercial prometiendo proveer 24 módulos SMR (casi 2 GW) para instalaciones de centros de datos en Ohio y Pensilvania.",
+          "icon": "Server",
+          "color": "emerald"
+        },
+        {
+          "title": "Proyecto RoPower (Rumanía)",
+          "date": "Oportunidad Europea",
+          "desc": "Colaboración estratégica (y financiada parcialmente por EE.UU.) para desplegar una central SMR VOYGR-6 en el emplazamiento de una antigua planta de carbón rumana.",
+          "icon": "Factory",
+          "color": "purple"
+        },
+        {
+          "title": "Economías de Fábrica",
+          "date": "Reducción CAPEX Teórica",
+          "desc": "Promesa de manufacturar componentes forjados estandarizados con Doosan, evitando los insanos sobrecostes de la construcción de reactores 'a medida'.",
+          "icon": "Layers",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "Finales Julio 2026",
+        "tag": "Financials",
+        "title": "Pólvora Seca (Cash Runway)",
+        "desc": "Escrutinio crítico del Balance. La necesidad de anunciar nueva emisión de acciones o deuda convertible para sostener la ingeniería castigaría duramente la acción.",
+        "color": "amber",
+        "impact": "Margen"
+      },
+      {
+        "date": "Noviembre 2026",
+        "tag": "RoPower",
+        "title": "Finalización de FEED Phase 2",
+        "desc": "Hito clave en Rumanía. Finalización del Diseño de Ingeniería de Extremo Frontal (Fase 2) para el sitio de Doicesti, allanando el camino a la orden de compra.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Primer Trimestre 2027",
+        "tag": "Manufactura",
+        "title": "Entregas Forjadas de Doosan",
+        "desc": "Avance en la cadena de suministro. Recepción física de los grandes materiales de forja de acero desde Corea del Sur para comenzar el ensamblaje de módulos.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Finales 2027",
+        "tag": "Data Centers",
+        "title": "Early Works con Standard Power",
+        "desc": "Si los acuerdos de Ohio/Pensilvania son reales, el mercado debe ver movimiento de tierras y permisos ambientales iniciales (Early Site Permits).",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "2029 - 2030",
+        "tag": "Comercialización",
+        "title": "Operación del Primer VOYGR Global",
+        "desc": "Fecha objetivo realista (y posiblemente optimista) para que el primer módulo VOYGR comience a volcar energía comercial, muy probablemente en Rumanía.",
+        "color": "blue",
+        "impact": "Ventas"
+      }
+    ]
+  },
+  "BWXT": {
+    "name": "BWX Technologies",
+    "category": "SPECULATIVE",
+    "subtitle": "El Monopolio de la Marina Pivotando a Civil",
+    "priceText": "$95.00 → $115.90",
+    "kpis": [
+      {
+        "title": "Market Cap",
+        "value": "~$10.6B",
+        "icon": "Landmark",
+        "color": "text-purple-400"
+      },
+      {
+        "title": "YTD (Ene-Abr 2026)",
+        "value": "+22.0%",
+        "subtext": "Precio: $115.90",
+        "icon": "TrendingUp",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Navy Monopoly",
+        "value": "Core Business",
+        "subtext": "Reactores Submarinos",
+        "icon": "Briefcase",
+        "color": "text-emerald-400"
+      },
+      {
+        "title": "Margen Operativo",
+        "value": "~18-20%",
+        "subtext": "Predictibilidad DoD",
+        "icon": "Target",
+        "color": "text-amber-400"
+      }
+    ],
+    "tableData": {
+      "marketCap": "$10.6B",
+      "pe": "30x",
+      "price": "$115.90",
+      "ytd": "+22.0%",
+      "yoy": "+38.0%",
+      "focus": "Microreactores Espaciales / Civiles y Navales"
+    },
+    "estrategia": {
+      "intro": "A diferencia de las startups SMR, BWXT es profundamente rentable. Tienen el monopolio legal para fabricar los reactores nucleares que impulsan los submarinos (Virginia/Columbia) y portaaviones de EE.UU. Ahora utilizan esa ingeniería confidencial para desarrollar microreactores civiles avanzados y producir combustible TRISO, convirtiéndose en una apuesta de bajo riesgo de quiebra para la IA remota.",
+      "pilares": [
+        {
+          "title": "Flujo de Caja de la Marina (DoD)",
+          "date": "Base de Operaciones",
+          "desc": "Contratos multimillonarios a décadas vista con la Marina financian el I+D civil y los dividendos, aislando a BWXT de los inviernos de capital riesgo.",
+          "icon": "Landmark",
+          "color": "blue"
+        },
+        {
+          "title": "Microreactor Civil (BANR)",
+          "date": "Data Centers Remotos",
+          "desc": "El Reactor Avanzado Nuclear de BWXT, diseñado para ser transportado por tren y ensamblado rápidamente, ideal para alimentar IA en regiones sin red eléctrica (off-grid).",
+          "icon": "Factory",
+          "color": "emerald"
+        },
+        {
+          "title": "Monopolio Combustible TRISO",
+          "date": "Proveedor de Competidores",
+          "desc": "Operan la única línea de EE.UU. autorizada para fabricar combustible TRISO (partículas ultra-seguras) necesario para la mayoría de los diseños SMR de nueva generación.",
+          "icon": "Layers",
+          "color": "purple"
+        },
+        {
+          "title": "Reactores Espaciales (DRACO/Pele)",
+          "date": "I+D Vanguardia",
+          "desc": "Construcción del primer reactor de propulsión térmica nuclear para DARPA, y el microreactor transportable Pele, posicionándolos en la frontera tecnológica absoluta.",
+          "icon": "Zap",
+          "color": "amber"
+        }
+      ]
+    },
+    "roadmap": [
+      {
+        "date": "10 Mayo 2026",
+        "tag": "Q1 Earnings",
+        "title": "Directrices de Comercialización BANR",
+        "desc": "El mercado buscará señales explícitas de que la empresa está pasando de vender prototipos al gobierno a firmar pre-acuerdos con entidades comerciales privadas.",
+        "color": "purple",
+        "impact": "Multiplicador"
+      },
+      {
+        "date": "Agosto 2026",
+        "tag": "Navy Contracts",
+        "title": "Hitos Clase Columbia",
+        "desc": "Actualizaciones de facturación sobre la aceleración en la entrega de componentes pesados para los nuevos submarinos estratégicos, garantizando el P&L base.",
+        "color": "blue",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Cuarto Trimestre 2026",
+        "tag": "Space/DoD",
+        "title": "Entrega Reactor DRACO",
+        "desc": "Finalización física y entrega a DARPA/Lockheed Martin del sistema de propulsión térmica nuclear para su integración y posterior lanzamiento espacial.",
+        "color": "emerald",
+        "impact": "Margen"
+      },
+      {
+        "date": "Mediados 2027",
+        "tag": "Suministro SMR",
+        "title": "Expansión Producción TRISO",
+        "desc": "Completar la expansión de su instalación de combustible en Lynchburg para suministrar HALEU/TRISO a otros competidores de SMRs comerciales.",
+        "color": "amber",
+        "impact": "Ventas"
+      },
+      {
+        "date": "Principios 2028",
+        "tag": "Validación DoD",
+        "title": "Prueba a Plena Potencia Proyecto Pele",
+        "desc": "El microreactor móvil alcanza la máxima potencia operativa en los campos de prueba de Idaho. El éxito validará instantáneamente el diseño derivado civil (BANR).",
+        "color": "blue",
+        "impact": "Multiplicador"
+      }
+    ]
+  }
+}

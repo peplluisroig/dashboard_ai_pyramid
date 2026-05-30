@@ -1,0 +1,36 @@
+{
+  "stacks": [
+    {
+      "id": "ai",
+      "title": "Inteligencia Artificial",
+      "description": "Infraestructura física y lógica que soporta el megaciclo de inversión en IA Generativa y modelos fundacionales.",
+      "icon": "BrainCircuit",
+      "status": "ACTIVE",
+      "configUrl": "https://raw.githubusercontent.com/peplluisroig/dashboard_ai_pyramid/refs/heads/main/ai_stack_config.json"
+    },
+    {
+      "id": "aerospace",
+      "title": "Aeroespacial y Defensa",
+      "description": "Nueva carrera espacial, satélites LEO, manufactura avanzada y sistemas de defensa de próxima generación.",
+      "icon": "Rocket",
+      "status": "WIP",
+      "configUrl": null
+    },
+    {
+      "id": "robotics",
+      "title": "Robótica y Automatización",
+      "description": "Sistemas autónomos, robótica humanoide, visión artificial y la próxima revolución industrial.",
+      "icon": "Factory",
+      "status": "WIP",
+      "configUrl": null
+    },
+    {
+      "id": "biotech",
+      "title": "Biotecnología y Genómica",
+      "description": "Edición genética, descubrimiento de fármacos asistido por IA y biología sintética.",
+      "icon": "Activity",
+      "status": "WIP",
+      "configUrl": null
+    }
+  ]
+}
