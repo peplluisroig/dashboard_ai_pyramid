@@ -3,44 +3,16 @@
      "name": "Broadcom Inc.",
      "category": "KINGMAKER",
      "subtitle": "El Monopolio del Silicio de Red y CPO",
-     "priceText": "$1,150.00 → $1,380.00",
+     "focus": "Switches ASICs / Custom Silicon",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$850.0B",
-         "icon": "Landmark",
-         "color": "text-amber-500"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+20.0%",
-         "subtext": "Precio: $1,380.00",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "AI Revenue Run-Rate",
          "value": ">$12.0B",
          "subtext": "ASICs & Networking",
          "icon": "Briefcase",
          "color": "text-emerald-400"
-       },
-       {
-         "title": "Margen Operativo",
-         "value": "~60%",
-         "subtext": "Semiconductor Solutions",
-         "icon": "Target",
-         "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$850.0B",
-       "pe": "28x",
-       "price": "$1,380.00",
-       "ytd": "+20.0%",
-       "yoy": "+55.0%",
-       "focus": "Switches ASICs / Custom Silicon"
-     },
      "estrategia": {
        "intro": "Broadcom es el peaje obligatorio de internet y de la IA. Proveen el silicio subyacente de enrutamiento (Switches ASICs) para el 80% del mercado de Ethernet. Además, dominan la creación de chips personalizados (ASICs) para hiperescaladores, como los TPUs de Google o los aceleradores MTIA de Meta, y lideran el salto hacia la óptica co-empaquetada (CPO).",
        "pilares": [
@@ -121,21 +93,8 @@
      "name": "Arista Networks",
      "category": "KINGMAKER",
      "subtitle": "El Rey del Ethernet Backend para IA",
-     "priceText": "$280.00 → $350.00",
+     "focus": "Ethernet Switches / EOS Software",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$125.0B",
-         "icon": "Landmark",
-         "color": "text-amber-500"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+25.0%",
-         "subtext": "Precio: $350.00",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "AI Revenue Goal",
          "value": ">$1.5B",
@@ -151,14 +110,6 @@
          "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$125.0B",
-       "pe": "35x",
-       "price": "$350.00",
-       "ytd": "+25.0%",
-       "yoy": "+60.0%",
-       "focus": "Ethernet Switches / EOS Software"
-     },
      "estrategia": {
        "intro": "Arista es el 'Apple' de las redes. Compran silicio comercial (Merchant Silicon) a Broadcom, pero su foso radica en su software EOS. Lideran la guerra para que Ethernet derrote al protocolo cerrado InfiniBand de NVIDIA en las redes de \"Backend\" (la red que interconecta GPUs durante el entrenamiento).",
        "pilares": [
@@ -239,44 +190,16 @@
      "name": "Coherent Corp.",
      "category": "CHALLENGER",
      "subtitle": "El Motor Óptico de la IA",
-     "priceText": "$60.00 → $85.50",
+     "focus": "Transceptores Ópticos (800G/1.6T)",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$14.5B",
-         "icon": "Landmark",
-         "color": "text-blue-400"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+42.5%",
-         "subtext": "Precio: $85.50",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "Datacom Transceivers",
          "value": "Crec. >50%",
          "subtext": "Foco en 800G/1.6T",
          "icon": "Briefcase",
          "color": "text-emerald-400"
-       },
-       {
-         "title": "Margen Bruto",
-         "value": "38-40%",
-         "subtext": "Post-Reestructuración",
-         "icon": "Target",
-         "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$14.5B",
-       "pe": "24x",
-       "price": "$85.50",
-       "ytd": "+42.5%",
-       "yoy": "+65.0%",
-       "focus": "Transceptores Ópticos (800G/1.6T)"
-     },
      "estrategia": {
        "intro": "Coherent es líder en la capa física de la red. Fabrican transceptores ópticos (VCSELs y EMLs), dispositivos críticos que convierten señales eléctricas en luz láser para viajar sin latencia entre racks de GPUs. Bajo el mando de Jim Anderson, la empresa se ha deshecho de divisiones lentas, transformándose en una jugada pura y rentable sobre el ancho de banda de IA.",
        "pilares": [
@@ -357,44 +280,16 @@
      "name": "Astera Labs",
      "category": "CHALLENGER",
      "subtitle": "Conectividad Interna: Retimers y CXL",
-     "priceText": "$70.00 → $85.00",
+     "focus": "Retimers PCIe y conectividad CXL",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$12.8B",
-         "icon": "Landmark",
-         "color": "text-blue-400"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+21.4%",
-         "subtext": "Precio: $85.00",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "Revenue Growth",
          "value": ">70% YoY",
          "subtext": "Hipercrecimiento IA",
          "icon": "Briefcase",
          "color": "text-emerald-400"
-       },
-       {
-         "title": "Margen Bruto",
-         "value": "~75%",
-         "subtext": "Modelo Fabless de Software",
-         "icon": "Target",
-         "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$12.8B",
-       "pe": "60x",
-       "price": "$85.00",
-       "ytd": "+21.4%",
-       "yoy": "+80.0%",
-       "focus": "Retimers PCIe y conectividad CXL"
-     },
      "estrategia": {
        "intro": "Astera Labs resuelve un obstáculo físico crítico: a velocidades PCIe Gen 5 y Gen 6, la señal eléctrica pierde integridad a los pocos centímetros. Sus 'Retimers' actúan como amplificadores inteligentes, limpiando la señal para que la CPU y múltiples GPUs se comuniquen sin pérdida de datos. Es un pure-play de IA hiper-ágil con un modelo de I+D en la nube.",
        "pilares": [
@@ -475,44 +370,16 @@
      "name": "Celestica Inc.",
      "category": "CHALLENGER",
      "subtitle": "El Fabricante del Hardware Cloud",
-     "priceText": "$50.00 → $72.00",
+     "focus": "Ensamblaje de Hardware / Switches 800G",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$8.5B",
-         "icon": "Landmark",
-         "color": "text-blue-400"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+44.0%",
-         "subtext": "Precio: $72.00",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "CCS Segment",
          "value": ">65% Ventas",
          "subtext": "Connectivity & Cloud",
          "icon": "Briefcase",
          "color": "text-emerald-400"
-       },
-       {
-         "title": "Margen Operativo",
-         "value": "6-7%",
-         "subtext": "Alto para modelo EMS",
-         "icon": "Target",
-         "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$8.5B",
-       "pe": "18x",
-       "price": "$72.00",
-       "ytd": "+44.0%",
-       "yoy": "+75.0%",
-       "focus": "Ensamblaje de Hardware / Switches 800G"
-     },
      "estrategia": {
        "intro": "Celestica es el ejecutor oculto del hardware de IA. Como gigante de Servicios de Manufactura Electrónica (EMS), ensamblan físicamente los complejos switches de red 400G y 800G. Representan la jugada Value/GARP más directa de la cadena, operando con múltiplos de valoración bajos mientras recogen los beneficios volumétricos del crecimiento de Broadcom y Arista.",
        "pilares": [
@@ -585,44 +452,16 @@
      "name": "Lumentum Holdings",
      "category": "SPECULATIVE",
      "subtitle": "Recuperación Óptica y Componentes Láser",
-     "priceText": "$45.00 → $60.50",
+     "focus": "Componentes Láser (EML/VCSEL) y 800G/1.6T",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$5.2B",
-         "icon": "Landmark",
-         "color": "text-purple-400"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+34.4%",
-         "subtext": "Precio: $60.50",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "Cloud & Networking",
          "value": ">50% Rev",
          "subtext": "Pivotando a Datacom",
          "icon": "Briefcase",
          "color": "text-emerald-400"
-       },
-       {
-         "title": "Margen Operativo",
-         "value": "12-15%",
-         "subtext": "Recuperación Activa",
-         "icon": "Target",
-         "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$5.2B",
-       "pe": "32x",
-       "price": "$60.50",
-       "ytd": "+34.4%",
-       "yoy": "+15.0%",
-       "focus": "Componentes Láser (EML/VCSEL) y 800G/1.6T"
-     },
      "estrategia": {
        "intro": "Lumentum es la jugada clásica de 'turnaround' (recuperación). Fuertemente golpeada en años pasados por el colapso del capex de las telecomunicaciones tradicionales, pivotaron agresivamente hacia IA. Son el fabricante esencial (junto a Coherent) de los láseres base (EMLs y VCSELs) necesarios para la conectividad de 800G y 1.6T de los Data Centers.",
        "pilares": [
@@ -695,44 +534,16 @@
      "name": "SiTime Corp.",
      "category": "SPECULATIVE",
      "subtitle": "Temporización MEMS de Precisión",
-     "priceText": "$110.00 → $165.00",
+     "focus": "Osciladores MEMS de Silicio para IA",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$3.8B",
-         "icon": "Landmark",
-         "color": "text-purple-400"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+50.0%",
-         "subtext": "Precio: $165.00",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "Comm/Enterprise",
          "value": ">45% Rev",
          "subtext": "Impulso por IA",
          "icon": "Briefcase",
          "color": "text-emerald-400"
-       },
-       {
-         "title": "Margen Bruto",
-         "value": "~58-60%",
-         "subtext": "Poder de Precios",
-         "icon": "Target",
-         "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$3.8B",
-       "pe": "48x",
-       "price": "$165.00",
-       "ytd": "+50.0%",
-       "yoy": "+85.0%",
-       "focus": "Osciladores MEMS de Silicio para IA"
-     },
      "estrategia": {
        "intro": "SiTime ataca un cuello de botella físico microscópico: el tiempo. A 800G y 1.6T, las redes IA mueven datos tan rápido que la pérdida de sincronización fraccional causa descarte de paquetes y colapso de red. Los viejos osciladores de cuarzo fallan por la vibración y el calor de los ventiladores en Data Centers de IA; los osciladores de silicio (MEMS) de SiTime son impermeables a ese estrés.",
        "pilares": [
@@ -813,21 +624,8 @@
      "name": "POET Technologies",
      "category": "SPECULATIVE",
      "subtitle": "Disrupción en Empaquetado Fotónico",
-     "priceText": "$1.50 → $4.20",
+     "focus": "Optical Interposer y CPO",
      "kpis": [
-       {
-         "title": "Market Cap",
-         "value": "~$800M",
-         "icon": "Landmark",
-         "color": "text-purple-400"
-       },
-       {
-         "title": "YTD (Ene-Abr 2026)",
-         "value": "+180.0%",
-         "subtext": "Precio: $4.20",
-         "icon": "TrendingUp",
-         "color": "text-emerald-400"
-       },
        {
          "title": "Adopción",
          "value": "Design Wins",
@@ -843,14 +641,6 @@
          "color": "text-amber-400"
        }
      ],
-     "tableData": {
-       "marketCap": "$800M",
-       "pe": "N/A",
-       "price": "$4.20",
-       "ytd": "+180.0%",
-       "yoy": "+250.0%",
-       "focus": "Optical Interposer y CPO"
-     },
      "estrategia": {
        "intro": "POET es una Micro-Cap asimétrica pura. Su patente 'POET Optical Interposer' permite integrar chips electrónicos y láseres a nivel de oblea, sin requerir alineación activa (el proceso más caro de la óptica actual). Si los hiperescaladores adoptan esta arquitectura para abaratar la fabricación de módulos 800G y 1.6T, sus ingresos por licencias explotarán.",
        "pilares": [

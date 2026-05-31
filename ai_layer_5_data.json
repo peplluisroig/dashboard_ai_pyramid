@@ -1,46 +1,18 @@
 {
-   "SK_HYNIX": {
+   "HXSCL": {
       "name": "SK Hynix",
       "category": "KINGMAKER",
       "subtitle": "El Monopolio de Facto en HBM",
-      "priceText": "₩145k → ₩210k",
+      "focus": "Memoria HBM3E / HBM4",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$105.0B",
-            "icon": "Landmark",
-            "color": "text-amber-500"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+32.0%",
-            "subtext": "Ticker: 000660.KS",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "HBM Market Share",
             "value": "~50%",
             "subtext": "Dominio NVIDIA",
             "icon": "Target",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "35-38%",
-            "subtext": "Ciclo HBM3E",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$105.0B",
-         "pe": "18x",
-         "price": "₩210,000",
-         "ytd": "+32.0%",
-         "yoy": "+68.0%",
-         "focus": "Memoria HBM3E / HBM4"
-      },
       "estrategia": {
          "intro": "SK Hynix es el socio más crítico de NVIDIA. Fueron los primeros en resolver la ingeniería de apilamiento vertical necesaria para la memoria de banda ancha (HBM). Su ventaja competitiva reside en su proceso MR-MUF, que permite una mejor disipación térmica en los chips de memoria que cualquier competidor, consolidando una cuota de mercado superior al 50% en servidores de IA.",
          "pilares": [
@@ -121,21 +93,8 @@
       "name": "Micron Technology",
       "category": "KINGMAKER",
       "subtitle": "La Alternativa de Eficiencia Energética",
-      "priceText": "$95.00 → $132.00",
+      "focus": "HBM3E / Memoria DDR5",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$145.0B",
-            "icon": "Landmark",
-            "color": "text-amber-500"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+28.5%",
-            "subtext": "Precio: $132.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Eficiencia HBM3E",
             "value": "+30%",
@@ -151,14 +110,6 @@
             "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$145.0B",
-         "pe": "22x",
-         "price": "$132.00",
-         "ytd": "+28.5%",
-         "yoy": "+55.0%",
-         "focus": "HBM3E / Memoria DDR5"
-      },
       "estrategia": {
          "intro": "Micron ha ejecutado el 'sorpasso' tecnológico de la década. Tras ir por detrás de los coreanos, su arquitectura HBM3E consume un 30% menos de energía que la de SK Hynix. En un mundo de Data Centers limitados por la red eléctrica, la eficiencia energética de Micron los ha convertido en un proveedor indispensable y co-ganador para la serie NVIDIA Blackwell y AMD MI400.",
          "pilares": [
@@ -239,44 +190,16 @@
       "name": "Lam Research",
       "category": "CHALLENGER",
       "subtitle": "El Arquitecto de los Agujeros TSV",
-      "priceText": "$850.00 → $1,050.00",
+      "focus": "Máquinas de Grabado / TSV",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$138.0B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+18.0%",
-            "subtext": "Precio: $1,050.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Market Share TSV",
             "value": ">70%",
             "subtext": "Etch & Deposition",
             "icon": "Target",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "~29%",
-            "subtext": "High Efficiency",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$138.0B",
-         "pe": "28x",
-         "price": "$1,050.00",
-         "ytd": "+18.0%",
-         "yoy": "+45.0%",
-         "focus": "Máquinas de Grabado / TSV"
-      },
       "estrategia": {
          "intro": "Sin Lam Research, la memoria HBM es físicamente imposible de fabricar. Ellos proveen las máquinas que realizan el 'grabado' (etching) de los Through-Silicon Vias (TSV): millones de túneles microscópicos que atraviesan las capas de silicio para conectarlas verticalmente. A medida que el HBM pasa de 8 a 12 y 16 capas, la complejidad y el valor de estos túneles crece exponencialmente.",
          "pilares": [
@@ -357,21 +280,8 @@
       "name": "Amkor Technology",
       "category": "CHALLENGER",
       "subtitle": "La Válvula de Escape del Empaquetado",
-      "priceText": "$30.00 → $42.50",
+      "focus": "Ensamblaje OSAT / 2.5D Packaging",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$10.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+25.4%",
-            "subtext": "Precio: $42.50",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "OSAT Ranking",
             "value": "#2 Global",
@@ -386,14 +296,6 @@
             "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$10.5B",
-         "pe": "16x",
-         "price": "$42.50",
-         "ytd": "+25.4%",
-         "yoy": "+52.0%",
-         "focus": "Ensamblaje OSAT / 2.5D Packaging"
-      },
       "estrategia": {
          "intro": "Amkor es el mayor proveedor independiente de servicios de empaquetado (OSAT) fuera de Taiwán. Su gran oportunidad es el desbordamiento: TSMC no tiene capacidad suficiente para todo el empaquetado CoWoS del mundo. Amkor absorbe ese cuello de botella, y con su masiva inversión en la planta de Arizona, ofrece a Apple y NVIDIA ensamblaje 2.5D 'Made in USA'.",
          "pilares": [
@@ -474,21 +376,8 @@
       "name": "Western Digital",
       "category": "CHALLENGER",
       "subtitle": "El Gigante del Almacenamiento Masivo",
-      "priceText": "$65.00 → $88.00",
+      "focus": "SSD Enterprise / NAND Flash",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$28.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+15.0%",
-            "subtext": "Precio: $88.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Nand Revenue",
             "value": "+45% YoY",
@@ -502,14 +391,6 @@
             "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$28.5B",
-         "pe": "14x",
-         "price": "$88.00",
-         "ytd": "+15.0%",
-         "yoy": "+35.0%",
-         "focus": "SSD Enterprise / NAND Flash"
-      },
       "estrategia": {
          "intro": "Western Digital ha completado su transformación separando sus negocios heredados. En la era de la IA, su pura división de memoria Flash (NAND) está viendo una demanda sin precedentes para SSDs de grado empresarial, necesarios para los gigantescos lagos de datos que alimentan el entrenamiento de los Modelos de Lenguaje Grandes (LLMs).",
          "pilares": [
@@ -586,25 +467,12 @@
          }
       ]
    },
-   "PSTG": {
+   "P": {
       "name": "Pure Storage",
       "category": "SPECULATIVE",
       "subtitle": "El Fin de los Discos Mecánicos",
-      "priceText": "$52.00 → $75.00",
+      "focus": "Almacenamiento All-Flash para RAG",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$22.5B",
-            "icon": "Landmark",
-            "color": "text-purple-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+44.0%",
-            "subtext": "Precio: $75.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "DirectFlash Tech",
             "value": "Propia / No SSD",
@@ -618,14 +486,6 @@
             "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$22.5B",
-         "pe": "35x",
-         "price": "$75.00",
-         "ytd": "+44.0%",
-         "yoy": "+55.0%",
-         "focus": "Almacenamiento All-Flash para RAG"
-      },
       "estrategia": {
          "intro": "La tesis de Pure Storage es radical y asimétrica: afirman que a partir de 2028 no se venderán más discos duros (HDD) en centros de datos. Su tecnología 'DirectFlash' elimina la necesidad del controlador SSD tradicional, conectando el software directamente al silicio Flash NAND. Esto resulta en velocidades monstruosas necesarias para sistemas RAG corporativos.",
          "pilares": [
@@ -706,21 +566,8 @@
       "name": "FormFactor",
       "category": "SPECULATIVE",
       "subtitle": "El Inspector de Calidad del HBM",
-      "priceText": "$45.00 → $62.00",
+      "focus": "Tarjetas de Prueba (Probe Cards)",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$4.8B",
-            "icon": "Landmark",
-            "color": "text-purple-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+37.7%",
-            "subtext": "Precio: $62.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Probe Card Lead",
             "value": "#1 Global",
@@ -736,14 +583,6 @@
             "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$4.8B",
-         "pe": "32x",
-         "price": "$62.00",
-         "ytd": "+37.7%",
-         "yoy": "+48.0%",
-         "focus": "Tarjetas de Prueba (Probe Cards)"
-      },
       "estrategia": {
          "intro": "FormFactor fabrica 'Probe Cards': interfaces electro-mecánicas de extrema precisión que tocan los micro-contactos de los chips en la oblea para probarlos funcionalmente. En el ecosistema CoWoS, si pegas un chip de memoria defectuoso en una costosa pila HBM, arruinas el paquete completo. FormFactor es la póliza de seguro indispensable de SK Hynix y TSMC.",
          "pilares": [
@@ -824,44 +663,16 @@
       "name": "Camtek",
       "category": "SPECULATIVE",
       "subtitle": "Visión Láser para el CoWoS",
-      "priceText": "$80.00 → $115.00",
+      "focus": "Inspección Óptica 3D y Metrología",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "~$5.2B",
-            "icon": "Landmark",
-            "color": "text-purple-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+43.5%",
-            "subtext": "Precio: $115.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Order Backlog",
             "value": "Récord 2026",
             "subtext": "Inspección de IA",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Neto",
-            "value": "~25%",
-            "subtext": "Expansión de Software",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$5.2B",
-         "pe": "38x",
-         "price": "$115.00",
-         "ytd": "+43.5%",
-         "yoy": "+90.0%",
-         "focus": "Inspección Óptica 3D y Metrología"
-      },
       "estrategia": {
          "intro": "Camtek es otro jugador de 'picos y palas' puro que provee equipos de inspección óptica automática (AOI) y metrología. Sus máquinas escanean en 3D cada capa de los chips buscando impurezas y controlando el grosor. El empaquetado CoWoS requiere decenas de miles de conexiones; Camtek inspecciona cada una para evitar el colapso del HBM.",
          "pilares": [

@@ -3,21 +3,8 @@
     "name": "Constellation Energy",
     "category": "KINGMAKER",
     "subtitle": "El Rey de la Energía Base Nuclear",
-    "priceText": "$210.00 → $285.00",
+    "focus": "Nuclear Base-load / PPAs",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$88.5B",
-        "icon": "Landmark",
-        "color": "text-amber-500"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+35.7%",
-        "subtext": "Precio: $285.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Flota Nuclear",
         "value": "1er EE.UU.",
@@ -33,14 +20,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$88.5B",
-      "pe": "28x",
-      "price": "$285.00",
-      "ytd": "+35.7%",
-      "yoy": "+65.0%",
-      "focus": "Nuclear Base-load / PPAs"
-    },
     "estrategia": {
       "intro": "Constellation es el mayor operador de plantas nucleares comerciales de EE.UU. Su activo más valioso es la energía 'Base-load' (24/7 y sin emisiones). Ante los cuellos de botella de la red eléctrica, hiperescaladores como Microsoft están firmando acuerdos de compra de energía (PPAs) a largo plazo directamente 'detrás del medidor' (behind-the-meter) de sus centrales nucleares, pagando primas masivas por la fiabilidad.",
       "pilares": [
@@ -121,21 +100,8 @@
     "name": "GE Vernova",
     "category": "KINGMAKER",
     "subtitle": "La Columna Vertebral de la Red",
-    "priceText": "$150.00 → $210.00",
+    "focus": "Infraestructura de Red / Turbinas",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$65.0B",
-        "icon": "Landmark",
-        "color": "text-amber-500"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+40.0%",
-        "subtext": "Precio: $210.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Electrification Backlog",
         "value": "Récord",
@@ -151,14 +117,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$65.0B",
-      "pe": "25x",
-      "price": "$210.00",
-      "ytd": "+40.0%",
-      "yoy": "+55.0%",
-      "focus": "Infraestructura de Red / Turbinas"
-    },
     "estrategia": {
       "intro": "Escindida de General Electric, GE Vernova fabrica el 'hardware' pesado de la transición energética y la IA. Sus divisiones de 'Electrification' (transformadores gigantes) y 'Power' (turbinas de gas de altísima eficiencia) son cuellos de botella obligatorios. Si una utility quiere construir una nueva subestación para un clúster de IA, necesita los equipos de Vernova.",
       "pilares": [
@@ -239,21 +197,8 @@
     "name": "Vistra Corp",
     "category": "CHALLENGER",
     "subtitle": "El Gigante Independiente (IPP)",
-    "priceText": "$75.00 → $108.00",
+    "focus": "Generación Nuclear y Gas Natural",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$45.5B",
-        "icon": "Landmark",
-        "color": "text-blue-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+44.0%",
-        "subtext": "Precio: $108.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Nuclear Capacity",
         "value": "+4,000 MW",
@@ -269,14 +214,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$45.5B",
-      "pe": "20x",
-      "price": "$108.00",
-      "ytd": "+44.0%",
-      "yoy": "+85.0%",
-      "focus": "Generación Nuclear y Gas Natural"
-    },
     "estrategia": {
       "intro": "Vistra es uno de los mayores Productores Independientes de Energía (IPP). Operan en mercados desregulados (ERCOT, PJM), permitiéndoles capturar precios pico cuando la red está tensionada. Su adquisición de Energy Harbor los convirtió en una potencia nuclear masiva. La combinación de energía base (nuclear) y respaldo flexible (gas) los hace ideales para alimentar hiper-clústeres de IA.",
       "pilares": [
@@ -357,44 +294,16 @@
     "name": "Quanta Services",
     "category": "CHALLENGER",
     "subtitle": "Los Constructores de la Red",
-    "priceText": "$260.00 → $335.00",
+    "focus": "Infraestructura EPC y Subestaciones",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$48.2B",
-        "icon": "Landmark",
-        "color": "text-blue-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+28.8%",
-        "subtext": "Precio: $335.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Backlog Récord",
         "value": ">$30B",
         "subtext": "Visibilidad a 3 años",
         "icon": "Briefcase",
         "color": "text-emerald-400"
-      },
-      {
-        "title": "Margen EBITDA",
-        "value": "~10-12%",
-        "subtext": "Ejecución Sólida",
-        "icon": "Target",
-        "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$48.2B",
-      "pe": "32x",
-      "price": "$335.00",
-      "ytd": "+28.8%",
-      "yoy": "+45.0%",
-      "focus": "Infraestructura EPC y Subestaciones"
-    },
     "estrategia": {
       "intro": "Si Eaton hace los componentes y GE Vernova hace los transformadores gigantes, Quanta Services aporta la mano de obra física experta. Son la mayor empresa EPC (Ingeniería y Construcción) de la red eléctrica en EE.UU. Su cuadrilla de linieros de alta tensión es el recurso más escaso de la industria: sin ellos, los Data Centers de IA no pueden conectarse a la red.",
       "pilares": [
@@ -475,21 +384,8 @@
     "name": "Cameco Corp",
     "category": "CHALLENGER",
     "subtitle": "El Cuello de Botella del Combustible",
-    "priceText": "$45.00 → $58.50",
+    "focus": "Minería de Uranio / Westinghouse",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$25.8B",
-        "icon": "Landmark",
-        "color": "text-blue-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+30.0%",
-        "subtext": "Precio: $58.50",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Uranium Market",
         "value": "Déficit Físico",
@@ -505,14 +401,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$25.8B",
-      "pe": "35x",
-      "price": "$58.50",
-      "ytd": "+30.0%",
-      "yoy": "+45.0%",
-      "focus": "Minería de Uranio / Westinghouse"
-    },
     "estrategia": {
       "intro": "Si Occidente va a extender la vida de las centrales nucleares y construir nuevos reactores SMR para IA, necesita Uranio. Hay un déficit estructural masivo tras una década de precios deprimidos y nula inversión. Cameco (Canadá) es la mayor minera de uranio cotizada geográficamente segura, y además posee el 49% de Westinghouse, el gigante global de servicios de plantas nucleares.",
       "pilares": [
@@ -593,21 +481,8 @@
     "name": "Oklo Inc",
     "category": "SPECULATIVE",
     "subtitle": "La Apuesta Nuclear de Silicon Valley",
-    "priceText": "$10.50 → $23.10",
+    "focus": "Microreactores (Aurora) / Fisión Rápida",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$2.8B",
-        "icon": "Landmark",
-        "color": "text-purple-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+120.0%",
-        "subtext": "Precio: $23.10",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Modelo de Negocio",
         "value": "Power-as-a-Service",
@@ -622,14 +497,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$2.8B",
-      "pe": "N/A",
-      "price": "$23.10",
-      "ytd": "+120.0%",
-      "yoy": "+200.0%",
-      "focus": "Microreactores (Aurora) / Fisión Rápida"
-    },
     "estrategia": {
       "intro": "Oklo es la visión de Silicon Valley sobre la energía nuclear, presidida por Sam Altman. Su modelo disrumpe a las utilities: no venden reactores enormes; diseñan 'baterías nucleares' líquidas (microreactores Aurora de 15-50 MW) y venden la electricidad como servicio directamente a campus de IA o al Pentágono. Es una apuesta de extremo riesgo regulatorio.",
       "pilares": [
@@ -710,21 +577,8 @@
     "name": "NuScale Power",
     "category": "SPECULATIVE",
     "subtitle": "Los Pioneros del SMR (Licencia NRC)",
-    "priceText": "$6.00 → $10.80",
+    "focus": "Reactores Modulares (SMR) / Diseño VOYGR",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$2.5B",
-        "icon": "Landmark",
-        "color": "text-purple-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+80.0%",
-        "subtext": "Precio: $10.80",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Certificación NRC",
         "value": "Aprobado",
@@ -740,14 +594,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$2.5B",
-      "pe": "N/A",
-      "price": "$10.80",
-      "ytd": "+80.0%",
-      "yoy": "+110.0%",
-      "focus": "Reactores Modulares (SMR) / Diseño VOYGR"
-    },
     "estrategia": {
       "intro": "NuScale posee el Santo Grial regulatorio: es la única empresa en EE.UU. que ha logrado certificar un diseño de SMR. Su tesis es fabricar módulos de 77 MW en serie dentro de una fábrica y ensamblarlos en piscinas subterráneas. Sin embargo, sufren una grave crisis de credibilidad financiera tras cancelar su proyecto bandera (UAMPS) por sobrecostes masivos, pivotando su supervivencia hacia Europa y Data Centers privados.",
       "pilares": [
@@ -828,44 +674,16 @@
     "name": "BWX Technologies",
     "category": "SPECULATIVE",
     "subtitle": "El Monopolio de la Marina Pivotando a Civil",
-    "priceText": "$95.00 → $115.90",
+    "focus": "Microreactores Espaciales / Civiles y Navales",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$10.6B",
-        "icon": "Landmark",
-        "color": "text-purple-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+22.0%",
-        "subtext": "Precio: $115.90",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Navy Monopoly",
         "value": "Core Business",
         "subtext": "Reactores Submarinos",
         "icon": "Briefcase",
         "color": "text-emerald-400"
-      },
-      {
-        "title": "Margen Operativo",
-        "value": "~18-20%",
-        "subtext": "Predictibilidad DoD",
-        "icon": "Target",
-        "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$10.6B",
-      "pe": "30x",
-      "price": "$115.90",
-      "ytd": "+22.0%",
-      "yoy": "+38.0%",
-      "focus": "Microreactores Espaciales / Civiles y Navales"
-    },
     "estrategia": {
       "intro": "A diferencia de las startups SMR, BWXT es profundamente rentable. Tienen el monopolio legal para fabricar los reactores nucleares que impulsan los submarinos (Virginia/Columbia) y portaaviones de EE.UU. Ahora utilizan esa ingeniería confidencial para desarrollar microreactores civiles avanzados y producir combustible TRISO, convirtiéndose en una apuesta de bajo riesgo de quiebra para la IA remota.",
       "pilares": [

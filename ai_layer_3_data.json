@@ -3,44 +3,16 @@
       "name": "AAON Inc.",
       "category": "SPECULATIVE",
       "subtitle": "Infraestructura Térmica Boutique para IA",
-      "priceText": "$79 → $98.00",
+      "focus": "Nicho / Alta Personalización Líquida",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$8.1B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+24.0%",
-            "subtext": "Precio: $98.00",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Backlog (IA/Data Center)",
             "value": "$1.3B",
             "subtext": "+141% YoY",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "20-22%",
-            "subtext": "División BasX",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$8.1B",
-         "pe": "45x",
-         "price": "$98.00",
-         "ytd": "+24.0%",
-         "yoy": "+52.5%",
-         "focus": "Nicho / Alta Personalización Líquida"
-      },
       "estrategia": {
          "intro": "A diferencia de sus rivales enfocados en volumen (HVAC tradicional), AAON captura los proyectos de mayor margen y personalización. La explosión de la IA generativa y la arquitectura Blackwell de NVIDIA han forzado a los Data Centers a transicionar al enfriamiento líquido directo al chip (Direct-to-Chip). AAON, mediante su marca BasX, se posiciona como el proveedor boutique esencial para hiperescaladores con limitaciones energéticas.",
          "pilares": [
@@ -129,44 +101,16 @@
       "name": "Vertiv Holdings Co",
       "category": "KINGMAKER",
       "subtitle": "El Gigante Integral (Power + Cooling)",
-      "priceText": "$175 → $314.10",
+      "focus": "Infraestructura Masiva / End-to-End",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$115.0B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+58.4%",
-            "subtext": "Precio: $314.10",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Backlog (Total)",
             "value": "$6.3B+",
             "subtext": "+60% YoY",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "18-19%",
-            "subtext": "Apalancamiento Escala",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$115.0B",
-         "pe": "60x",
-         "price": "$314.10",
-         "ytd": "+58.4%",
-         "yoy": "+142.0%",
-         "focus": "Infraestructura Masiva / End-to-End"
-      },
       "estrategia": {
          "intro": "Vertiv es el dominador indiscutible por escala en infraestructura crítica. Su ventaja competitiva radica en ser un 'One-Stop-Shop' (ofrecen la gestión de energía/UPS y térmica conjuntas). Ser el partner oficial de diseños de referencia para NVIDIA les otorga una posición cuasi-monopolística en los despliegues más grandes del planeta.",
          "pilares": [
@@ -255,44 +199,16 @@
       "name": "Modine Manufacturing",
       "category": "CHALLENGER",
       "subtitle": "Estandarización Industrial a Escala",
-      "priceText": "$120 → $255.40",
+      "focus": "Industrial / Pure Play Volumen",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$13.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+45.2%",
-            "subtext": "Precio: $255.40",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Data Center Revs",
             "value": "~$1.8B",
             "subtext": "Crecimiento Explosivo",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "13-15%",
-            "subtext": "Expansión Rápida",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$13.5B",
-         "pe": "32x",
-         "price": "$255.40",
-         "ytd": "+45.2%",
-         "yoy": "+115.8%",
-         "focus": "Industrial / Pure Play Volumen"
-      },
       "estrategia": {
          "intro": "Modine ha ejecutado el 'turnaround' perfecto, pivotando de la automoción de bajo margen a ser un jugador industrial crítico para Data Centers. Su enfoque reside en la escala volumétrica y la estandarización: ofrecer chillers y sistemas de enfriamiento altamente confiables en masa, algo que los competidores boutique no pueden igualar.",
          "pilares": [
@@ -373,44 +289,16 @@
       "name": "nVent Electric",
       "category": "CHALLENGER",
       "subtitle": "La Columna Vertebral y los Racks",
-      "priceText": "$106 → $137.25",
+      "focus": "Racks y Conexiones Físicas",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$22.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+18.5%",
-            "subtext": "Precio: $137.25",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Data Center Revs",
             "value": "~$1.2B+",
             "subtext": "Doble dígito YoY",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "21-22%",
-            "subtext": "Resiliencia Precios",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$22.5B",
-         "pe": "25x",
-         "price": "$137.25",
-         "ytd": "+18.5%",
-         "yoy": "+38.1%",
-         "focus": "Racks y Conexiones Físicas"
-      },
       "estrategia": {
          "intro": "nVent es el dueño del hardware físico perimetral. No diseñan la refrigeración primaria, sino las envolventes (Racks) y las conexiones eléctricas masivas. Con racks de servidores superando los 100kW de potencia, los hiperescaladores exigen gabinetes especializados con puertas líquidas y 'busbars' reforzadas para evitar incendios, posicionando a nVent en un punto crítico.",
          "pilares": [
@@ -491,44 +379,16 @@
       "name": "Comfort Systems USA",
       "category": "CHALLENGER",
       "subtitle": "El Ejecutor Crítico: La 'Fontanería' de la IA",
-      "priceText": "$305 → $378.20",
+      "focus": "Contratista MEP / Soldadura IA",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$13.8B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+24.0%",
-            "subtext": "Precio: $378.20",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Backlog",
             "value": "$5.1B+",
             "subtext": "+30% YoY",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "9-11%",
-            "subtext": "Líder Contratistas",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$13.8B",
-         "pe": "29x",
-         "price": "$378.20",
-         "ytd": "+24.0%",
-         "yoy": "+120.5%",
-         "focus": "Contratista MEP / Soldadura IA"
-      },
       "estrategia": {
          "intro": "Comfort Systems USA (FIX) es la pura definición de 'picos y palas'. Un equipo de Vertiv es inútil si no hay un ingeniero mecánico que lo instale y suelde tuberías de presión con precisión nanométrica sobre servidores millonarios. Como el principal contratista de ingeniería mecánica y plomería (MEP) de EE.UU., FIX se beneficia de la escasez crítica de talento técnico.",
          "pilares": [
@@ -617,44 +477,16 @@
       "name": "Eaton Corp",
       "category": "KINGMAKER",
       "subtitle": "El Guardián de la Red Eléctrica",
-      "priceText": "$240 → $335.50",
+      "focus": "Gestión de Energía / Transformadores",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$134.2B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+39.8%",
-            "subtext": "Precio: $335.50",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Backlog Eléctrico",
             "value": "$11.0B+",
             "subtext": "Récord Histórico",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "22-24%",
-            "subtext": "Líder Sectorial",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$134.2B",
-         "pe": "30x",
-         "price": "$335.50",
-         "ytd": "+39.8%",
-         "yoy": "+102.1%",
-         "focus": "Gestión de Energía / Transformadores"
-      },
       "estrategia": {
          "intro": "Eaton es el guardián de la red. Cada Data Center masivo debe conectarse a la frágil infraestructura eléctrica global y Eaton proporciona los equipos que hacen esto posible sin colapsar las ciudades. Es un 'Kingmaker' con un foso regulatorio y de seguridad extremo: componentes como transformadores y sistemas UPS de misión crítica donde el fallo es inaceptable.",
          "pilares": [
@@ -735,44 +567,16 @@
       "name": "Hubbell Inc.",
       "category": "SPECULATIVE",
       "subtitle": "Conectividad Eléctrica de Alta Tensión",
-      "priceText": "$325 → $442.10",
+      "focus": "Componentes de Red / Alta Tensión",
       "kpis": [
-         {
-            "title": "Market Cap",
-            "value": "$23.5B",
-            "icon": "Landmark",
-            "color": "text-blue-400"
-         },
-         {
-            "title": "YTD (Ene-Abr 2026)",
-            "value": "+36.0%",
-            "subtext": "Precio: $442.10",
-            "icon": "TrendingUp",
-            "color": "text-emerald-400"
-         },
          {
             "title": "Utility Solutions Rev",
             "value": "+15% YoY",
             "subtext": "Crecimiento Red",
             "icon": "Briefcase",
             "color": "text-emerald-400"
-         },
-         {
-            "title": "Margen Operativo",
-            "value": "19-21%",
-            "subtext": "Defensa de Precios",
-            "icon": "Target",
-            "color": "text-amber-400"
          }
       ],
-      "tableData": {
-         "marketCap": "$23.5B",
-         "pe": "26x",
-         "price": "$442.10",
-         "ytd": "+36.0%",
-         "yoy": "+85.4%",
-         "focus": "Componentes de Red / Alta Tensión"
-      },
       "estrategia": {
          "intro": "Hubbell se especializa en las conexiones 'tontas' pero vitales del sistema eléctrico. Fabrican los aisladores, conectores, sistemas de puesta a tierra y cajas de empalme de subestación. Con la modernización urgente de la red eléctrica nacional (Grid Modernization) para soportar a la IA, capturan flujo de capital en las primeras fases del desarrollo de infraestructura.",
          "pilares": [
