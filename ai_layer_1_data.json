@@ -3,44 +3,16 @@
     "name": "Freeport-McMoRan",
     "category": "KINGMAKER",
     "subtitle": "El Rey del Cobre Global",
-    "priceText": "$45.00 → $60.00",
+    "focus": "Minería de Cobre (Grasberg/EE.UU.)",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$85.0B",
-        "icon": "Landmark",
-        "color": "text-amber-500"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+33.3%",
-        "subtext": "Precio: $60.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Producción Cobre",
         "value": "4.2B lbs",
         "subtext": "Target Anual",
         "icon": "Target",
         "color": "text-emerald-400"
-      },
-      {
-        "title": "Margen EBITDA",
-        "value": "~42%",
-        "subtext": "Fuerte Apalancamiento",
-        "icon": "Briefcase",
-        "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$85.0B",
-      "pe": "18x",
-      "price": "$60.00",
-      "ytd": "+33.3%",
-      "yoy": "+45.0%",
-      "focus": "Minería de Cobre (Grasberg/EE.UU.)"
-    },
     "estrategia": {
       "intro": "El cobre es el nuevo petróleo. Un Data Center de IA requiere hasta 3 veces más cobre que uno tradicional debido a los transformadores de alta densidad, barras colectoras (busbars) para racks líquidos y cableado grueso. Freeport es el mayor productor de cobre cotizado del mundo, con operaciones clave en EE.UU. (Bagdad, Morenci) e Indonesia (Grasberg), posicionándose como el grifo principal de este déficit estructural.",
       "pilares": [
@@ -121,21 +93,8 @@
     "name": "Albemarle",
     "category": "KINGMAKER",
     "subtitle": "El Gigante del Litio para BESS",
-    "priceText": "$120.00 → $160.00",
+    "focus": "Litio Grado Batería / BESS",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$28.0B",
-        "icon": "Landmark",
-        "color": "text-amber-500"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+33.3%",
-        "subtext": "Precio: $160.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Volumen Litio",
         "value": "+20% YoY",
@@ -151,14 +110,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$28.0B",
-      "pe": "15x",
-      "price": "$160.00",
-      "ytd": "+33.3%",
-      "yoy": "+25.0%",
-      "focus": "Litio Grado Batería / BESS"
-    },
     "estrategia": {
       "intro": "Los Data Centers de IA no pueden permitirse un solo microsegundo sin energía. Para gestionar los picos masivos de demanda de las GPUs y almacenar energía renovable intermitente, necesitan BESS (Battery Energy Storage Systems) del tamaño de estadios. Albemarle, como productor Tier-1 de litio (Chile, Australia, EE.UU.), es quien suministra la materia prima base para que estas baterías existan.",
       "pilares": [
@@ -239,44 +190,16 @@
     "name": "MP Materials",
     "category": "KINGMAKER",
     "subtitle": "El Monopolio de NdPr en EE.UU.",
-    "priceText": "$15.00 → $38.00",
+    "focus": "Tierras Raras (NdPr) / Imanes Permanentes",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$6.5B",
-        "icon": "Landmark",
-        "color": "text-amber-500"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+153.3%",
-        "subtext": "Precio: $38.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Producción NdPr",
         "value": "Acelerando",
         "subtext": "Stage 2 Completo",
         "icon": "Target",
         "color": "text-emerald-400"
-      },
-      {
-        "title": "Margen Bruto",
-        "value": "~50%",
-        "subtext": "Expansión Refino",
-        "icon": "Briefcase",
-        "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$6.5B",
-      "pe": "25x",
-      "price": "$38.00",
-      "ytd": "+153.3%",
-      "yoy": "+180.0%",
-      "focus": "Tierras Raras (NdPr) / Imanes Permanentes"
-    },
     "estrategia": {
       "intro": "Para que Vertiv o Modine fabriquen sistemas de refrigeración de altísima eficiencia para la IA, necesitan motores y ventiladores impulsados por imanes permanentes de Neodimio-Praseodimio (NdPr). China controla el 85% de este mercado. MP Materials es la única mina y refinería a escala comercial en Norteamérica (Mountain Pass), lo que la convierte en un activo de seguridad nacional.",
       "pilares": [
@@ -357,21 +280,8 @@
     "name": "Southern Copper",
     "category": "CHALLENGER",
     "subtitle": "Las Mayores Reservas de Cobre",
-    "priceText": "$110.00 → $135.00",
+    "focus": "Minería Cobre Bajo Coste / Dividendos",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$105.0B",
-        "icon": "Landmark",
-        "color": "text-blue-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+22.7%",
-        "subtext": "Precio: $135.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Reservas",
         "value": "#1 Global",
@@ -387,14 +297,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$105.0B",
-      "pe": "20x",
-      "price": "$135.00",
-      "ytd": "+22.7%",
-      "yoy": "+30.0%",
-      "focus": "Minería Cobre Bajo Coste / Dividendos"
-    },
     "estrategia": {
       "intro": "Southern Copper (controlada por Grupo México) es la jugada defensiva perfecta en la tesis del cobre para la IA. Tienen las mayores reservas comprobadas del mundo y los costes de extracción (cash costs) más bajos de la industria. Cuando el cobre sube impulsado por la expansión masiva de la red eléctrica, casi todo el precio marginal extra fluye directo a su beneficio neto.",
       "pilares": [
@@ -475,21 +377,8 @@
     "name": "SQM",
     "category": "CHALLENGER",
     "subtitle": "El Retador del Salar de Atacama",
-    "priceText": "$40.00 → $62.00",
+    "focus": "Litio de Salmuera / Fertilizantes",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$17.5B",
-        "icon": "Landmark",
-        "color": "text-blue-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+55.0%",
-        "subtext": "Precio: $62.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Coste Extracción",
         "value": "#1 Eficiencia",
@@ -505,14 +394,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$17.5B",
-      "pe": "12x",
-      "price": "$62.00",
-      "ytd": "+55.0%",
-      "yoy": "+45.0%",
-      "focus": "Litio de Salmuera / Fertilizantes"
-    },
     "estrategia": {
       "intro": "SQM (Sociedad Química y Minera de Chile) es el productor de litio con los márgenes más altos del planeta gracias a la evaporación solar en el desierto de Atacama (costes ínfimos frente a la minería de roca). Su histórico acuerdo con Codelco (estatal chilena) ha despejado los miedos de nacionalización, garantizando la expansión de cuotas para abastecer los BESS de la IA hasta 2060.",
       "pilares": [
@@ -593,21 +474,8 @@
     "name": "Lynas Rare Earths",
     "category": "CHALLENGER",
     "subtitle": "La Alternativa Estratégica a China",
-    "priceText": "$6.00 → $8.50",
+    "focus": "Tierras Raras / Mina Mt Weld (Australia)",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$6.0B",
-        "icon": "Landmark",
-        "color": "text-blue-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+41.6%",
-        "subtext": "Precio: $8.50",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Producción No-China",
         "value": "#1 Global",
@@ -623,14 +491,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$6.0B",
-      "pe": "22x",
-      "price": "$8.50",
-      "ytd": "+41.6%",
-      "yoy": "+60.0%",
-      "focus": "Tierras Raras / Mina Mt Weld (Australia)"
-    },
     "estrategia": {
       "intro": "Junto con MP Materials, Lynas es el muro de contención de Occidente contra el monopolio chino de tierras raras. Poseen la mina Mt Weld en Australia y operan la mayor planta de separación avanzada fuera de China (en Malasia). Su expansión a EE.UU. asegura el flujo de NdPr esencial para los motores de refrigeración líquida y robótica avanzada de los hiperescaladores.",
       "pilares": [
@@ -711,21 +571,8 @@
     "name": "Hudbay Minerals",
     "category": "SPECULATIVE",
     "subtitle": "Cobre de Alto Crecimiento y Beta",
-    "priceText": "$8.00 → $12.00",
+     "focus": "Desarrollo de Cobre en las Américas",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$4.5B",
-        "icon": "Landmark",
-        "color": "text-purple-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+50.0%",
-        "subtext": "Precio: $12.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Producción Cobre",
         "value": "+150k Tons",
@@ -741,14 +588,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$4.5B",
-      "pe": "15x",
-      "price": "$12.00",
-      "ytd": "+50.0%",
-      "yoy": "+65.0%",
-      "focus": "Desarrollo de Cobre en las Américas"
-    },
     "estrategia": {
       "intro": "Hudbay Minerals es la jugada especulativa para maximizar la exposición al déficit del cobre. Poseen minas productivas en Perú (Constancia) y Canadá (Copper Mountain), pero su verdadero as en la manga es el proyecto Copper World en Arizona. Debido a su perfil de deuda, Hudbay tiene un apalancamiento operativo brutal: cada céntimo que sube el cobre global multiplica sus beneficios netos.",
       "pilares": [
@@ -829,21 +668,8 @@
     "name": "NexGen Energy",
     "category": "SPECULATIVE",
     "subtitle": "El Mega-Proyecto de Uranio (Arrow)",
-    "priceText": "$7.00 → $11.00",
+    "focus": "Desarrollo de Uranio (Athabasca, Canadá)",
     "kpis": [
-      {
-        "title": "Market Cap",
-        "value": "~$6.0B",
-        "icon": "Landmark",
-        "color": "text-purple-400"
-      },
-      {
-        "title": "YTD (Ene-Abr 2026)",
-        "value": "+57.1%",
-        "subtext": "Precio: $11.00",
-        "icon": "TrendingUp",
-        "color": "text-emerald-400"
-      },
       {
         "title": "Proyecto Arrow",
         "value": "Fase Final",
@@ -859,14 +685,6 @@
         "color": "text-amber-400"
       }
     ],
-    "tableData": {
-      "marketCap": "$6.0B",
-      "pe": "N/A",
-      "price": "$11.00",
-      "ytd": "+57.1%",
-      "yoy": "+80.0%",
-      "focus": "Desarrollo de Uranio (Athabasca, Canadá)"
-    },
     "estrategia": {
       "intro": "Si la IA va a resucitar la energía nuclear (SMRs y reactores base), el mundo necesita uranio a una escala inédita. NexGen es la apuesta especulativa definitiva: aún no producen, pero son dueños del depósito 'Arrow' en Saskatchewan (Canadá), el yacimiento de uranio no desarrollado de mayor ley y tamaño del mundo. Si logran construir la mina, reescribirán la cadena de suministro occidental.",
       "pilares": [
